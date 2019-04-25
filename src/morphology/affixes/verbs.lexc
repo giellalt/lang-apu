@@ -1,0 +1,41 @@
+!! Verb inflection
+!  ---------------
+!! Prefixes
+
+LEXICON person_prefixes
+@U.pn.sg1@:@U.pn.sg1@nɨ     nv_lex ;
+@U.pn.sg2@:@U.pn.sg2@pɨ     nv_lex ;
+@U.pn.sg3m@:@U.pn.sg3m@ɨ  nv_lex ;
+@U.pn.sg3f@:@U.pn.sg3f@õ     nv_lex ;
+@U.pn.pl1@:@U.pn.pl1@ã     nv_lex ;
+@U.pn.pl2@:@U.pn.pl2@hĩ     nv_lex ;
+@U.pn.pl3@:@U.pn.pl3@ɨ̃     nv_lex ;
+
+
+LEXICON nv_lex
+Nouns ;
+Verbs ;
+
+
+!! Suffixes
+
+LEXICON v_suf
++V: v_person ;
+
+LEXICON v_person
+@U.pn.sg1@+Sg1:@U.pn.sg1@        # ;
+@U.pn.sg2@+Sg2:@U.pn.sg2@        # ;
+@U.pn.sg3m@+Sg3+Msc:@U.pn.sg3m@  # ;
+@U.pn.sg3f@+Sg3+Fem:@U.pn.sg3f@  # ;
+@U.pn.pl1@+PL1:@U.pn.pl1@        # ;
+@U.pn.pl2@+PL2:@U.pn.pl2@        # ;
+@U.pn.pl3@+PL3:@U.pn.pl3@na      # ;
+
+
+
+
+
+
+
+! vim: set ft=xfst-lexc:
+

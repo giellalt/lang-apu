@@ -1,0 +1,8 @@
+!! Nouns
+!  -----
+!! Nouns in UNDEFINED language are things.
+
+LEXICON Nouns
+nãma n_suf "mouth"   ;
+
+! vim: set ft=xfst-lexc:

@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=apu
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-apu
+Description: Finite-state language processing tools for Apurinã
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
