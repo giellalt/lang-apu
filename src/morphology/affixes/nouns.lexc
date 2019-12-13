@@ -14,8 +14,11 @@ LEXICON N_SUFFIXES_01_Msc_ry
 LEXICON N_SUFFIXES_01_Msc
 +Msc:	N_SUFFIXES_02 ;
 
-LEXICON N_SUFFIXES_01_Msc_0/txi
+LEXICON N_SUFFIXES_01_Msc_0/txi ! clothes marked when not possessed
 +Msc:	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Msc_0/NULL !yry father always possessed. inalienable
++Msc:   N_SUFFIXES_02 ;
 
 LEXICON Cases
 +Nom:0     #   ;

@@ -12,6 +12,9 @@ amary+N:ama N_SUFFIXES_01_Msc_ry "boy" ;
 iuwata+N:iuwata N_SUFFIXES_01_Fem_ne/0 "knife/" ;
 
 nama+N:nama N_SUFFIXES_01_Msc_0/txi "mouth"   ;
+
+yry+N:yry N_SUFFIXES_01_Msc_0/NULL "father" ;
+
 ximaky+N:ximaky N_SUFFIXES_01_Msc "fish/peixe" ;
 
 !nãma n_suf "mouth"   ;
