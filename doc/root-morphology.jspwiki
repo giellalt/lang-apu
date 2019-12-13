@@ -13,14 +13,15 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 
+
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
+
++Aff  +Aff    affected by action of verb %>nhi
 +All  +All    -munhi allative
 +Com  +Com    -kata  (Assoc) 
-+Assoc	  +Assoc	      -kata  (Assoc)
 +Dat	  +Dat	     -mukary
-+Aff  +Aff    affected by action of verb %>nhi
 
 +Msc  +Msc    ywa
 
