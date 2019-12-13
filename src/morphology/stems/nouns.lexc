@@ -3,6 +3,16 @@
 !! Nouns in UNDEFINED language are things.
 
 LEXICON Nouns
-nãma n_suf "mouth"   ;
+hãkiti+v1+N:hãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
+hãkiti+v2+N:ãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
+amaru+N:ama N_SUFFIXES_01_ru "girl/" ;
+amary+N:ama N_SUFFIXES_01_ry "boy" ;
+
+iuwata+N:iuwata N_SUFFIXES_01_Fem_ne "knife/" ;
+
+nãma+N:nãma N_SUFFIXES_02 "mouth"   ;
+ximaky+N:ximaky N_SUFFIXES_01_Msc "fish/peixe" ;
+
+!nãma n_suf "mouth"   ;
 
 ! vim: set ft=xfst-lexc:

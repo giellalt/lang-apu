@@ -1,0 +1,78 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - ãta: # Verb pg 275 'eng drink, pt beber' - partial paradigm
+# Perfect aspect
+     ãta+V+ScSg1: [nãta, nyãta] # I see
+     ãta+V+ScSg2: [pãta, pyãta] # you(sg) see
+     ãta+V+ScSg3+Msc: [ãta, yãta] # he sees
+     ãta+V+ScSg3+Fem: ũãta # she sees
+     ãta+V+ScPl1: ããta # we see
+     ãta+V+ScPl2: [hãta, hỹãta] # you(pl) see
+     ãta+V+ScPl3+Mal: [ãtana, hỹãtana] # they see
+     ãta+V+ScPl3+Fem: ũãtana # they see
+
+     ãta+V+ScSg1+Oc3M: [nãtary, nyãtary] # I see it(Mal)
+     ãta+V+ScSg1+Oc3F: [nãtaru, nyãtaru] # I see it(Fem)
+     ãta+V+ScSg1+OcSg2: [nãtai, nyãtai] # I see you
+     ãta+V+ScSg1+OcPl2: [nãtai, nyãtai] # I see you
+
+
+     ãta+V+ScPl1+Oc3M: ããtary # we see it
+     ãta+V+ScPl1+Oc3F: ããtaru # we see it
+     ãta+V+ScPl1+OcSg2: ããtai # we see you
+     ãta+V+ScPl1+OcPl2: ããtai # we see you
+
+     ãta+V+ScSg2+Oc3M: [pãtary, pỹãtary] # you(Sg) see it(Mal)
+     ãta+V+ScSg2+Oc3F: [pãtaru, pỹãtaru] # you(Sg) see it(Fem)
+     ãta+V+ScSg2+OcSg1: [pãtano, pỹãtano] # you(Sg) see me
+     ãta+V+ScSg2+OcPl1: [pãtawa, pỹãtawa] # you(Sg) see us
+
+     ãta+V+ScPl2+Oc3M: [hãtary, hỹãtary] # you see it
+     ãta+V+ScPl2+Oc3F: [hãtaru, hỹãtaru] # you see it
+     ãta+V+ScPl2+OcSg1: [hãtano, hỹãtano] # you see me
+     ãta+V+ScPl2+OcPl1: [hãtawa, hỹãtawa] # you see us
+
+     ãta+V+ScSg3+Msc+Oc3M: [ãtary, yãtary] # he(Sg) see it(Msc)
+     ãta+V+ScSg3+Msc+Oc3F: [ãtaru, yãtaru] # he(Sg) see it(Msc)
+     ãta+V+ScSg3+Fem+Oc3M: ũãtary # she(Sg) see it(Fem)
+     ãta+V+ScSg3+Fem+Oc3F: ũãtaru # she(Sg) see it(Fem)
+     ãta+V+ScSg3+Msc+OcSg1: [ãtano, yãtano] # he(Sg) see me
+     ãta+V+ScSg3+Msc+OcPl1: [ãtawa, yãtawa] # he(Sg) see us
+     ãta+V+ScSg3+Fem+OcSg1: ũãtano # she(Sg) see me
+     ãta+V+ScSg3+Fem+OcPl1: ũãtawa # she(Sg) see us
+     ãta+V+ScSg3+Msc+OcSg2: [ãtai, yãtai] # he(Sg) see you(sg)
+     ãta+V+ScSg3+Msc+OcPl2: [ãtai, yãtai] # he(Sg) see you(pl)
+     ãta+V+ScSg3+Fem+OcSg2: ũãtai # she(Sg) see you(sg)
+     ãta+V+ScSg3+Fem+OcPl2: ũãtai # she(Sg) see you(pl)
+
+
+     ãta+V+ScPl3+Msc+Oc3M: [ãtanary, ỹãtanary] # they see him
+     ãta+V+ScPl3+Msc+Oc3F: [ãtanaru, ỹãtanaru] # they see her
+     ãta+V+ScPl3+Msc+OcSg1: [ãtanano, ỹãtanano] # they see me
+     ãta+V+ScPl3+Msc+OcPl1: [ãtanawa, ỹãtanawa] # they see us
+     ãta+V+ScPl3+Msc+OcSg2: [ãtanai, ỹãtanai] # they see you(sg)
+     ãta+V+ScPl3+Msc+OcPl2: [ãtanai, ỹãtanai] # they see you(pl)
+
+     ãta+V+ScPl3+Fem+Oc3M: ũãtanary # they see him
+     ãta+V+ScPl3+Fem+Oc3F: ũãtanaru # they see her
+     ãta+V+ScPl3+Fem+OcSg1: ũãtanano # they see me
+     ãta+V+ScPl3+Fem+OcPl1: ũãtanawa # they see us
+     ãta+V+ScPl3+Fem+OcSg2: ũãtanai # they see you(sg)
+     ãta+V+ScPl3+Fem+OcPl2: ũãtanai # they see you(pl)
+

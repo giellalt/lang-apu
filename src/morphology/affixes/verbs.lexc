@@ -3,13 +3,13 @@
 !! Prefixes
 
 LEXICON person_prefixes
-@U.pn.sg1@:@U.pn.sg1@nɨ     nv_lex ;
-@U.pn.sg2@:@U.pn.sg2@pɨ     nv_lex ;
-@U.pn.sg3m@:@U.pn.sg3m@ɨ  nv_lex ;
+@U.pn.sg1@:@U.pn.sg1@ny     nv_lex ;
+@U.pn.sg2@:@U.pn.sg2@py     nv_lex ;
+@U.pn.sg3m@:@U.pn.sg3m@y  nv_lex ;
 @U.pn.sg3f@:@U.pn.sg3f@õ     nv_lex ;
 @U.pn.pl1@:@U.pn.pl1@ã     nv_lex ;
 @U.pn.pl2@:@U.pn.pl2@hĩ     nv_lex ;
-@U.pn.pl3@:@U.pn.pl3@ɨ̃     nv_lex ;
+@U.pn.pl3@:@U.pn.pl3@ỹ     nv_lex ;
 
 
 LEXICON nv_lex
@@ -18,6 +18,21 @@ Verbs ;
 
 
 !! Suffixes
+! Facundes (2000:322, table 3)
+!
+!  1	   2	      3	    4		5	6	7	8	9	10	11	12	13
+!  Distr   Caus	      Intr  Augm	T.Caus	Fact	ColTV	Prog	Almost	Random	Intens	Desid	RS
+!  -puku   -ka2	      -rewa -puwa	-kũtaka	-ã2	-pirĩka	-nany	-wari	-ãpu	-ka1	-ene	-pira
+!tv +	   +	      #	    
+!iv #	   +	      +
+! Facundes (2000:330, table 4)
+!Table 4: Suffixes of Class2 and their Position Classes
+!   14	  15	   16	     17	       18	19
+!   Vblz  Hypoth   Recipr    Immin     Caus	Hab
+!   -ta	  -ã3	   -kaka     -napanu   -ka3	-pi
+!tv +	  +	   -	     +	       +	+
+!iv +	  +	   +	     +	       +	+
+
 
 LEXICON v_suf
 +V: v_person ;
@@ -32,6 +47,42 @@ LEXICON v_person
 @U.pn.pl3@+Pl3:@U.pn.pl3@na      # ;
 
 
+LEXICON V_SUFFIXES_01
+!n-arika-ru ScSg1+Oc3+Masc
+!karuwa-ta-no non-indian+VBLZ+OcSg1
+!0-upũ-pe
+ V_SUFFIXES_02 ; !This may allow all
++Der+Der/NomAct+N:%^VowRM%>inhi N_SUFFIXES_02 ;
++Der+Der/NomAg+N:%>myna N_SUFFIXES_02 ;
+@D.PN@+Relzr-Subj+Msc:@D.PN@%>ta%>kary # ; ! should this relativizer have %>ta here ?
+@D.PN@+Relzr-Subj+Fem:@D.PN@%>ta%>karu # ;
+@D.PN@+Relzr-Obj+Msc:@D.PN@%>ta%>kyty # ;
+@D.PN@+Relzr-Obj+Fem:@D.PN@%>ta%>kytu # ; ! 
++Pftv:%>pe # ;
++Pftv+Pss:%>pe%^VowNasL%>ka V_SUFFIXES_02 ;
+
+LEXICON V_SUFFIXES_02
+@R.PN.SG1@+ScSg1:@R.PN.SG1@ V_SUFFIXES_03 ;
+@R.PN.PL1@+ScPl1:@R.PN.PL1@ V_SUFFIXES_03 ;
+@R.PN.SG2@+ScSg2:@R.PN.SG2@ V_SUFFIXES_03 ;
+@R.PN.PL2@+ScPl2:@R.PN.PL2@ V_SUFFIXES_03 ;
+@R.PN.SG3M@+ScSg3+Msc:@R.PN.SG3M@ V_SUFFIXES_03 ;
+@R.PN.SG3F@+ScSg3+Fem:@R.PN.SG3F@ V_SUFFIXES_03 ;
+@R.PN.PL3M@+ScPl3+Msc:@R.PN.PL3M@%>na V_SUFFIXES_03 ;
+@R.PN.PL3F@+ScPl3+Fem:@R.PN.PL3F@%>na V_SUFFIXES_03 ;
+@D.PN@ V_SUFFIXES_03 ;
+
+LEXICON V_SUFFIXES_03
++OcSg1:%>no Verbs_END ;
++OcPl1:%>wa Verbs_END ;
++OcSg2:%>i Verbs_END ;
++OcPl2:%>i Verbs_END ;
++Oc3M:%>ry Verbs_END ; ! Singular and Plural
++Oc3F:%>ru Verbs_END ;
+ Verbs_END ;
+
+LEXICON Verbs_END
+# ;
 
 
 

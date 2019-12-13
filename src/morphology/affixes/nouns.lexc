@@ -1,15 +1,47 @@
 !! Noun inflection
 !  ---------------
-!! The UNDEFINED language nouns inflect in cases.
+!! The APURINÃ language nouns inflect in cases.
+
+LEXICON N_SUFFIXES_01_Fem_ne
+@P.NounEnding.ne@+Fem:@P.NounEnding.ne@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_ru
+@P.NounEnding.ru@+Fem:@P.NounEnding.ru@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_ry
+@P.NounEnding.ry@+Msc:@P.NounEnding.ry@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Msc
++Msc:	N_SUFFIXES_02 ;
 
 LEXICON Cases
-+N+sg+nom:0     #   ;
-+N+pl+nom:i     #   ;
-+N+sg+loc:as    #   ;
-+N+pl+loc:ias   #   ;
-+N+sg+acc:at    #   ;
-+N+pl+acc:iat   #   ;
-#:0   Nouns   ;
++Nom:0     #   ;
+!+N+Pl+Nom:i     #   ;
++Aff:%>nhi # ; ! affected by the event described in the verb
++All:%>munhi    #   ;!to para
++Com:%>kata    #   ;!with, +Com in kpv Associative marker
++Dat:%>mukary    #   ;!to para
++Loc:%>ã   #   ;! both +Loc and +Ins
+
+!#:0   Nouns   ;
+
+LEXICON N_SUFFIXES_02
++Sg: N_SUFFIXES_02-after-number ;
++Pl:%>waku N_SUFFIXES_02-after-number ;
+
+LEXICON N_SUFFIXES_02-after-number
+@R.PN.SG1@+PxSg1:@R.PN.SG1@ N_SUFFIXES_03 ;
+@R.PN.PL1@+PxPl1:@R.PN.PL1@ N_SUFFIXES_03 ;
+@R.PN.SG2@+PxSg2:@R.PN.SG2@ N_SUFFIXES_03 ;
+@R.PN.PL2@+PxPl2:@R.PN.PL2@ N_SUFFIXES_03 ;
+@R.PN.SG3M@+PxSg3+Msc:@R.PN.SG3M@ N_SUFFIXES_03 ;
+@R.PN.SG3F@+PxSg3+Fem:@R.PN.SG3F@ N_SUFFIXES_03 ;
+@R.PN.PL3M@+PxPl3+Msc:@R.PN.PL3M@%>na N_SUFFIXES_03 ;
+@R.PN.PL3F@+PxPl3+Fem:@R.PN.PL3F@%>na N_SUFFIXES_03 ;
+@D.PN@ N_SUFFIXES_03 ;
+
+LEXICON N_SUFFIXES_03
+#;
 
 ! vim: set ft=xfst-lexc:
 
