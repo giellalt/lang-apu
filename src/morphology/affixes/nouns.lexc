@@ -2,16 +2,19 @@
 !  ---------------
 !! The APURINÃ language nouns inflect in cases.
 
-LEXICON N_SUFFIXES_01_Fem_ne
+LEXICON N_SUFFIXES_01_Fem_ne/0
 @P.NounEnding.ne@+Fem:@P.NounEnding.ne@	N_SUFFIXES_02 ;
 
-LEXICON N_SUFFIXES_01_ru
+LEXICON N_SUFFIXES_01_Fem_ru
 @P.NounEnding.ru@+Fem:@P.NounEnding.ru@	N_SUFFIXES_02 ;
 
-LEXICON N_SUFFIXES_01_ry
+LEXICON N_SUFFIXES_01_Msc_ry
 @P.NounEnding.ry@+Msc:@P.NounEnding.ry@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc
++Msc:	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Msc_0/txi
 +Msc:	N_SUFFIXES_02 ;
 
 LEXICON Cases

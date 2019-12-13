@@ -33,20 +33,21 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
 
+ +Temp +Spat
+
 !! The Usage extents are marked using following tags:
  +Err/Orth   
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess 
+ +Sg +Pl
+
+ +Aff  !!≈ affected by action of verb %>nhi
  +Nom +Gen +Acc +Ill +Loc
  +All  !!≈ -munhi allative
  +Com  !!≈ -kata  (Assoc) 
- +Assoc	   !!≈  -kata  (Assoc)
  +Dat	   !!≈ -mukary
 !!≈	   -ka, -nhi
- +Aff  !!≈ affected by action of verb %>nhi
 
  +Msc !!≈  ywa
  +Fem !!≈	uwa
@@ -62,7 +63,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +Ind +Prs +Prt +Pot +Cond +Imprt +Fut
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
- +ScSg1 +ScSg2 +ScPl1 +ScPl2 +Sc3M  +Sc3F
+ +ScSg1 +ScSg2 +ScPl1 +ScPl2 +ScPl3M +ScPl3F +ScSg3M +ScSg3F +Sc3M  +Sc3F
  +OcSg1 +OcSg2 +OcPl1 +OcPl2 +Oc3M  +Oc3F
 
 !! Other verb forms are

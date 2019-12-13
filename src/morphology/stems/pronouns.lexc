@@ -3,6 +3,7 @@
 !! Pronouns in UNDEFINED language are references to things.
 
 LEXICON Pronouns
-pronoun    Cases   ;
+ykynypuku+Pron:ykynypuku PRON_TOT "everything" ;
+
 
 ! vim: set ft=xfst-lexc:
