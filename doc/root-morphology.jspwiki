@@ -16,13 +16,25 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
++All  +All    -munhi allative
++Com  +Com    -kata  (Assoc) 
++Assoc	  +Assoc	      -kata  (Assoc)
++Dat	  +Dat	     -mukary
++Aff  +Aff    affected by action of verb %>nhi
 
-The possession is marked as such:
++Msc  +Msc    ywa
+
+Possession is marked as such:
 The comparative forms are:
 Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
+
 Other verb forms are
+ +Relzr-Subj   relativizer with subject reference
+ +Relzr-Obj    relativizer with object reference
+ +Prftv	       perfective -pe
+ +Pss	       passivizer -~ka
 
  * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
@@ -33,18 +45,55 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
 
 
+!Tags distinguishing different versions of the same lemma (before POS)
+ * +v1
+ * +v2
+ * +v3
+ * +v4
+ * +v5
+ * +v6
+ * +v7
+ * +v8
+ * +v9
+ * +v10
+ * +v11
+ * +v12
+ * +v13
+ * +v14
+ * +v15
+ * +v16
+ * +v17
+ * +v18
+ * +v19
+ * +v20
+ * +v21
+ * +v22
+ * +v23
+ * +v24
+
 Semantics are classified with
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
-
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+%{hØ%} %{hØ%}   
+
+ __%^VowRM  __ this will remove stem final vowel
+ __%^VowNasL __ This will nasalize preceding vowel
 
 And following triggers to control variation
+
+!Symbols that need to be escaped on the lower side (towards twolc):
+
+* »
+* «
+* > (escaped with square brackets, to avoid collision with > as morpheme boundary)
+* < (escaped with square brackets, to avoid collision with < as morpheme boundary)
+
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -79,6 +128,16 @@ given the proper use of these flags.
 
 
 
+
+
+
+
+
 The word forms in Apurinã language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+
+
+
+
 

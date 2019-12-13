@@ -39,23 +39,38 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
- +Msc
- +Fem
+ +Ess 
+ +Nom +Gen +Acc +Ill +Loc
+ +All  !!≈ -munhi allative
+ +Com  !!≈ -kata  (Assoc) 
+ +Assoc	   !!≈  -kata  (Assoc)
+ +Dat	   !!≈ -mukary
+!!≈	   -ka, -nhi
+ +Aff  !!≈ affected by action of verb %>nhi
+
+ +Msc !!≈  ywa
+ +Fem !!≈	uwa
  
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+!! Possession is marked as such:
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+ +Ind +Prs +Prt +Pot +Cond +Imprt +Fut
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
+ +ScSg1 +ScSg2 +ScPl1 +ScPl2 +Sc3M  +Sc3F
+ +OcSg1 +OcSg2 +OcPl1 +OcPl2 +Oc3M  +Oc3F
+
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +Relzr-Subj !!= relativizer with subject reference
+ +Relzr-Obj  !!= relativizer with object reference
+ +Prftv	     !!= perfective -pe
+ +Pss	     !!= passivizer -~ka
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
@@ -72,6 +87,32 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! Question and Focus particles:
  +Qst +Foc
 
+
+!! !Tags distinguishing different versions of the same lemma (before POS)
++v1   !!≈ * @CODE@
++v2   !!≈ * @CODE@
++v3   !!≈ * @CODE@
++v4   !!≈ * @CODE@
++v5   !!≈ * @CODE@
++v6   !!≈ * @CODE@
++v7   !!≈ * @CODE@
++v8   !!≈ * @CODE@
++v9   !!≈ * @CODE@
++v10  !!≈ * @CODE@
++v11  !!≈ * @CODE@
++v12  !!≈ * @CODE@
++v13  !!≈ * @CODE@
++v14  !!≈ * @CODE@
++v15  !!≈ * @CODE@
++v16  !!≈ * @CODE@
++v17  !!≈ * @CODE@
++v18  !!≈ * @CODE@
++v19  !!≈ * @CODE@
++v20  !!≈ * @CODE@
++v21  !!≈ * @CODE@
++v22  !!≈ * @CODE@
++v23  !!≈ * @CODE@
++v24  !!≈ * @CODE@
 
 !! Semantics are classified with
  +Mal +Fem +Sur 
@@ -97,16 +138,32 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! source and target part-of-speech.
  +V→N +V→V +V→A
  +Der/xxx
-
++Der
++Der/NomAct !!
 
 !! Morphophonology
 !  ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
+%{hØ%} !!≈ 
+%{yiØ%} !!≈
+%{ỹĩØ%} !!≈
+%{aã%} !!≈
+%{uũ%} !!≈
+
+%^VowRM  !!= __@CODE@__ this will remove stem final vowel
+%^VowNasL !!= __@CODE@__ This will nasalize preceding vowel
 
 !! And following triggers to control variation
  {front} {back}
+
+!! !Symbols that need to be escaped on the lower side (towards twolc):
+
+ »7     !! * »
+ «7     !! * «
+ %[%>%] !! * > (escaped with square brackets, to avoid collision with > as morpheme boundary)
+ %[%<%] !! * < (escaped with square brackets, to avoid collision with < as morpheme boundary)
+
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -136,7 +193,50 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  
- 
+@U.PN.SG1@
+@U.PN.SG2@
+@U.PN.SG3F@
+@U.PN.SG3M@
+@U.PN.PL1@
+@U.PN.PL2@
+@U.PN.PL3F@
+@U.PN.PL3M@
+
+@P.PN.SG1@
+@P.PN.SG2@
+@P.PN.SG3F@
+@P.PN.SG3M@
+@P.PN.PL1@
+@P.PN.PL2@
+@P.PN.PL3F@
+@P.PN.PL3M@
+
+@R.PN.SG1@
+@R.PN.SG2@
+@R.PN.SG3F@
+@R.PN.SG3M@
+@R.PN.PL1@
+@R.PN.PL2@
+@R.PN.PL3F@
+@R.PN.PL3M@
+
+@D.PN@
+
+! ama%>ru, ama%>ry
+@P.NounEnding.ry@
+@P.NounEnding.ru@
+@P.NounEnding.ne@
+@P.NounEnding.te@
+@P.NounEnding.re1@
+@P.NounEnding.re2@
+@R.NounEnding.ry@
+@R.NounEnding.ru@
+@R.NounEnding.ne@
+@R.NounEnding.te@
+@R.NounEnding.re1@
+@R.NounEnding.re2@
+
+
 @U.pn.sg1@
 @U.pn.sg2@
 @U.pn.sg3m@
@@ -151,14 +251,34 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 LEXICON Root
 !! The word forms in Apurinã language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-person_prefixes ; 
+!person_prefixes ; 
 Nouns       ;
-!   Verbs       ;
+Verbs       ;
 !   Adjectives  ;
+   Adverbs  ;
 !   Pronouns    ;
 !   Numerals    ;
 !   Prefixes    ;
-!   Punctuation ;
+   Punctuation ;
 !   Symbols     ;
+ PRONOUN-TYPES ;
+ PERSON_PREFIXES ;
+
+LEXICON PERSON_PREFIXES
+@P.PN.SG1@:@P.PN.SG1@n%{hØ%}%{yiØ%}%< NV_LEX ;
+@P.PN.PL1@:@P.PN.PL1@%{aã%}%< NV_LEX ;
+@P.PN.SG2@:@P.PN.SG2@p%{yiØ%}%< NV_LEX ;
+@P.PN.PL2@:@P.PN.PL2@h%{ỹĩØ%}%< NV_LEX ;
+@P.PN.SG3M@:@P.PN.SG3M@%{yiØ%}%< NV_LEX ;
+@P.PN.SG3F@:@P.PN.SG3F@%{uũ%}%< NV_LEX ;
+@P.PN.PL3M@:@P.PN.PL3M@%{yiØ%}%< NV_LEX ;
+@P.PN.PL3F@:@P.PN.PL3F@%{uũ%}%< NV_LEX ;
+
+
+LEXICON NV_LEX
+Nouns ;
+Verbs ;
+
+
 
 ! vim: set ft=xfst-lexc:
