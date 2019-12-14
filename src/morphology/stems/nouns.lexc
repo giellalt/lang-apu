@@ -6,16 +6,69 @@ LEXICON Nouns
 hãkiti+v1+N:hãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
 hãkiti+v2+N:ãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
 
-amaru+N:ama N_SUFFIXES_01_Fem_ru "girl/" ;
-amary+N:ama N_SUFFIXES_01_Msc_ry "boy" ;
+herẽka+N:herẽka N_SUFFIXES_01_Msc_0/txi "blood/sangue" ;
 
-iuwata+N:iuwata N_SUFFIXES_01_Fem_ne/0 "knife/" ;
+amaru+N:amaru N_SUFFIXES_01_Fem-ru_te/0 "girl/menina" ;
+amary+N:amary N_SUFFIXES_01_Msc-ry_te/0 "boy/menino" ;
 
-nama+N:nama N_SUFFIXES_01_Msc_0/txi "mouth"   ;
+kanawa+N:kanawa N_SUFFIXES_01_Msc_te/0 "canoe/canoa" ;
+
+iuwata+N:iuwata N_SUFFIXES_01_Fem_ne/0 "knife/faca" ;
+
+nama+N:nama N_SUFFIXES_01_Msc_0/txi "mouth/boca"   ;
+
+
+ukypite+N:ukypite N_SUFFIXES_01_Msc_0/Ntxi "cílio, sobrancelha" ;! ukypitẽ-txi
+kirita+N:kirita N_SUFFIXES_01_Msc_0/Ntxi "nariz" ;! kiritã-txi
+xinhi+N:xinhi N_SUFFIXES_01_Msc_0/Ntxi "carne" ;! xinhĩ-txi
+waku+N:waku N_SUFFIXES_01_Msc_0/Ntxi "mão1" ;! wakũ-txi
+pitxi+N:pitxi N_SUFFIXES_01_Msc_0/Ntxi "pênis" ;! pitxĩ-txi
+suku+N:suku N_SUFFIXES_01_Msc_0/Ntxi "vargina" ;! sukũ-txi
+karu+N:karu N_SUFFIXES_01_Msc_0/Ntxi "ferida" ;! karũ-txi
+mixi+N:mixi N_SUFFIXES_01_Msc_0/Ntxi "gravidez" ;!mixĩ-txi
+kanu+N:kanu N_SUFFIXES_01_Msc_0/Ntxi "braço" ;!	kanũ-txi
+tenhi+N:tenhi N_SUFFIXES_01_Msc_0/Ntxi "seio" ;! tenhĩ-txi
+
+tsyy+N:tsyy N_SUFFIXES_01_Msc_0/Ntxi "dor" ; !tsĩi-txi
+kywy+N:kywy N_SUFFIXES_01_Msc_0/Ntxi "cabeça" ;! kywĩ-txi
+uky+N:uky N_SUFFIXES_01_Msc_0/Ntxi "olho" ; ! ukĩ-txi
+nuky+N:nuky N_SUFFIXES_01_Msc_0/Ntxi "pescoço" ; ! nukĩ-txi
+tsumy+N:tsumy N_SUFFIXES_01_Msc_0/Ntxi "ânus" ; ! tsumĩ-txi
+apy+N:apy N_SUFFIXES_01_Msc_0/Ntxi "osso" ; !apĩ-txi 
+pysy+N:pysy N_SUFFIXES_01_Msc_0/Ntxi "pus" ; !pysĩ-txi
+puriky+N:puriky N_SUFFIXES_01_Msc_0/Ntxi "costas" ;!purikĩ-txi
+katxikury+N:katxikury N_SUFFIXES_01_Msc_0/Ntxi "catarro" ;!katxikurĩ-txi
+
+tũu+N:tũu N_SUFFIXES_01_Msc_0/txi "rosto" ; !tũu-txi	
+tsynãa+N:tsynãa N_SUFFIXES_01_Msc_0/txi "urina (derivation in -ã)" ; !tsynãa-txi
+ienamãa+N:ienamãa N_SUFFIXES_01_Msc_0/txi "saliva" ;!ienamãa-txi
+ãtsãa+N:ãtsãa N_SUFFIXES_01_Msc_0/txi "lágrima" ; !ãtsãa-txi
+
+!tsyrỹy+N:tsyrỹy N_SUFFIXES_01_Msc_0/Ntxi "tooth (should this be long or short?) / dente" ;tsyrĩ-txi
+!kaipẽ+N:kaipẽ  "sêmen (?derivation -pe-ã)" ;kaĩ-txi
 
 yry+N:yry N_SUFFIXES_01_Msc_0/NULL "father" ;
 
-ximaky+N:ximaky N_SUFFIXES_01_Msc "fish/peixe" ;
+ynyru+N:ynyru N_SUFFIXES_01_Fem_0/NULL "mother/mãe" ;
+
+ximaky+N:ximaky N_SUFFIXES_01_Msc_te/0 "fish/peixe" ;
+
+takary+N:taka N_SUFFIXES_01_Msc_re2/ry "plantação" ;
+amianary+N:amiana N_SUFFIXES_01_Msc_re2/ry "doença" ;
+xukary+N:xuka N_SUFFIXES_01_Msc_re2/ry "flatulência" ;
+xũkary+N:xũka N_SUFFIXES_01_Msc_re2/ry "sopro" ;
+kanaãry+N:kanaã N_SUFFIXES_01_Msc_re2/ry "vômito" ;
+inhĩkakary+N:inhĩkaka N_SUFFIXES_01_Msc_re2/ry "suor" ;
+nhipukury+N:nhipuku N_SUFFIXES_01_Msc_re2/ry "comida" ;
+txipukury+N:txipuku N_SUFFIXES_01_Msc_re2/ry "fruta" ;
+pirikery+N:pirike N_SUFFIXES_01_Msc_re2/ry "parede" ;
+xikary+N:xika N_SUFFIXES_01_Msc_re2/ry "canção, canto" ;
+kutary+N:kuta N_SUFFIXES_01_Msc_re2/ry "cesta" ;
+hãpukyry+N:hãpuky N_SUFFIXES_01_Msc_re2/ry "flauta" ;
+ikiianary+N:ikiiana N_SUFFIXES_01_Msc_re2/ry "veneno" ;
+iãry+N:iã N_SUFFIXES_01_Msc_re2/ry "suco" ;
+kawyry+N:kawy N_SUFFIXES_01_Msc_re2/ry "pupunha" ;
+
 
 !nãma n_suf "mouth"   ;
 

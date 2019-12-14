@@ -117,8 +117,25 @@ Rules
 "nasalization with -ka passive marker"
 !! __@RULENAME@__
  Vx:Vy <=>  _ %^VowNasL:0 %> ;
-           where Vx in (a e i u y)
-                 Vy in (ã ẽ ĩ ũ ỹ) matched ;
+           where Vx in (a e i u)
+                 Vy in (ã ẽ ĩ ũ) matched ;
+
+"nasalization with -Ntxi y:ỹ"
+!! __@RULENAME@__
+ y:ỹ <=> _ (y:) %^VowNasL:0 %> NonPALCns ; 
+
+
+"nasalization with -Ntxi y:ĩ"
+!! __@RULENAME@__
+ y:ĩ <=>
+ Cns _ %^VowNasL:0 %> PALCns ; 
+  _ y: %^VowNasL:0 %> PALCns ; 
+! kywy+N+Sg+Nom+PxNot: __head/cabeça__
+!!€ kywy%^VowNasL%>txi
+!!€ kywĩ0%>txi
+! tsyy+N+Sg+Nom+PxNot: __/dor__
+!!€ tsyy%^VowNasL%>txi
+!!€ tsĩi0%>txi
 
 !!TESTS
 !echo 'n {hØ}:0 {yiØ}:y < t a k a > r y' | hfst-pair-test src/phonology/apu-phon.compose.hfst
