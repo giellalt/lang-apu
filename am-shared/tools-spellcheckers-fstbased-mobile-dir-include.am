@@ -19,6 +19,11 @@
 GT_SPELLER_SRC_HFST=generator-fstspeller-gt-norm.hfst
 GT_COMMON_SPELLER_HFST=
 
+# Use this as the source lexical fst for unit weighting, it contains correct
+# surface forms except for the word boundary #, which is still present, and
+# used in the weighting:
+UW_SPELLER_SRC=generator-mobilespeller-gt-norm-base.hfst
+
 ## Conditional string variables;
 # Set file name to the empty string or initial_letters_all depending on variable:
 tag_weighted_dep=$(shell \
@@ -41,8 +46,8 @@ endif # WANT_HFST_MOBILE_SPELLER
 noinst_DATA=$(GT_COMMON_SPELLER_HFST)
 
 #### 1. Copy base fst from parent dir:
-generator-mobilespeller-gt-norm-base.hfst: ../generator-fstspeller-gt-norm.hfst
-	$(AM_V_CP)cp -f $< $@
+$(UW_SPELLER_SRC): ../$(GT_SPELLER_SRC_HFST)
+	$(AM_V_FST2FST)$(HFST_FST2FST) $(HFST_FLAGS) -f openfst-tropical $< -o $@
 
 #### 2. Add corpus-based frequency weights (all non-hits will disappear from
 ####    the fst):
@@ -80,14 +85,14 @@ generator-mobilespeller-gt-norm-base.hfst: ../generator-fstspeller-gt-norm.hfst
 #### 5. Finally, remove the surface word boundary symbol and do other
 ####    general cleanup:
 %.tmp.hfst: %-tag_weighted.hfst \
-			$(top_builddir)/src/filters/remove-word-boundary.hfst \
-			$(top_builddir)/src/filters/remove-usage-tags.hfst
+			filters/remove-word-boundary.hfst \
+			filters/remove-usage-tags.hfst
 	$(AM_V_HXFST)$(PRINTF) "\
 	set encode-weights ON \n\
 	read regex \
-	    @\"$(top_builddir)/src/filters/remove-usage-tags.hfst\" \
+	    @\"filters/remove-usage-tags.hfst\" \
 	.o. @\"$<\" \
-	.o. @\"$(top_builddir)/src/filters/remove-word-boundary.hfst\"  \
+	.o. @\"filters/remove-word-boundary.hfst\"  \
 	; \n\
 	save stack $@\n\
 	quit\n" | $(HFST_XFST) -p $(MORE_VERBOSITY)

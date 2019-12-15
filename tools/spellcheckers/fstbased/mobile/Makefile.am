@@ -3,7 +3,7 @@
 ## Licence: GPL v3+
 
 # The current dir must be built after weighting, but before the rest.
-SUBDIRS = weighting . hfst vfst
+SUBDIRS = filters weighting . hfst vfst
 
 # Name of speller corpus sans suffix:
 CORPUSNAME=spellercorpus
@@ -12,11 +12,6 @@ CORPUSNAME=spellercorpus
 # Make sure you test the suggestion quality both before and after changing this
 # setting.
 ENABLE_CORPUS_WEIGHTS=no
-
-# Use this as the source lexical fst for unit weighting, it contains correct
-# surface forms except for the word boundary #, which is still present, and
-# used in the weighting:
-UW_SPELLER_SRC=generator-mobilespeller-gt-norm-base.hfst
 
 # Number of lines (= word forms) in the sort-uniqued corpus. If empty the whole
 # corpus will be used. Too large a corpus can make the acceptor fst unneccessary
