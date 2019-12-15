@@ -39,6 +39,12 @@ pysy+N:pysy N_SUFFIXES_01_Msc_0/Ntxi "pus" ; !pysĩ-txi
 puriky+N:puriky N_SUFFIXES_01_Msc_0/Ntxi "costas" ;!purikĩ-txi
 katxikury+N:katxikury N_SUFFIXES_01_Msc_0/Ntxi "catarro" ;!katxikurĩ-txi
 
+pinhi+N:pinhi N_SUFFIXES_01_Msc_0/Ntxi "remédio" ;
+sarawa+N:sarawa N_SUFFIXES_01_Msc_0/Ntxi "brinquedo1" ;
+kitimata+N:kitimata N_SUFFIXES_01_Msc_0/Ntxi "sandália" ;
+nakanhi+N:nakanhi N_SUFFIXES_01_Msc_0/Ntxi "goma" ;
+
+
 tũu+N:tũu N_SUFFIXES_01_Msc_0/txi "rosto" ; !tũu-txi	
 tsynãa+N:tsynãa N_SUFFIXES_01_Msc_0/txi "urina (derivation in -ã)" ; !tsynãa-txi
 ienamãa+N:ienamãa N_SUFFIXES_01_Msc_0/txi "saliva" ;!ienamãa-txi
@@ -69,7 +75,100 @@ ikiianary+N:ikiiana N_SUFFIXES_01_Msc_re2/ry "veneno" ;
 iãry+N:iã N_SUFFIXES_01_Msc_re2/ry "suco" ;
 kawyry+N:kawy N_SUFFIXES_01_Msc_re2/ry "pupunha" ;
 
+putu+N+Sem/Body:putu N_SUFFIXES_01_Msc_0/txi-Ntxi "lábio" ;
+kĩpita+N+Sem/Body:kĩpita N_SUFFIXES_01_Msc_0/txi-Ntxi "orelha" ;
+kanuke+N+Sem/Body:kanuke N_SUFFIXES_01_Msc_0/txi-Ntxi "braço" ;
+tapike+N+Sem/Body:tapike N_SUFFIXES_01_Msc_0/txi-Ntxi "perna" ;
+kiuta+N+Sem/Body:kiuta N_SUFFIXES_01_Msc_0/txi-Ntxi "quadril" ;
+mane+N+Sem/Body:mane N_SUFFIXES_01_Msc_0/txi "corpo1" ;
+ĩthu+N+Sem/Body:ĩthu N_SUFFIXES_01_Msc_0/txi "corpo2" ;
+axĩpe+N+Sem/Body:axĩpe N_SUFFIXES_01_Msc_0/txi "cérebro" ;
+ãkipa+N+Sem/Body:ãkipa N_SUFFIXES_01_Msc_0/txi "coração" ;
+kutsa+N+Sem/Body:kutsa N_SUFFIXES_01_Msc_0/txi "veia" ;
+aiute+N+Sem/Body:aiute N_SUFFIXES_01_Msc_0/txi "placenta" ;
+erẽka+N+Sem/Body:erẽka N_SUFFIXES_01_Msc_0/txi "sangue" ;
+iãku+N+Sem/Body:iãku N_SUFFIXES_01_Msc_0/txi "cabelo" ;
+tẽeta+N+Sem/Body:tẽeta N_SUFFIXES_01_Msc_0/txi "testa" ;
+ukymata+N+Sem/Body:ukymata N_SUFFIXES_01_Msc_0/txi "pálpebra" ;
+kiritaxike+N+Sem/Body:kiritaxike N_SUFFIXES_01_Msc_0/txi "pelo do nariz" ;
+nama+N+Sem/Body:nama N_SUFFIXES_01_Msc_0/txi "boca" ;
+xiãputu+N+Sem/Body:xiãputu N_SUFFIXES_01_Msc_0/txi "barba, bigode" ;
+akekuta+N+Sem/Body:akekuta N_SUFFIXES_01_Msc_0/txi "molar" ;
+nyny+N+Sem/Body:nyny N_SUFFIXES_01_Msc_0/txi "língua" ;
+wakunuta+N+Sem/Body:wakunuta N_SUFFIXES_01_Msc_0/txi "pulso" ;
+piu+N+Sem/Body:piu N_SUFFIXES_01_Msc_0/txi "mão2" ;
+piuky+N+Sem/Body:piuky N_SUFFIXES_01_Msc_0/txi "dedo da mão" ;
+kitiky+N+Sem/Body:kitiky N_SUFFIXES_01_Msc_0/txi "dedo do pé" ;
+sawata+N+Sem/Body:sawata N_SUFFIXES_01_Msc_0/txi "unha" ;
+kanukexike+N+Sem/Body:kanukexike N_SUFFIXES_01_Msc_0/txi "pelo do braço" ;
+kekumere+N+Sem/Body:kekumere N_SUFFIXES_01_Msc_0/txi "axila1" ;
+pauta+N+Sem/Body:pauta N_SUFFIXES_01_Msc_0/txi "axila2" ;
+tsutare+N+Sem/Body:tsutare N_SUFFIXES_01_Msc_0/txi "ombro" ;
+tapikexike+N+Sem/Body:tapikexike N_SUFFIXES_01_Msc_0/txi "pelo da perna" ;
+purike+N+Sem/Body:purike N_SUFFIXES_01_Msc_0/txi "coxa" ;
+kiti+N+Sem/Body:kiti N_SUFFIXES_01_Msc_0/txi "pé" ;
+kakuta+N+Sem/Body:kakuta N_SUFFIXES_01_Msc_0/txi "bochecha" ;
+kanake+N+Sem/Body:kanake N_SUFFIXES_01_Msc_0/txi "garganta" ;
+tikaku+N+Sem/Body:tikaku N_SUFFIXES_01_Msc_0/txi "barriga" ;
+xurũky+N+Sem/Body:xurũky N_SUFFIXES_01_Msc_0/txi "umbigo" ;
+turuta+N+Sem/Body:turuta N_SUFFIXES_01_Msc_0/txi "tórax" ;
+tsumina+N+Sem/Body:tsumina N_SUFFIXES_01_Msc_0/txi "cóccix" ;
+pyrykyre+N+Sem/Body:pyrykyre N_SUFFIXES_01_Msc_0/txi "rim" ;
+nanyna+N+Sem/Body:nanyna N_SUFFIXES_01_Msc_0/txi "coluna vertebral" ;
+erẽkata+N+Sem/Body:erẽkata N_SUFFIXES_01_Msc_0/txi "menstruação" ;
+tika+N+Sem/Body:tika N_SUFFIXES_01_Msc_0/txi "fezes" ;
+iãkyny+N+Sem/Body:iãkyny N_SUFFIXES_01_Msc_0/txi "rastro" ;
 
-!nãma n_suf "mouth"   ;
+kiumane+N:kiumane N_SUFFIXES_01_Msc_0/txi "ancião" ;
+awĩthe+N:awĩthe N_SUFFIXES_01_Msc_0/txi "chefe" ;
+awinhi+N:awinhi N_SUFFIXES_01_Msc_0/txi "casa1" ;
+awapuku+N:awapuku N_SUFFIXES_01_Msc_0/txi "casa2, aldeia" ;
+arika+N:arika N_SUFFIXES_01_Msc_0/txi "queimada, fogo" ;
+piiãka+N:piiãka N_SUFFIXES_01_Msc_0/txi "escuridão" ;
+pusunata+N:pusunata N_SUFFIXES_01_Msc_0/txi "sede" ;
+serẽka+N:serẽka N_SUFFIXES_01_Msc_0/txi "dança" ;
+kiiana+N:kiiana N_SUFFIXES_01_Msc_0/txi "vegetais" ;
+
+
+ĩi+N+Sem/Body:ĩipe N_SUFFIXES_01_Msc_0/txi "gordura" ;
+ĩipe+N+Sem/Body:ĩipe N_SUFFIXES_01_Msc_0/txi "gordura" ;
+
+iũka+N+Sem/Body:iũka N_SUFFIXES_01_Msc_0/txi "pinta, malha" ;
+nhipa+N+Sem/Body:nhipa N_SUFFIXES_01_Msc_0/txi "piolho" ;
+turu+N+Sem/Body:turu N_SUFFIXES_01_Msc_0/txi "contusão, ferida" ;
+synanyre+N+Sem/Body:synanyre N_SUFFIXES_01_Msc_0/txi "respiração" ;
+
+nukytsa+N:nukytsa N_SUFFIXES_01_Msc_0/txi "colar" ;
+ukytãta+N:ukytãta N_SUFFIXES_01_Msc_0/txi "óculos" ;
+mãka+N:mãka N_SUFFIXES_01_Msc_0/txi "roupa" ;
+keku+N:keku N_SUFFIXES_01_Msc_0/txi "rede" ;
+xiripi+N:xiripi N_SUFFIXES_01_Msc_0/txi "flecha" ;
+thapu+N:thapu N_SUFFIXES_01_Msc_0/txi "arco" ;
+sere+N:sere N_SUFFIXES_01_Msc_0/txi "brinquedo2" ;
+meku+N:meku N_SUFFIXES_01_Msc_0/txi "remo" ;
+tywy+N:tywi N_SUFFIXES_01_Msc_0/txi "coisa" ;
+tsyrỹỹta+N:tsyrỹỹta N_SUFFIXES_01_Msc_0/txi "dentadura" ;
+wãka+N:wãka N_SUFFIXES_01_Msc_0/txi "nome" ;
+asuta+N:asuta N_SUFFIXES_01_Msc_0/txi "ralo de mandioca" ;
+pyte+N:pyte N_SUFFIXES_01_Msc_0/txi "prato" ;
+kui+N:kui N_SUFFIXES_01_Msc_0/txi "flauta" ;
+kana+N:kana N_SUFFIXES_01_Msc_0/txi "zarabatana" ;
+ithupana+N:ithupana N_SUFFIXES_01_Msc_0/txi "banco" ;
+sapuriãta+N:sapuriãta N_SUFFIXES_01_Msc_0/txi "chapéu tradicional" ;
+sãkire+N:sãkire N_SUFFIXES_01_Msc_0/txi "idioma, fala" ;
+xicare+N:xikare N_SUFFIXES_01_Msc_0/txi "canto, canção" ;
+kama+N:kama N_SUFFIXES_01_Msc_0/txi "espírito, alma" ;
+senũka+N:senũka N_SUFFIXES_01_Msc_0/txi "fantasma, sombra" ;
+parĩka+N:parĩka N_SUFFIXES_01_Msc_0/txi "trabalho" ;
+pĩkare+N:pĩkare N_SUFFIXES_01_Msc_0/txi "medo" ;
+sãpirana+N:sãpirana N_SUFFIXES_01_Msc_0/txi "história" ;
+ỹtanyrywata+N:ỹtanyrywata N_SUFFIXES_01_Msc_0/txi "casamento" ;
+nere+N:nere N_SUFFIXES_01_Msc_0/txi "desejo" ;
+neenama+N:neenama N_SUFFIXES_01_Msc_0/txi "briga, valentia" ;
+
+
+
+!xurũkypytsa+N+Sem/Body:xurũkypytsa N_SUFFIXES_01_Msc_0/txi "cordão umbilical’	xurũky-txi-pytsa
+
 
 ! vim: set ft=xfst-lexc:
