@@ -49,6 +49,7 @@ AC_CONFIG_FILES([Makefile \
                  tools/mt/apertium/Makefile \
                  tools/mt/apertium/filters/Makefile \
                  tools/mt/apertium/tagsets/Makefile \
+                 tools/mt/cgbased/Makefile \
                  tools/tokenisers/Makefile \
                  tools/tokenisers/filters/Makefile \
                  tools/shellscripts/Makefile \
@@ -62,6 +63,7 @@ AC_CONFIG_FILES([Makefile \
                  tools/spellcheckers/fstbased/desktop/foma/Makefile \
                  tools/spellcheckers/fstbased/desktop/hfst/Makefile \
                  tools/spellcheckers/fstbased/mobile/Makefile \
+                 tools/spellcheckers/fstbased/mobile/filters/Makefile \
                  tools/spellcheckers/fstbased/mobile/weighting/Makefile \
                  tools/spellcheckers/fstbased/mobile/hfst/Makefile \
                  tools/spellcheckers/fstbased/mobile/vfst/Makefile \
@@ -107,5 +109,7 @@ AC_CONFIG_FILES([devtools/test_ospell-office_suggestions.sh], \
       [chmod a+x devtools/test_ospell-office_suggestions.sh])
 AC_CONFIG_FILES([devtools/test_voikkospell_suggestions.sh], \
       [chmod a+x devtools/test_voikkospell_suggestions.sh])
+AC_CONFIG_FILES([devtools/test_grammar_checker.sh], \
+      [chmod a+x devtools/test_grammar_checker.sh])
 
 ]) # gt_CONFIG_FILES
