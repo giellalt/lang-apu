@@ -9,7 +9,18 @@
 LEXICON N_SUFFIXES_01_Fem_ne/0
 @P.NounEnding.ne@+Fem:@P.NounEnding.ne@	N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_Fem_te/0
+@P.NounEnding.te@+Fem:@P.NounEnding.te@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Fem_ne-te/0
+@P.NounEnding.ne@+Fem:@P.NounEnding.ne@	N_SUFFIXES_02 ;
+@P.NounEnding.te@+Fem:@P.NounEnding.te@	N_SUFFIXES_02 ;
+
 LEXICON N_SUFFIXES_01_Msc_te/0
+@P.NounEnding.te@+Msc:@P.NounEnding.te@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Msc_ne-te/0
+@P.NounEnding.ne@+Msc:@P.NounEnding.ne@	N_SUFFIXES_02 ;
 @P.NounEnding.te@+Msc:@P.NounEnding.te@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem-ru_te/0
