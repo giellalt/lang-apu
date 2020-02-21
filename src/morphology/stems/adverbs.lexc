@@ -3,9 +3,12 @@
 !! Adverbs in the APURINÃ language describe things.
 
 LEXICON Adverbs
+apiku+Adv:apiku ADV-SPAT_ "forward" ;
+apiku+Adv+All:apikumunhi ADV-SPAT_ "forward" ;
+inhinhiã+Adv:inhinhiã ADV_ "so" ;
 ikaatuku+Adv:ikaatuku ADV-TEMP_ "so, then" ;
 wai+Adv:wai ADV-SPAT_ "here" ;
-
+watxa+Adv:watxa ADV-TEMP_ "today/hoje" ;
 
 harekary+Interj:harekary # "Thank you" ;
 

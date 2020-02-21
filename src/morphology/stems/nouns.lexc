@@ -6,7 +6,8 @@ LEXICON Nouns
 hãkiti+v1+N:hãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
 hãkiti+v2+N:ãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
 
-herẽka+N:herẽka N_SUFFIXES_01_Msc_0/txi "blood/sangue" ;
+herẽka+v1+N:herẽka N_SUFFIXES_01_Msc_0/txi "blood/sangue" ;
+herẽka+v2+N:erẽka N_SUFFIXES_01_Msc_0/txi "blood/sangue" ;
 
 amaru+N:amaru N_SUFFIXES_01_Fem-ru_te/0 "girl/menina" ;
 amary+N:amary N_SUFFIXES_01_Msc-ry_te/0 "boy/menino" ;
@@ -69,6 +70,7 @@ ienamãa+N+Sem/Body:ienamãa N_SUFFIXES_01_Msc_0/txi "saliva" ;!ienamãa-txi
 yry+N:yry N_SUFFIXES_01_Msc_0/NULL "father" ;
 
 ynyru+N:ynyru N_SUFFIXES_01_Fem_0/NULL "mother/mãe" ;
+sytu+N:sytu N_SUFFIXES_01_Fem_0/NULL "woman" ;
 
 ximaky+N:ximaky N_SUFFIXES_01_Msc_te/0 "fish/peixe" ;
 
@@ -130,7 +132,7 @@ pyrykyre+N+Sem/Body:pyrykyre N_SUFFIXES_01_Msc_0/txi "rim" ;
 nanyna+N+Sem/Body:nanyna N_SUFFIXES_01_Msc_0/txi "coluna vertebral" ;
 erẽkata+N+Sem/Body:erẽkata N_SUFFIXES_01_Msc_0/txi "menstruação" ;
 tika+N+Sem/Body:tika N_SUFFIXES_01_Msc_0/txi "fezes" ;
-iãkyny+N+Sem/Body:iãkyny N_SUFFIXES_01_Msc_0/txi "rastro" ;
+iãkyny+N+Sem/Body:iãkyny N_SUFFIXES_01_Msc_0/txi "rastro|trail" ;
 
 kiumane+N:kiumane N_SUFFIXES_01_Msc_0/txi "ancião" ;
 awĩthe+N:awĩthe N_SUFFIXES_01_Msc_0/txi "chefe" ;
