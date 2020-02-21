@@ -6,10 +6,10 @@ LEXICON ADV_
  # ;
 
 LEXICON ADV-SPAT_
-+Spat # ;
++Spat: # ;
 
 LEXICON ADV-TEMP_
-+Temp # ;
++Temp: # ;
 
 ! vim: set ft=xfst-lexc:
 

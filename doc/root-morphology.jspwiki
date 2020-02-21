@@ -23,6 +23,7 @@ The nominals are inflected in the following Case and Number
 +Com  +Com    -kata  (Assoc) 
 +Dat	  +Dat	     -mukary
 
+
 +Msc  +Msc    ywa
 
 Possession is marked as such:
@@ -34,7 +35,11 @@ Verb personal forms are:
 Other verb forms are
  +Relzr-Subj   relativizer with subject reference
  +Relzr-Obj    relativizer with object reference
- +Prftv	       perfective -pe
+
+ +Impf        IPFTV
+ +Perf        PFTV perfective -pe
+
+
  +Pss	       passivizer -~ka
 
  * +Symbol = independent symbols in the text stream, like £, €, ©
@@ -73,6 +78,7 @@ Question and Focus particles:
  * +v24
 
 Semantics are classified with
+
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -123,6 +129,7 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
 
 
 
