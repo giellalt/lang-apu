@@ -1,0 +1,23 @@
+[What is this?|WhatIsThis.html]
+
+
+!!! Dynamic documentation
+
+* [Links to generated source file documentation|Links.html]
+* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/startup-langs/apu/src/morphology/stems/]   
+  / [affixes|https://gtsvn.uit.no/langtech/trunk/startup-langs/apu/src/morphology/affixes/] 
+  / [syntax|https://gtsvn.uit.no/langtech/trunk/startup-langs/apu/src/syntax] 
+  / [twolc|https://gtsvn.uit.no/langtech/trunk/startup-langs/apu/src/phonology/apu-phon.twolc]   
+  / [yaml|https://gtsvn.uit.no/langtech/trunk/startup-langs/apu/test/src/morphology/]
+
+!!! Grammatical issues
+
+* [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/startup-langs/apu/src/morphology/root.lexc]   
+* [A list of morphological tags|/lang/common/MorphologicalTags.html]
+
+
+
+!!!Using the analysers
+
+* In the terminal: analyse words by writing ''uapu'', generate with ''dapu'' (not implemented)
+* For more info, see [How to use the morphological parsers|/tools/docu-sme-manual.html]
