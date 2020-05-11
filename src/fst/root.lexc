@@ -55,6 +55,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  
 !! Possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+ +PxMsc +PxFem
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -96,7 +97,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Immin
 +Caus
 +Hab
-+Pred
++Pred !!≈ * @CODE@ = ka
++Frustr !!≈ * @CODE@ = ma: awa-pyty-ka-ma
++Emph	!!≈ * @CODE@ = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 

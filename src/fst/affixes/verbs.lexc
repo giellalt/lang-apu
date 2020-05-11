@@ -83,6 +83,8 @@ LEXICON V_SUFFIXES_03
 +Com:%>kata    V_SUFFIXES_04   ;!with, +Com in kpv Associative marker
 +Dat:%>mukary    V_SUFFIXES_04   ;!to para
 +Loc:%>ã   V_SUFFIXES_04  ;! both +Loc and +Ins
++Frustr:%>ma V_SUFFIXES_04  ;!
++Emph+Frustr:%>pyty%>ma V_SUFFIXES_04  ;!
  V_SUFFIXES_04 ;
 
 LEXICON V_SUFFIXES_04
@@ -195,11 +197,14 @@ LEXICON YES/NO_HAB
 !19 Hab -pi
 +Hab:%>pi  YES/NO_PRED-KA ;
  YES/NO_PRED-KA ;
+!2020-05-10
++Emph:%>pyty YES/NO_PRED-KA ;
 
 LEXICON YES/NO_PRED-KA
 +Pred:%>ka V_SUFFIXES_02 ;
  V_SUFFIXES_02 ;
 +Pred+Der+Der/NomAct+N:%>ka%^VowRM%>inhi N_SUFFIXES_02 ;
+
 
 
 ! vim: set ft=xfst-lexc:
