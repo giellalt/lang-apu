@@ -13,9 +13,8 @@ file INSTALL.
 
 Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
 
-* http://giellatekno.uit.no/apudoc/index.html
-* https://giellalt.uit.no/tools/docu-apu-manual.html
-* https://giellalt.uit.no/index.html
+* https://giellalt.uit.no/lang/apu/WhatIsThis.html (the analyser)
+* https://giellalt.uit.no/index.html (the infrastructure)
 
 Requirements
 ------------
