@@ -1,0 +1,9 @@
+name = "Apurinã"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.apu"
+
+[windows]
+system_product_code = "98C480D9-52E0-474D-B18C-7A1EB7C7EE4E"
+msoffice_product_code = "0C947DF1-82FE-4C91-A2D0-ED546F2B7084"
