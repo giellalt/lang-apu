@@ -47,6 +47,15 @@ LEXICON v_person
 @U.pn.pl3@+Pl3:@U.pn.pl3@na      # ;
 
 
+LEXICON V_SUFFIXES_01_vido
+ V_SUFFIXES_01 ;
+LEXICON V_SUFFIXES_01_vids
+ V_SUFFIXES_01 ;
+LEXICON V_SUFFIXES_01_TV
++TV: V_SUFFIXES_01 ;
+LEXICON V_SUFFIXES_01_IV
++IV: V_SUFFIXES_01 ;
+
 LEXICON V_SUFFIXES_01
 !n-arika-ru ScSg1+Oc3M
 !karuwa-ta-no non-indian+VBLZ+OcSg1
