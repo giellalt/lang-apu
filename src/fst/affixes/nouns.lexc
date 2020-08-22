@@ -84,7 +84,21 @@ LEXICON N_SUFFIXES_02-after-number
 @D.PN@ N_SUFFIXES_03 ;
 
 LEXICON N_SUFFIXES_03
-#;
+!#;
+Cases ; !2020-08-21
+@R.NounEnding.txi@ N_SUFFIXES_03_TXI ;
+@R.NounEnding.Ntxi@ N_SUFFIXES_03_NTXI ;
+@R.NounEnding.re2@ N_SUFFIXES_03_re2/ry ;
+
+LEXICON N_SUFFIXES_03_re2/ry !CHECKME 2020-08-22
++Possd:%>re # ;
++NPossd:%>ry # ;
+
+LEXICON N_SUFFIXES_03_NTXI
++NPossd:%>txi # ;
+LEXICON N_SUFFIXES_03_TXI
++Possd:%>txi # ;
+
 
 ! vim: set ft=xfst-lexc:
 
