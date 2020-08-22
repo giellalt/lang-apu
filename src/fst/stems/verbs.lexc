@@ -21,7 +21,8 @@ uka+V:uka V_SUFFIXES_01 "TV kill" ;
 !taka+V:taka    v_suf "put"  ;
 kaiãa+V:kaiãa V_SUFFIXES_01 "exist a lot" ;
 ukatsaã+V:ukatsaã V_SUFFIXES_01 "fish" ;
-awa+V:awa  V_SUFFIXES_01 "copula verb" ;
+awa+v1+V:awa  V_SUFFIXES_01 "copula verb" ;
+awa+v2+V:aa  V_SUFFIXES_01 "copula verb" ;
 sa+V:sa V_SUFFIXES_01 "go" ;
 
 !! More test verbs 2020-05-10

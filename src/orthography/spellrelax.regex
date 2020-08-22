@@ -9,7 +9,14 @@
 Ẽ (->) Ẽ,
 Ĩ (->) Ĩ,
 Ũ (->) Ũ,
-Ỹ (->) Ỹ;
+Ỹ (->) Ỹ,
+ã (->) a, # nasalization missing 2020-08-21
+ẽ (->) e, #
+ĩ (->) i, #
+õ (->) o, #
+ũ (->) u, #
+ỹ (->) y;
+
 
 # Explanation:
 # lexical side (->) input 
