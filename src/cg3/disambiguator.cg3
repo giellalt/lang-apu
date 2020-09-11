@@ -46,6 +46,7 @@ LIST Dem = Dem ;
 LIST Refl = Refl ;
 LIST Recipr = Recipr ;
 LIST Poss = Poss ;
+LIST NPossd = NPossd ;
 LIST Interr = Interr ;
 LIST IM = IM ;
 
@@ -64,6 +65,9 @@ LIST Cmp = Cmp ;
 LIST Superl = Superl ;
 LIST Prs = Prs ;
 LIST Prt = Prt ;
+LIST PxSg1 = PxSg1 ;
+LIST PxSg2 = PxSg2 ;
+LIST PxSg3 = PxSg3 ;
 LIST 1Sg = 1Sg ;
 LIST 2Sg = 2Sg ;
 LIST 3Sg = 3Sg ;
@@ -602,6 +606,9 @@ REMOVE:r17 $$NAGD IF (0 Det)(NOT 0 Poss LINK -1 N)(*1 N OR A   BARRIER NPNHA LIN
 
 # Noun disambiguation
 # -------------------
+
+#Pupỹkary ithupa sikasaaky atamatary erẽkatxi.
+REMOVE PxSg3 IF (0C NPossd);
 
 SELECT:r28 $$GENDER IF (-1C (A) + $$GENDER)(0 N);
 SELECT:r30b $$GENDER IF (-1C (Det) + $$GENDER)(0 N);

@@ -40,7 +40,7 @@ LEXICON N_SUFFIXES_01_Msc_UNDET
 LEXICON N_SUFFIXES_01_Msc
 +Msc:	N_SUFFIXES_02 ;
 
-LEXICON N_SUFFIXES_01_Msc_0/txi ! clothes marked when not possessed
+LEXICON N_SUFFIXES_01_Msc_0/txi ! e.g. clothes marked -txi when not possessed
 @P.NounEnding.txi@+Msc:@P.NounEnding.txi@ N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_0/Ntxi ! clothes marked when not possessed
@@ -95,9 +95,11 @@ LEXICON N_SUFFIXES_03_re2/ry !CHECKME 2020-08-22
 +NPossd:%>ry # ;
 
 LEXICON N_SUFFIXES_03_NTXI
-+NPossd:%>txi # ;
++NPossd:%^VowNasL%>txi # ;
++Possd: # ;
 LEXICON N_SUFFIXES_03_TXI
-+Possd:%>txi # ;
++NPossd:%>txi # ;
++Possd: # ;
 
 
 ! vim: set ft=xfst-lexc:
