@@ -75,6 +75,9 @@ LEXICON V_SUFFIXES_01
 @D.PN@+Relzr-Obj+Fem:@D.PN@%>ta%>kytu # ; ! 
 +Perf:%>pe # ;
 +Perf+Pss:%>pe%^VowNasL%>ka V_SUFFIXES_02 ;
++Temp:%>saaky V_SUFFIXES_02 ;
+!apuka+V+Temp+ScSg1+Oc3M
+!n-apuka-saaky-ry
 
 LEXICON V_SUFFIXES_02
 @R.PN.SG1@+ScSg1:@R.PN.SG1@ V_SUFFIXES_03 ;

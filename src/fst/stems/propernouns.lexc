@@ -1,0 +1,9 @@
+!! Proper nouns
+!  -----
+!! Proper nouns in the Apurinã language are People and places.
+
+LEXICON Propernouns
+Kamarapu+N+Prop:Kamarapu N_SUFFIXES_01_Msc "male given name" ;
+
+
+! vim: set ft=xfst-lexc:

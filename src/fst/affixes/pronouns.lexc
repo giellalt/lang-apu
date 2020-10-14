@@ -20,6 +20,8 @@ ywa+Pron+Pers+Pl3+Fem:uwana     Cases   ;
 LEXICON PRON_TOT
 # ;
 
+LEXICON PRON_INTERR
++Interr: # ;
 
 ! vim: set ft=xfst-lexc:
 
