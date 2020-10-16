@@ -181,6 +181,9 @@ sãpiranatxi+N:sãpirana N_SUFFIXES_01_Msc_0/txi "história" ;
 ỹtanyrywatatxi+N:ỹtanyrywata N_SUFFIXES_01_Msc_0/txi "casamento" ;
 neretxi+N:nere N_SUFFIXES_01_Msc_0/txi "desejo" ;
 neenamatxi+N:neenama N_SUFFIXES_01_Msc_0/txi "briga, valentia" ;
+tiwitxi+v1+N:tiwi N_SUFFIXES_01_Msc_0/txi "thing/coisa" ;
+tiwitxi+v2+N:tii N_SUFFIXES_01_Msc_0/txi "thing/coisa" ;
+tiwitxi+v3+N:tee N_SUFFIXES_01_Msc_0/txi "thing/coisa" ;
 
 
 
@@ -634,7 +637,8 @@ kakutatxi+N:kakutatxi N_SUFFIXES_01_Msc ;
 kakyryky+N:kakyryky N_SUFFIXES_01_Msc ;
 kakyrykyĩi+N:kakyrykyĩi N_SUFFIXES_01_Msc ;
 kakysakarery+N:kakysakarery N_SUFFIXES_01_Msc ;
-kãkyty+N:kãkyty N_SUFFIXES_01_Msc ;
+kãkyty+v1+N:kãkyty N_SUFFIXES_01_Msc ;
+kãkyty+v2+N:kãkiti N_SUFFIXES_01_Msc ;
 kamakatxi+N:kamakatxi N_SUFFIXES_01_Msc ;
 kamakytakyrery+N:kamakytakyrery N_SUFFIXES_01_Msc ;
 kamatxi+N:kamatxi N_SUFFIXES_01_Msc ;

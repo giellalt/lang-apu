@@ -4,6 +4,6 @@
 
 LEXICON Propernouns
 Kamarapu+N+Prop:Kamarapu N_SUFFIXES_01_Msc "male given name" ;
-
+Kamĩkiu+N+Prop:Kamĩkiu N_SUFFIXES_01_Fem_UNDET "female given name" ;
 
 ! vim: set ft=xfst-lexc:
