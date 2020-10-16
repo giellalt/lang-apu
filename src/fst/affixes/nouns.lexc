@@ -46,6 +46,9 @@ LEXICON N_SUFFIXES_01_Msc
 LEXICON N_SUFFIXES_01_Msc_0/txi ! e.g. clothes marked -txi when not possessed
 @P.NounEnding.txi@+Msc:@P.NounEnding.txi@ N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_Fem_0/txi ! e.g. clothes marked -txi when not possessed
+@P.NounEnding.txi@+Fem:@P.NounEnding.txi@ N_SUFFIXES_02 ;
+
 LEXICON N_SUFFIXES_01_Msc_0/Ntxi ! clothes marked when not possessed
 @P.NounEnding.Ntxi@+Msc:@P.NounEnding.Ntxi@ N_SUFFIXES_02 ;
 
