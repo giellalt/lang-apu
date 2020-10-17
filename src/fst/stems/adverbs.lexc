@@ -7,11 +7,14 @@ apiku+Adv:apiku ADV-SPAT_ "forward" ;
 apiku+Adv+All:apikumunhi ADV-SPAT_ "forward" ;
 inhinhiã+Adv:inhinhiã ADV_ "so" ;
 ikaatuku+Adv:ikaatuku ADV-TEMP_ "so, then" ;
+natuku+Adv:natulu ADV_ "how/como" ;
 wai+Adv:wai ADV-SPAT_ "here" ;
 watxa+Adv:watxa ADV-TEMP_ "today/hoje" ;
 
 harekary+Interj:harekary # "Thank you" ;
-
+!
+ĩkapanhi+v1+Po:ĩkapanhi # "for/para" ;
+ĩkapanhi+v2+Po:ĩkapane # "for/para" ;
 !
 kuna+v1+Pcle+Aux+Neg:kuna # ;
 kuna+v2+Pcle+Aux+Neg:kene # ;
