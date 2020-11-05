@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/apudoc/index.html>
+-   <https://giellalt.uit.no/lang/apu/ApurinaDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
