@@ -14,17 +14,18 @@ kanawa+N:kanawa N_SUFFIXES_01_Msc_te/0 "canoe/canoa" ;
 iuwata+N:iuwata N_SUFFIXES_01_Fem_ne/0 "knife/faca" ;
 
 namatxi+N:nama N_SUFFIXES_01_Msc_0/txi "mouth/boca"   ;
+pipitxi+N:pipi N_SUFFIXES_01_Msc_0/txi "genitália masculina" ;
 
 
 ukypitẽtxi+N:ukypite N_SUFFIXES_01_Msc_0/Ntxi "cílio, sobrancelha" ;! ukypitẽ-txi
-kiritãtxi+N:kirita N_SUFFIXES_01_Msc_0/Ntxi "nariz" ;! kiritã-txi
-xinhĩtxi+N:xinhi N_SUFFIXES_01_Msc_0/Ntxi "carne" ;! xinhĩ-txi
-wakũtxi+N:waku N_SUFFIXES_01_Msc_0/Ntxi "mão1" ;! wakũ-txi
-pitxĩtxi+N:pitxi N_SUFFIXES_01_Msc_0/Ntxi "pênis" ;! pitxĩ-txi
+kiritãtxi+N:kirita N_SUFFIXES_01_Msc_0/Ntxi "nose/nariz" ;! kiritã-txi
+xinhĩtxi+N:xinhi N_SUFFIXES_01_Msc_0/Ntxi "meat/carne" ;! xinhĩ-txi
+wakũtxi+N:waku N_SUFFIXES_01_Msc_0/Ntxi "hand/mão1" ;! wakũ-txi
+pitxĩtxi+N:pitxi N_SUFFIXES_01_Msc_0/Ntxi "penis/pênis" ;! pitxĩ-txi
 sukũtxi+N:suku N_SUFFIXES_01_Msc_0/Ntxi "vargina" ;! sukũ-txi
 karũtxi+N:karu N_SUFFIXES_01_Msc_0/Ntxi "ferida" ;! karũ-txi
-mixĩtxi+N:mixi N_SUFFIXES_01_Msc_0/Ntxi "gravidez" ;!mixĩ-txi
-kanũtxi+N:kanu N_SUFFIXES_01_Msc_0/Ntxi "braço" ;! kanũ-txi
+mixĩtxi+N:mixi N_SUFFIXES_01_Msc_0/Ntxi "prenancy/gravidez" ;!mixĩ-txi
+kanũtxi+N:kanu N_SUFFIXES_01_Msc_0/Ntxi "arm/braço" ;! kanũ-txi
 tenhĩtxi+N:tenhi N_SUFFIXES_01_Msc_0/Ntxi "seio" ;! tenhĩ-txi
 
 nakỹtxi+N:naki N_SUFFIXES_01_Msc_0/Ntxi "ovo" ;
@@ -40,20 +41,20 @@ pixiãkiretxi+N:pixiãkire N_SUFFIXES_01_Msc_0/txi "fel do peixe; carne de caça
 
 
 tsĩitxi+N+Sem/Body:tsyy N_SUFFIXES_01_Msc_0/Ntxi "dor" ; !tsĩi-txi
-kywĩtxi+N+Sem/Body:kywy N_SUFFIXES_01_Msc_0/Ntxi "cabeça" ;! kywĩ-txi
-ukĩtxi+N+Sem/Body:uky N_SUFFIXES_01_Msc_0/Ntxi "olho" ; ! ukĩ-txi
-nukĩtxi+N+Sem/Body:nuky N_SUFFIXES_01_Msc_0/Ntxi "pescoço" ; ! nukĩ-txi
+kywĩtxi+N+Sem/Body:kywy N_SUFFIXES_01_Msc_0/Ntxi "head/cabeça" ;! kywĩ-txi
+ukĩtxi+N+Sem/Body:uky N_SUFFIXES_01_Msc_0/Ntxi "eye/olho" ; ! ukĩ-txi
+nukĩtxi+N+Sem/Body:nuky N_SUFFIXES_01_Msc_0/Ntxi "neck/pescoço" ; ! nukĩ-txi
 tsumĩtxi+N+Sem/Body:tsumy N_SUFFIXES_01_Msc_0/Ntxi "ânus" ; ! tsumĩ-txi
 apĩtxi+N+Sem/Body:apy N_SUFFIXES_01_Msc_0/Ntxi "osso" ; !apĩ-txi 
 pysĩtxi+N+Sem/Body:pysy N_SUFFIXES_01_Msc_0/Ntxi "pus" ; !pysĩ-txi
-purikĩtxi+N+Sem/Body:puriky N_SUFFIXES_01_Msc_0/Ntxi "costas" ;!purikĩ-txi
+purikĩtxi+N+Sem/Body:puriky N_SUFFIXES_01_Msc_0/Ntxi "back/costas" ;!purikĩ-txi
 katxikurĩtxi+N+Sem/Body:katxikury N_SUFFIXES_01_Msc_0/Ntxi "catarro" ;!katxikurĩ-txi
 
 pinhĩtxi+N:pinhi N_SUFFIXES_01_Msc_0/Ntxi "remédio" ;
 sarawãtxi+N:sarawa N_SUFFIXES_01_Msc_0/Ntxi "brinquedo1" ;
 kitimatãtxi+N:kitimata N_SUFFIXES_01_Msc_0/Ntxi "sandália" ;
 
-nakanhĩtxi+N:nakanhi N_SUFFIXES_01_Msc_0/Ntxi "goma" ;
+nakanhĩtxi+N:nakanhi N_SUFFIXES_01_Msc_0/Ntxi "massa de tapioca, goma" ;
 
 
 tũutxi+N+Sem/Body:tũu N_SUFFIXES_01_Msc_0/txi "rosto" ; !tũu-txi 
@@ -183,7 +184,7 @@ senũkatxi+N:senũka N_SUFFIXES_01_Msc_0/txi "fantasma, sombra" ;
 parĩkatxi+N:parĩka N_SUFFIXES_01_Msc_0/txi "trabalho" ;
 pĩkaretxi+N:pĩkare N_SUFFIXES_01_Msc_0/txi "medo" ;
 sãpiranatxi+N:sãpirana N_SUFFIXES_01_Msc_0/txi "história" ;
-ỹtanyrywatatxi+N:ỹtanyrywata N_SUFFIXES_01_Msc_0/txi "casamento" ;
+ỹtanyrywatatxi+N:ỹtanyrywata N_SUFFIXES_01_Msc_0/txi "marriage/casamento" ;
 neretxi+N:nere N_SUFFIXES_01_Msc_0/txi "desejo" ;
 neenamatxi+N:neenama N_SUFFIXES_01_Msc_0/txi "briga, valentia" ;
 
@@ -227,12 +228,12 @@ maky+N:maky N_SUFFIXES_01_Fem_te/0 "castanha" ;
 kỹyry+N:kỹyry N_SUFFIXES_01_Msc_te/0 "rato" ;
 pytykyru+N:pytykyru N_SUFFIXES_01_Msc_te/0 "grilo1" ;
 txĩtxĩry+N:txĩtxĩry N_SUFFIXES_01_Msc_te/0 "grilo2" ;
-amapyty+N:amapyty N_SUFFIXES_01_Msc_te/0 "abelha" ;
+amapyty+N:amapyty N_SUFFIXES_01_Msc_te/0 "bee/abelha" ;
 kypytyna+N:kypytyna N_SUFFIXES_01_Msc_te/0 "cotia" ; 
 kukui+N:kukui N_SUFFIXES_01_Msc_te/0 "gavião" ;
 irari+N:irari N_SUFFIXES_01_Msc_te/0 "queixada" ;
 kytsyna+N:kytsyna N_SUFFIXES_01_Msc_te/0 "calango" ;
-kaikiri+N:kaikiri N_SUFFIXES_01_Msc_te/0 "cobra" ; 
+kaikiri+N:kaikiri N_SUFFIXES_01_Msc_te/0 "snake/cobra" ; 
 suty+N:suty N_SUFFIXES_01_Msc_te/0 "veado roxo" ;
 kataty+N:kataty N_SUFFIXES_01_Msc_te/0 "borboleta" ; 
 kaikiri+N:kaikiri N_SUFFIXES_01_Msc_te/0 "jacaré" ; 
@@ -282,8 +283,8 @@ takatary+N:takatary N_SUFFIXES_01_Msc_te/0 "pote de barro" ;
 kitai+N:kitai N_SUFFIXES_01_Msc_te/0 "machado" ;
 sarakã+N:sarakã N_SUFFIXES_01_Msc_te/0 "terçado1" ;
 saasara+N:saasara N_SUFFIXES_01_Msc_te/0 "terçado2" ;
-xamynaky+N:xamynaky N_SUFFIXES_01_Msc_te/0 "espingarda" ; 
-xamynakypanhi+N:xamynakypanhi N_SUFFIXES_01_Msc_te/0 "pólvora1" ;
+xamynaky+N:xamynaky N_SUFFIXES_01_Msc_te/0 "shotgun/espingarda" ; 
+xamynakypanhi+N:xamynakypanhi N_SUFFIXES_01_Msc_te/0 "gunpowder/pólvora1" ;
 xãmynakypa+N:xãmynakypa N_SUFFIXES_01_Msc_te/0 "cartucho1" ;
 duryky+N:duryky N_SUFFIXES_01_Msc_te/0 "tipo de flauta1" ;
 ãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_te/0 "tipo de flauta2" ;
@@ -429,7 +430,7 @@ aikutsuta+N:aikutsuta N_SUFFIXES_01_Msc ;
 aiuty+N:aiuty N_SUFFIXES_01_Msc ;
 ãkaiary+N:ãkaiary N_SUFFIXES_01_Msc ;
 akawary+N:akawary N_SUFFIXES_01_Msc ;
-ãkiri+N:ãkiri N_SUFFIXES_01_Msc ;
+ãkiri+N:ãkiri N_SUFFIXES_01_Msc "" ;
 ãkitiwakury+N:ãkitiwakury N_SUFFIXES_01_Msc ;
 ãkitiyãkyry+N:ãkitiyãkyry N_SUFFIXES_01_Msc ;
 ãkutsa+N:ãkutsa N_SUFFIXES_01_Msc ;
@@ -452,7 +453,7 @@ apĩtxi+N:apĩtxi N_SUFFIXES_01_Msc ;
 ãpuri+N:ãpuri N_SUFFIXES_01_Msc ;
 ãputa+N:ãputa N_SUFFIXES_01_Msc ;
 aputxi+N:aputxi N_SUFFIXES_01_Msc ;
-apuumary+N:apuumary N_SUFFIXES_01_Msc ;
+apuumary+N:apuumary N_SUFFIXES_01_Msc "fever/";
 apyryta+N:apyryta N_SUFFIXES_01_Msc ;
 ãrakatxi+N:ãrakatxi N_SUFFIXES_01_Msc ;
 arãty+N:arãty N_SUFFIXES_01_Msc ;
@@ -540,7 +541,7 @@ iri+N:iri N_SUFFIXES_01_Msc ;
 itawuri+N:itawuri N_SUFFIXES_01_Msc ;
 itekanare+N:itekanare N_SUFFIXES_01_Msc ;
 Ithanumary+N:Ithanumary N_SUFFIXES_01_Msc ;
-ithary+N:ithary N_SUFFIXES_01_Msc ;
+ithary+N:ithary N_SUFFIXES_01_Msc "0/? cousin/primo" ;
 itiky+N:itiky N_SUFFIXES_01_Msc ;
 itipanatxi+N:itipanatxi N_SUFFIXES_01_Msc ;
 itipatatxi+N:itipatatxi N_SUFFIXES_01_Msc ;
@@ -626,7 +627,6 @@ kãawãary+N:kãawãary N_SUFFIXES_01_Msc ;
 kai+N:kai N_SUFFIXES_01_Msc ;
 kaiãpary+N:kaiãpary N_SUFFIXES_01_Msc ;
 kaiãparixima+N:kaiãparixima N_SUFFIXES_01_Msc ;
-kaiaty+N:kaiaty N_SUFFIXES_01_Msc ;
 kaikiripi+N:kaikiripi N_SUFFIXES_01_Msc ;
 kaikyrypita+N:kaikyrypita N_SUFFIXES_01_Msc ;
 kairiku+N:kairiku N_SUFFIXES_01_Msc ;
@@ -874,7 +874,6 @@ mithaãpury+N:mithaãpury N_SUFFIXES_01_Msc ;
 mithaãtary+N:mithaãtary N_SUFFIXES_01_Msc ;
 mithapuwaru+N:mithapuwaru N_SUFFIXES_01_Msc ;
 mithasawana+N:mithasawana N_SUFFIXES_01_Msc ;
-mixĩtxi+N:mixĩtxi N_SUFFIXES_01_Msc ;
 mukyty+N:mukyty N_SUFFIXES_01_Msc ;
 murupa+N:murupa N_SUFFIXES_01_Msc ;
 musãi+N:musãi N_SUFFIXES_01_Msc ;
@@ -908,7 +907,6 @@ nhiimatykyry+N:nhiimatykyry N_SUFFIXES_01_Msc ;
 nhitine+N:nhitine N_SUFFIXES_01_Msc ;
 nuakytxi+N:nuakytxi N_SUFFIXES_01_Msc ;
 nukemanery+N:nukemanery N_SUFFIXES_01_Msc ;
-nukĩtxi+N:nukĩtxi N_SUFFIXES_01_Msc ;
 nukutxi+N:nukutxi N_SUFFIXES_01_Msc ;
 nukypiti+N:nukypiti N_SUFFIXES_01_Msc ;
 numinapary+N:numinapary N_SUFFIXES_01_Msc ;
@@ -932,7 +930,6 @@ pamamyna+N:pamamyna N_SUFFIXES_01_Msc ;
 pana+N:pana N_SUFFIXES_01_Msc ;
 papiãtxĩã+N:papiãtxĩã N_SUFFIXES_01_Msc ;
 papiri+N:papiri N_SUFFIXES_01_Msc ;
-paraka+N:paraka N_SUFFIXES_01_Msc ;
 paratxari+N:paratxari N_SUFFIXES_01_Msc ;
 paraty+N:paraty N_SUFFIXES_01_Msc ;
 parĩia+N:parĩia N_SUFFIXES_01_Msc ;
@@ -958,7 +955,6 @@ piiupuriky+N:piiupuriky N_SUFFIXES_01_Msc ;
 pĩkaretxi+N:pĩkaretxi N_SUFFIXES_01_Msc ;
 pimapuri+N:pimapuri N_SUFFIXES_01_Msc ;
 pinhĩtxi+N:pinhĩtxi N_SUFFIXES_01_Msc ;
-pipitxi+N:pipitxi N_SUFFIXES_01_Msc ;
 pirikery+N:pirikery N_SUFFIXES_01_Msc ;
 pirupiruky+N:pirupiruky N_SUFFIXES_01_Msc ;
 pirupiruky+N:pirupiruky N_SUFFIXES_01_Msc ;
@@ -1002,7 +998,7 @@ pytĩtxi+N:pytĩtxi N_SUFFIXES_01_Msc ;
 rymata+N:rymata N_SUFFIXES_01_Msc ;
 saiamary+N:saiamary N_SUFFIXES_01_Msc ;
 sakanakatxi+N:sakanakatxi N_SUFFIXES_01_Msc ;
-sãkiretxi+N:sãkiretxi N_SUFFIXES_01_Msc ;
+sãkiretxi+N:sãkiretxi N_SUFFIXES_01_Msc "?speech/" ;
 sãku+N:sãku N_SUFFIXES_01_Msc ;
 samariiri+N:samariiri N_SUFFIXES_01_Msc ;
 samary+N:samary N_SUFFIXES_01_Msc ;
@@ -1140,7 +1136,6 @@ uapetsa+N:uapetsa N_SUFFIXES_01_Msc ;
 ukapita+N:ukapita N_SUFFIXES_01_Msc ;
 ukarãamynari+N:ukarãamynari N_SUFFIXES_01_Msc ;
 ukiripiri+N:ukiripiri N_SUFFIXES_01_Msc ;
-ukĩtxi+N:ukĩtxi N_SUFFIXES_01_Msc ;
 ukupanhi+N:ukupanhi N_SUFFIXES_01_Msc ;
 ukutãta+N:ukutãta N_SUFFIXES_01_Msc ;
 ukywytary+N:ukywytary N_SUFFIXES_01_Msc ;
@@ -1161,7 +1156,6 @@ uwasanaky+N:uwasanaky N_SUFFIXES_01_Msc ;
 ũtseretxi+N:ũtseretxi N_SUFFIXES_01_Msc ;
 ũty+N:ũty N_SUFFIXES_01_Msc ;
 wainhamary+N:wainhamary N_SUFFIXES_01_Msc ;
-wãkatxi+N:wãkatxi N_SUFFIXES_01_Msc ;
 wanary+N:wanary N_SUFFIXES_01_Msc ;
 wasynyyny+N:wasynyyny N_SUFFIXES_01_Msc ;
 weny+N:weny N_SUFFIXES_01_Msc ;
@@ -1195,7 +1189,6 @@ ximapiti+N:ximapiti N_SUFFIXES_01_Msc ;
 ximata+N:ximata N_SUFFIXES_01_Msc ;
 ximiri+N:ximiri N_SUFFIXES_01_Msc ;
 xinhikapukury+N:xinhikapukury N_SUFFIXES_01_Msc ;
-xinhĩtxi+N:xinhĩtxi N_SUFFIXES_01_Msc ;
 xipaty+N:xipaty N_SUFFIXES_01_Msc ;
 xĩpitsa+N:xĩpitsa N_SUFFIXES_01_Msc ;
 xirika+N:xirika N_SUFFIXES_01_Msc ;
@@ -1337,6 +1330,7 @@ ixuwaty+N:ixuwaty N_SUFFIXES_01_Fem_ne/0 ;
 ĩpỹtykãpi+N:ĩpỹtykãpi N_SUFFIXES_01_Fem_ne/0 ;
 ĩthupekare+N:ĩthupekare N_SUFFIXES_01_Fem_ne/0 ;
 kaiatary+N:kaiatary N_SUFFIXES_01_Fem_ne/0 ;
+kaiaty+N:kaiaty N_SUFFIXES_01_Msc "paca" ; !check
 kaiaty+N:kaiaty N_SUFFIXES_01_Fem_ne/0 ;
 kaikuky+N:kaikuky N_SUFFIXES_01_Fem_ne/0 ;
 kaikyry+N:kaikyry N_SUFFIXES_01_Fem_ne/0 ;
