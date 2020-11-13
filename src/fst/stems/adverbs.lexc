@@ -7,14 +7,22 @@ apiku+Adv:apiku ADV-SPAT_ "forward" ;
 apiku+Adv+All:apikumunhi ADV-SPAT_ "forward" ;
 inhinhiã+Adv:inhinhiã ADV_ "so" ;
 ikaatuku+Adv:ikaatuku ADV-TEMP_ "so, then" ;
-natuku+Adv:natulu ADV_ "how/como" ;
+natuku+Adv:natuku ADV_ "how/como" ;
+ĩthepary+Adv:ĩthepary ADV_ "where/cadê" ;
+kiriãpa+Adv+Ine:kiriãpa ADV_ "with what/com o que" ;
+nanhikiripa+Adv:nanhikiripa ADV_ "whence/de onde" ;
+nanhipa+Adv:nanhipa ADV_ "where/onde" ;
+kirisaakypa+Adv:kirisaakypa ADV_ "when/quando" ;
+kipakynypa+Adv:kipakynypa ADV_ "how many/quanto" ;
+kynerepa+Adv:kynerepa ADV_ "why/por que" ;
+
 wai+Adv:wai ADV-SPAT_ "here" ;
 watxa+Adv:watxa ADV-TEMP_ "today/hoje" ;
 
 harekary+Interj:harekary # "Thank you" ;
 !
 ĩkapanhi+v1+Po:ĩkapanhi # "for/para" ;
-ĩkapanhi+v2+Po:ĩkapane # "for/para" ;
+ĩkapanhi+v2+Po:ĩkapane # "for the purpose of/para" ;
 !
 kuna+v1+Pcle+Aux+Neg:kuna # ;
 kuna+v2+Pcle+Aux+Neg:kene # ;

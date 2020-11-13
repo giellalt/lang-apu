@@ -4,6 +4,9 @@
 
 LEXICON PRONOUN-TYPES
  PERS ;
+kixiripa+Pron+Gen:kixiripa # "whose/de quem" ;
+kirikatape+Pron+Com:kirikatape # "with whom/com o que" ;
+
 
 LEXICON PERS
 nuta+Pron+Pers+Sg1:nuta     Cases   ;
@@ -13,15 +16,19 @@ pitha+Pron+Pers+Sg2:pitha     Cases   ;
 pitha+Pron+Pers+Pl2:hỹtha     Cases   ;
 
 ywa+Pron+Pers+Sg3+Msc:ywa     Cases   ;
-ywa+Pron+Pers+Pl3+Msc:ywana     Cases   ;
+ywa+v5+Pron+Pers+Pl3+Msc:ywana     Cases   ;!Check
 ywa+Pron+Pers+Sg3+Fem:uwa     Cases   ;
-ywa+Pron+Pers+Pl3+Fem:uwana     Cases   ;
+ywa+v6+Pron+Pers+Pl3+Fem:uwana     Cases   ;!Check
+ywa+v1+Pron+Pers+Pl3:nynuwa Cases   ;
+ywa+v2+Pron+Pers+Pl3:nynawa Cases   ;
+ywa+v3+Pron+Pers+Pl3:ynuwa Cases   ;
+ywa+v4+Pron+Pers+Pl3:ynawa Cases   ;
 
 LEXICON PRON_TOT
 # ;
 
 LEXICON PRON_INTERR
-+Interr: # ;
+: # ;
 
 ! vim: set ft=xfst-lexc:
 
