@@ -1,7 +1,7 @@
 
 
 # ===================== #
-# Faroese disambiguator #
+# Apurinã disambiguator #
 # ===================== #
 
 
@@ -119,7 +119,8 @@ LIST 3PERS = "hann" "hon" "tað" ;
 
 # Adjective sets
 
-LIST REALADJ = A OR A* ;
+#LIST REALADJ = A OR A* ;
+SET REALADJ = A OR A* ;
 
 
 # Nominal sets
@@ -305,7 +306,7 @@ REMOVE:AVS2 OBL IF (-2 CLB)(-1 Adv OR CC OR CS)(0 Nom)(1 V + THIRDSG)(NOT *2 Nom
 
 REMOVE Nom IF (-2 V)(-1C Pr)(0 N)(1 CLB); # Too specific, this.
 
-REMOVE Dat IF (*-1 V LINK NOT 0 DATV BARRIER NPNH)(0 Acc)(1 EOS OR CS);
+#REMOVE Dat IF (*-1 V LINK NOT 0 DATV BARRIER NPNH)(0 Acc)(1 EOS OR CS);
 	## at fáa høvi at...
 
 
@@ -320,7 +321,7 @@ REMOVE Dat IF (*-1 V LINK NOT 0 DATV BARRIER NPNH)(0 Acc)(1 EOS OR CS);
 REMOVE Pr IF (0 Adv)(NOT *1 OBL BARRIER NPNH);
 # This rule does not handle stranded prepositions, it must be relaxed.
 
-REMOVE:PrAdv Adv IF (*-1 N BARRIER V)(0 Pr + SOMEACCPREP)(*1 Acc BARRIER NPNH)
+REMOVE:PrAdv Adv IF (*-1 N BARRIER V)(0 Pr + SOMEACCPREP)(*1 Acc BARRIER NPNH);
 	## Altjóða samstarv innan gransking og útbúgving.	
 	##  Hon las síðan bókina.
 
@@ -406,7 +407,7 @@ REMOVE (Num Neu Dat) IF (0 (Det Neu Dat))(1 (N Neu Dat) OR (A Neu Dat));
 
 # Prop
 
-SELECT:InternalProp Prop IF (NOT -1 (CLB OR PUNCT OR LEFT))(NOT 0 Guess);
+#SELECT:InternalProp Prop IF (NOT -1 (CLB OR PUNCT OR LEFT))(NOT 0 Guess);
 
 # Specific lexemes, words 
 # =======================
@@ -487,7 +488,7 @@ REMOVE ("ruður") IF (0 ("runnur"));
 # Synonyms
 
 # seg
-SELECT Refl IF (0 ("seg" Refl $$NAGD))(1 ("sjálvur" + $$NAGD));
+#SELECT Refl IF (0 ("seg" Refl $$NAGD))(1 ("sjálvur" + $$NAGD));
 
 # sjalvur
 SELECT Adv IF (0 ("sjálvt"))(1 ("um") OR EOS);
@@ -811,7 +812,7 @@ SELECT:r62 ("seg" Refl) IF (-1 Inf OR 3Sg OR Pl) ;
 # Accusative
 # ==========
 
-REMOVE:r63 Nom IF (*-1 AUX OR MODV LINK -1 CC OR Nom BARRIER NPNH)(1 Inf);
+#REMOVE:r63 Nom IF (*-1 AUX OR MODV LINK -1 CC OR Nom BARRIER NPNH)(1 Inf);
 
 
 
@@ -1038,7 +1039,7 @@ MAP (@<tSUBJ) TARGET ("tað" Pron Pers Sg Nom) IF (-1 V)(-2 BOS OR Adv)(1 Nom);
 MAP (@tSUBJ>) TARGET ("tað" Pron Pers Sg Nom) IF (1 V)(2 (N Nom Indef));
 MAP (@tSUBJ>) TARGET ("tað" Pron Pers Sg Nom) IF (1 V)(2 ("ein" Det Nom))(*3 (N Nom Indef) BARRIER NPNH);
 MAP (@tSUBJ>) TARGET ("tað" Pron Pers Sg Nom) IF (1 V)(*2 (N Nom Indef) BARRIER NOT-ADV);
-MAP (@tSUBJ>) TARGET ("tað" Pron Pers Sg Nom) IF (1 V)(*2 ("ein" Det Nom) BARRIER NOT-ADV LINK 1 (N Nom Indef) BARRIER NPNH);
+#MAP (@tSUBJ>) TARGET ("tað" Pron Pers Sg Nom) IF (1 V)(*2 ("ein" Det Nom) BARRIER NOT-ADV LINK 1 (N Nom Indef) BARRIER NPNH);
 
 MAP:r71 (@<SUBJ) TARGET (Num Nom) IF (*-1 (@<tSUBJ) BARRIER NPNHA LINK -1 COPULA)(NOT 1 PRE-N);
 MAP:r71 (@<SUBJ) TARGET (N Nom) IF (*-1 (@<tSUBJ) BARRIER NPNHA LINK -1 COPULA);
@@ -1074,9 +1075,9 @@ MAP:r83 (@P<) TARGET NOMINALHEAD + Gen IF (*-1 CC BARRIER NPNHA LINK -1 NOMINALH
 MAP:r84c (@>N) TARGET Det + $$GENDER + $$NAGD IF (1 A + $$GENDER + $$NAGD); # BARRIER NPNHA);
 ## sjekk denne!!
 
-MAP:r84b (@>N) TARGET Pron + Indef  + $$GENDER + $$NAGD IF (1 N + $$GENDER + $$NAGD BARRIER NPNHA);
+#MAP:r84b (@>N) TARGET Pron + Indef  + $$GENDER + $$NAGD IF (1 N + $$GENDER + $$NAGD BARRIER NPNHA);
 
-MAP:r84a (@>A) TARGET Det + $$GENDER + $$NAGD IF (1 A + $$GENDER + $$NAGD BARRIER NPNHA LINK 1 S-BOUNDARY);
+#MAP:r84a (@>A) TARGET Det + $$GENDER + $$NAGD IF (1 A + $$GENDER + $$NAGD BARRIER NPNHA LINK 1 S-BOUNDARY);
 
 
 MAP:r85 (@>N) TARGET (N Gen) IF (*1 N BARRIER V OR Adv);
@@ -1090,7 +1091,7 @@ MAP (@>N) TARGET Num IF (*1 N BARRIER NPNHA);
 
 
 MAP:r72 (@SUBJ>) TARGET ("tú" Pron Pers Sg Nom) IF (*1 (V 2Sg) BARRIER VFIN);
-MAP:r72 (@SUBJ>) TARGET ("tú" Pron Pers Sg Nom) IF (1 (V Prt Sg) BARRIER VFIN);
+#MAP:r72 (@SUBJ>) TARGET ("tú" Pron Pers Sg Nom) IF (1 (V Prt Sg) BARRIER VFIN);
 MAP:r73 (@<SUBJ) TARGET ("tú" Pron Pers Sg Nom) IF (*-1 (V 2Sg) BARRIER VFIN);
 MAP:r73 (@<SUBJ) TARGET ("tú" Pron Pers Sg Nom) IF (*-1 (V Prt Sg) BARRIER VFIN);
 
@@ -1100,7 +1101,8 @@ MAP:r73b (@<SUBJ) TARGET ("eg" Pron Pers Sg Nom) IF (*-1 (V 1Sg) BARRIER VFIN);
 MAP:r75 (@<SUBJ) TARGET NOMINALHEAD + Sg + Nom IF (*-1 (V 3Sg) OR (V Sg) BARRIER NPNH LINK NOT -1 Nom);
 MAP:r75b (@<SUBJ) TARGET NOMINALHEAD + Sg + Nom IF (*-1 (V 3Sg) OR (V Sg) BARRIER NPNH) (0C Nom);
 
-MAP:r74 (@SUBJ>) TARGET NOMINALHEAD + Sg + Nom IF (*1 (V 3Sg) OR (V Sg))#;(NOT 0 Acc LINK 1 CC LINK 1C VFIN);
+#MAP:r74 (@SUBJ>) TARGET NOMINALHEAD + Sg + Nom IF (*1 (V 3Sg) OR (V Sg))#;(NOT 0 Acc LINK 1 CC LINK 1C VFIN);
+MAP:r74 (@SUBJ>) TARGET NOMINALHEAD + Sg + Nom IF (*1 (V 3Sg) OR (V Sg));#(NOT 0 Acc LINK 1 CC LINK 1C VFIN)
 	## Tíkin hevur lyft beinið og pissar.
 
 
@@ -1324,7 +1326,7 @@ REMOVE (@SUBJ>) IF (*-1 VFIN LINK -1C (@SUBJ>))(0 (@<OBJ));
 
 # Direct objects
 
-REMOVE Acc IF (*-1 ("seg" Acc) LINK -1 V BARRIER NOT-ACC);
+#REMOVE Acc IF (*-1 ("seg" Acc) LINK -1 V BARRIER NOT-ACC);
 REMOVE:NotPostSubj (@SUBJ>) IF (0 (@<OBJ))(*1 CLB BARRIER VFIN);
 
 REMOVE (@SUBJ>) IF (0 (@<OBJ))(NOT *1 VFIN BARRIER S-BOUNDARY);
@@ -1372,8 +1374,8 @@ REMOVE (@-F<ADVL) IF (0 (@<ADVL))(*-1C VFIN BARRIER VINFIN);
 # Number SPRED disambiguation
 
 SELECT (Nom @>N) IF (*1C N + Nom BARRIER NPNH OR PRE-N + NOTNOM);
-SELECT (Acc @>N) IF (1C N + Acc BARRIER NPNH OR PRE-N + NOTACC);
-SELECT (Dat @>N) IF (1C N + Dat BARRIER NPNH OR PRE-N + NOTDAT);
+#SELECT (Acc @>N) IF (1C N + Acc BARRIER NPNH OR PRE-N + NOTACC);
+#SELECT (Dat @>N) IF (1C N + Dat BARRIER NPNH OR PRE-N + NOTDAT);
 
 
 REMOVE:r115 (A @>N) IF (0 V)(NOT 1 N OR A);
