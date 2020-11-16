@@ -32,7 +32,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
-
+ +Aux
  +Temp +Spat
 
 !! The Usage extents are marked using following tags:
@@ -299,27 +299,13 @@ Verbs       ;
    Pronouns    ;
 Propernouns	;
 !   Numerals    ;
-!   Prefixes    ;
+   Prefixes    ;
    Punctuation ;
 !   Symbols     ;
  PRONOUN-TYPES ;
- PERSON_PREFIXES ;
 
-LEXICON PERSON_PREFIXES
-@P.PN.SG1@:@P.PN.SG1@n%{hØ%}%{yiØ%}%< NV_LEX ;
-@P.PN.PL1@:@P.PN.PL1@%{aã%}%< NV_LEX ;
-@P.PN.SG2@:@P.PN.SG2@p%{yiØ%}%< NV_LEX ;
-@P.PN.PL2@:@P.PN.PL2@h%{ỹĩØ%}%< NV_LEX ;
-@P.PN.SG3M@:@P.PN.SG3M@%{yiØ%}%< NV_LEX ;
-@P.PN.SG3F@:@P.PN.SG3F@%{uũ%}%< NV_LEX ;
-@P.PN.PL3M@:@P.PN.PL3M@%{yiØ%}%< NV_LEX ;
-@P.PN.PL3F@:@P.PN.PL3F@%{uũ%}%< NV_LEX ;
-
-
-LEXICON NV_LEX
-Nouns ;
-Verbs ;
-
+LEXICON CS_
+# ;
 
 
 ! vim: set ft=xfst-lexc:

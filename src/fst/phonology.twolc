@@ -90,11 +90,17 @@ Rules
 !!€ nhi%<nhika%>ru
 
 
-"Realizing %{yiØ%}:y "
- %{yiØ%}:y <=> [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
+"Realizing %{yiØ%}:y LEFT ARROW"
+ %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
 
-"Realizing %{yiØ%}:i "
- %{yiØ%}:i <=> [n %{hØ%}: | p | # ] _ %< PALCns  ;
+"Realizing %{yiØ%}:y RIGHT ARROW"
+ %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
+               _ %< t x a: ;
+
+"Realizing %{yiØ%}:i LEFT ARROW"
+ %{yiØ%}:i <= [n %{hØ%}: | p | # ] _ %< PALCns  ;
+"Realizing %{yiØ%}:i RIGHT ARROW"
+ %{yiØ%}:i => [n %{hØ%}: | p | # ] _ %< PALCns  ;
 
 "Realizing %{yiØ%}:ỹ "
  %{ỹĩØ%}:ỹ <=> h _ %< NonPALCns  ;

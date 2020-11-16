@@ -1,10 +1,24 @@
 !! Prefixes
 !  --------
 !! Prefixes in the Apurinã language are bound to beginning of other words.
-
 LEXICON Prefixes
-nounprefix-     Nouns   ;
-verbprefix-     Verbs   ;
+ PERSON_PREFIXES ;
+
+
+LEXICON PERSON_PREFIXES
+@P.PN.SG1@:@P.PN.SG1@n%{hØ%}%{yiØ%}%< NV_LEX ;
+@P.PN.PL1@:@P.PN.PL1@%{aã%}%< NV_LEX ;
+@P.PN.SG2@:@P.PN.SG2@p%{yiØ%}%< NV_LEX ;
+@P.PN.PL2@:@P.PN.PL2@h%{ỹĩØ%}%< NV_LEX ;
+@P.PN.SG3M@:@P.PN.SG3M@%{yiØ%}%< NV_LEX ;
+@P.PN.SG3F@:@P.PN.SG3F@%{uũ%}%< NV_LEX ;
+@P.PN.PL3M@:@P.PN.PL3M@%{yiØ%}%< NV_LEX ;
+@P.PN.PL3F@:@P.PN.PL3F@%{uũ%}%< NV_LEX ;
+
+
+LEXICON NV_LEX
+Nouns ;
+Verbs ;
 
 
 ! vim: set ft=xfst-lexc:
