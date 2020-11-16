@@ -69,6 +69,11 @@ yritxi+N:yry N_SUFFIXES_01_Msc_0/txi "father/pai" ;
 
 ynyrutxi+N:ynyru N_SUFFIXES_01_Fem_0/txi "mother/mãe" ;
 atukyritxi+N:atukyry N_SUFFIXES_01_Msc_0/txi "grandfather/avô" ;
+tanyrutxi+N:tanyru N_SUFFIXES_01_Fem_0/txi "wife/esposa" ;!checkme
+tanyrytxi+N:tanyry N_SUFFIXES_01_Msc_0/txi "husband/esposo" ;
+nyrymanetxi+v1+N:nyrymane N_SUFFIXES_01_Msc_0/txi "relative/parente" ; !The non-possessed is theoretical
+nyrymanetxi+v2+N:nyrymany N_SUFFIXES_01_Msc_0/txi "relative/parente" ;
+
 
 sytu+N:sytu N_SUFFIXES_01_Fem_0/NULL "woman Fem_re/0?" ;
 
@@ -185,6 +190,7 @@ parĩkatxi+N:parĩka N_SUFFIXES_01_Msc_0/txi "trabalho" ;
 pĩkaretxi+N:pĩkare N_SUFFIXES_01_Msc_0/txi "medo" ;
 sãpiranatxi+N:sãpirana N_SUFFIXES_01_Msc_0/txi "história" ;
 ỹtanyrywatatxi+N:ỹtanyrywata N_SUFFIXES_01_Msc_0/txi "marriage/casamento" ;
+!tanyrywatatxi+N:tanyrywatatxi N_SUFFIXES_01_Msc ;
 neretxi+N:nere N_SUFFIXES_01_Msc_0/txi "desejo" ;
 neenamatxi+N:neenama N_SUFFIXES_01_Msc_0/txi "briga, valentia" ;
 
@@ -916,7 +922,6 @@ nutinha+N:nutinha N_SUFFIXES_01_Msc ;
 nuwakunuta+N:nuwakunuta N_SUFFIXES_01_Msc ;
 nỹãtsupa+N:nỹãtsupa N_SUFFIXES_01_Msc ;
 nynaky+N:nynaky N_SUFFIXES_01_Msc ;
-nyrymane+N:nyrymane N_SUFFIXES_01_Msc ;
 nytũ+N:nytũ N_SUFFIXES_01_Msc ;
 nytykaku+N:nytykaku N_SUFFIXES_01_Msc ;
 paikuma+N:paikuma N_SUFFIXES_01_Msc ;
@@ -1032,7 +1037,6 @@ takurukixike+N:takurukixike N_SUFFIXES_01_Msc ;
 taky+N:taky N_SUFFIXES_01_Msc ;
 tanare+N:tanare N_SUFFIXES_01_Msc ;
 thanyry+N:thanyry N_SUFFIXES_01_Msc ;
-tanyrywatatxi+N:tanyrywatatxi N_SUFFIXES_01_Msc ;
 tape+N:tape N_SUFFIXES_01_Msc ;
 tapĩ+N:tapĩ N_SUFFIXES_01_Msc ;
 tapune+N:tapune N_SUFFIXES_01_Msc ;
@@ -1307,7 +1311,7 @@ imyry+N:imyry N_SUFFIXES_01_Fem_ne/0 ;
 ipiukaare+N:ipiukaare N_SUFFIXES_01_Fem_ne/0 ;
 irary+N:irary N_SUFFIXES_01_Fem_ne/0 ;
 ithanukari+N:ithanukari N_SUFFIXES_01_Fem_ne/0 ;
-itharu+N:itharu N_SUFFIXES_01_Fem_ne/0 ;
+itharu+N:itharu N_SUFFIXES_01_Fem_ne/0 "sister/irmã" ;
 ititurĩa+N:ititurĩa N_SUFFIXES_01_Fem_ne/0 ;
 itumaneru+N:itumaneru N_SUFFIXES_01_Fem_ne/0 ;
 itumanerutsa+N:itumanerutsa N_SUFFIXES_01_Fem_ne/0 ;
@@ -1666,7 +1670,7 @@ xutukyru+N:xutukyru N_SUFFIXES_01_Fem_ne/0 ;
 xuwakyru+N:xuwakyru N_SUFFIXES_01_Fem_ne/0 ;
 ykyparu+N:ykyparu N_SUFFIXES_01_Fem_ne/0 ;
 ynyrutany+N:ynyrutany N_SUFFIXES_01_Fem_ne/0 ;
-ynyrutanyru+N:ynyrutanyru N_SUFFIXES_01_Fem_ne/0 ;
+ynyrutanyru+N:ynyrutanyru N_SUFFIXES_01_Fem_ne/0 "aunt/tia" ;
 ypakyta+N:ypakyta N_SUFFIXES_01_Fem_ne/0 ;
 yty+N:yty N_SUFFIXES_01_Fem_ne/0 ;
 ỹkywyãtinhi+N:ỹkywyãtinhi N_SUFFIXES_01_Fem_ne/0 ;
