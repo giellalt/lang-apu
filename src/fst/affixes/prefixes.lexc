@@ -19,6 +19,6 @@ LEXICON PERSON_PREFIXES
 LEXICON NV_LEX
 Nouns ;
 Verbs ;
-
+Propernouns ;!checkme
 
 ! vim: set ft=xfst-lexc:
