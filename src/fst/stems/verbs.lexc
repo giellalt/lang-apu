@@ -144,6 +144,8 @@ aminhãkata+V+TV:aminhãkata V_SUFFIXES_01 "TV" ;
 amuenata+V+TV:amuenata V_SUFFIXES_01 "TV" ;
 amuta+V+TV:amuta V_SUFFIXES_01 "TV" ;
 apa+V+TV:apa V_SUFFIXES_01 "TV" ;
+sarawã+v1+V+IV:sarawã V_SUFFIXES_01 "IVplay/brincar" ;
+sarawã+v2+V+IV:sarawa V_SUFFIXES_01 "IVplay/brincar" ;
 sãpirata+V+TV:sãpirata V_SUFFIXES_01 "contar" ;
 napa+V+IV:napa V_SUFFIXES_01 "passar" ;
 natxita+V+IV:natxita V_SUFFIXES_01 "be hungry/estar com fome" ;

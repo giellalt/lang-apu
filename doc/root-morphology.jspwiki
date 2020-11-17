@@ -18,9 +18,10 @@ The Usage extents are marked using following tags:
 The nominals are inflected in the following Case and Number
 
 +Aff  +Aff    affected by action of verb %>nhi
-+All  +All    -munhi allative
++Loc  +Loc    -ã
++Dat  +Dat    -munhi allative
 +Com  +Com    -kata  (Assoc) 
-+Dat	  +Dat	     -mukary
++All	  +All	     -mukary
 
 
 +Msc  +Msc    ywa
@@ -132,6 +133,10 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+
+
+
 
 
 

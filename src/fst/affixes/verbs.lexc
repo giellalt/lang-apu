@@ -91,9 +91,9 @@ LEXICON V_SUFFIXES_02
 @D.PN@ V_SUFFIXES_03 ;
 
 LEXICON V_SUFFIXES_03
-+All:%>munhi    V_SUFFIXES_04   ;!to para
++Dat:%>munhi    V_SUFFIXES_04   ;!to para
 +Com:%>kata    V_SUFFIXES_04   ;!with, +Com in kpv Associative marker
-+Dat:%>mukary    V_SUFFIXES_04   ;!to para
++All:%>mukary    V_SUFFIXES_04   ;!to para
 +Loc:%>ã   V_SUFFIXES_04  ;! both +Loc and +Ins
 +Frustr:%>ma V_SUFFIXES_04  ;!
 +Emph+Frustr:%>pyty%>ma V_SUFFIXES_04  ;!

@@ -43,10 +43,11 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +Sg +Pl
 
  +Aff  !!≈ affected by action of verb %>nhi
- +Nom +Gen +Acc +Ill +Loc
- +All  !!≈ -munhi allative
+ +Nom +Gen +Acc +Ill +Ins
+ +Loc  !!≈ -ã
+ +Dat  !!≈ -munhi allative
  +Com  !!≈ -kata  (Assoc) 
- +Dat	   !!≈ -mukary
+ +All	   !!≈ -mukary
 !!≈	   -ka, -nhi
 
 
@@ -273,6 +274,33 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @R.NounEnding.re2@
 @R.NounEnding.txi@
 @R.NounEnding.Ntxi@
+
+@P.PossD.N-txi@
+@P.PossD.N-Ntxi@
+@P.PossD.N-ry@
+@P.PossD.N-ru@
+@P.PossD.N-0@
+@P.PossD.Y-0@
+@P.PossD.Y-re1@
+@P.PossD.Y-re2@
+@P.PossD.Y-te@
+@P.PossD.Y-ne@
+@P.PossD.Y-re@
+
+@R.PossD.N-txi@
+@R.PossD.N-Ntxi@
+@R.PossD.N-ry@
+@R.PossD.N-ru@
+@R.PossD.N-0@
+@R.PossD.Y-0@
+@R.PossD.Y-re1@
+@R.PossD.Y-re2@
+@R.PossD.Y-te@
+@R.PossD.Y-ne@
+@R.PossD.Y-re@
+@R.PossD@
+
+
 
 @P.VerbDerv.YES@
 @D.VerbDerv@
