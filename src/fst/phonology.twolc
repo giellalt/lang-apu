@@ -20,6 +20,7 @@ Alphabet
 %{hØ%}:0 !
 %{hØ%}:h !
 %{yiØ%}:y !
+%{yiØ%}:ỹ !
 %{yiØ%}:i !
 %{yiØ%}:0 !
 %{ỹĩØ%}:ỹ !
@@ -52,13 +53,14 @@ Sets
 
  Vow = a e i u y ã ẽ ĩ ũ ỹ ;
  Cns = b c d f g h j k l m n p q r s t v w x z ;
+ NCns = m n ;
 
 Definitions
 
 PALCns = [n h | x | t x | t s | t h ] ;
 
 NonPALCns = [n [Vow | Cns - [h]]  | Cns - [x|n|t] | t [Cns - [x | s | h] | Vow ] ] ;
-
+NonPALNonNAS = [ Cns - [x|n|m|t] | t [Cns - [x | s | h] | Vow ] ] ;
 
 Rules
 
@@ -91,10 +93,12 @@ Rules
 
 
 "Realizing %{yiØ%}:y LEFT ARROW"
- %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
+ %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< NonPALNonNAS  ;
+! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
 
 "Realizing %{yiØ%}:y RIGHT ARROW"
- %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
+ %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< NonPALNonNAS  ;
+! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
                _ %< t x a: ;
 
 "Realizing %{yiØ%}:i LEFT ARROW"
@@ -104,27 +108,36 @@ Rules
 
 "Realizing %{yiØ%}:ỹ "
  %{ỹĩØ%}:ỹ <=> h _ %< NonPALCns  ;
+ [n %{hØ%}: | p | # ] _ %< [m|n]  ;
+! Facundes (2000:141) nasalization
 
 "Realizing %{ỹĩØ%}:ĩ "
  %{ỹĩØ%}:ĩ <=> h _ %< PALCns  ;
 
 "non-nasal a"
- %{aã%}:a <=> _ %< Cns  ;
+ %{aã%}:a <=> _ %< [Cns - NCns]  ;
 
 "non-nasal u"
- %{uũ%}:u <=> _ %< Cns  ;
+ %{uũ%}:u <=> _ %< [Cns - NCns]  ;
 
 "nasal ã"
- %{aã%}:ã <=> _ %< Vow  ;
+ %{aã%}:ã <=> _ %< [Vow: |NCns] ;
 
 "nasal ũ"
- %{uũ%}:ũ <=> _ %< Vow  ;
+ %{uũ%}:ũ <=> _ %< [Vow: | NCns ]  ;
 
 "nasalization with -ka passive marker"
 !! __@RULENAME@__
  Vx:Vy <=>  _ %^VowNasL:0 %> ;
-           where Vx in (a e i u)
-                 Vy in (ã ẽ ĩ ũ) matched ;
+           where Vx in (a e u)
+                 Vy in (ã ẽ ũ) matched ;
+
+"nasalization with sg3f"
+!! __@RULENAME@__
+ Vx:Vy <=>  _ %^VowNasL:0 %> ;
+          %{uũ%}:ũ %< _ ;
+           where Vx in (i)
+                 Vy in (ĩ) matched ;
 
 "nasalization with -Ntxi y:ỹ"
 !! __@RULENAME@__
@@ -144,5 +157,5 @@ Rules
 !!€ tsĩi0%>txi
 
 !!TESTS
-!echo 'n {hØ}:0 {yiØ}:y < t a k a > r y' | hfst-pair-test src/phonology/apu-phon.compose.hfst
+!echo 'n {hØ}:0 {yiØ}:y < t a k a > r y' | hfst-pair-test src/fst/phonology.compose.hfst
 !echo 'taka+V+ScSg1+OcSg3M' | hfst-lookup src/morphology/lexicon.hfst

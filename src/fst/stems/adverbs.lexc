@@ -3,10 +3,12 @@
 !! Adverbs in the APURINÃ language describe things.
 
 LEXICON Adverbs
+apaka+Adv:apaka ADV_ "also/também" ;
 apiku+Adv:apiku ADV-SPAT_ "forward" ;
 apiku+Adv+All:apikumunhi ADV-SPAT_ "forward" ;
 inhinhiã+Adv:inhinhiã ADV_ "so" ;
 ikaatuku+Adv:ikaatuku ADV-TEMP_ "so, then" ;
+pakyny+Adv:pakyny ADV_ "more/mais" ;
 natuku+Adv+Interr:natuku ADV_ "how/como" ;
 ĩthepary+Adv+Interr:ĩthepary ADV_ "where/cadê" ;
 nanhikiripa+Adv+Interr:nanhikiripa ADV_ "whence/de onde" ;
@@ -30,6 +32,7 @@ ary+Interj:ary # "yes/sim" ;
 !
 ĩkapanhi+v1+Po:ĩkapanhi # "for/para" ;
 ĩkapanhi+v2+Po:ĩkapane # "for the purpose of/para" ;
+apysa+Po:apysa # "before/antes" ;
 !
 kuna+v1+Pcle+Aux+Neg:kuna # ;
 kuna+v2+Pcle+Aux+Neg:kene # ;

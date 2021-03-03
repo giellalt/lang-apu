@@ -61,9 +61,11 @@ LEXICON V_SUFFIXES_01
 !karuwa-ta-no non-indian+VBLZ+OcSg1
 !0-upũ-pe
   YES/NO_DISTR ;
-+Der+Der/NomAct+N:%^VowRM%>inhi N_SUFFIXES_02 ;!Direct from verb stem 
++Der+Der/NomAct+N:%^VowRM%>inhi N_SUFFIXES_01_Msc ;!Direct from verb stem 
+!+Der+Der/NomAct+N:%^VowRM%>inhi Cases ;!Direct from verb stem to cases 2021-03-02
 !sa%^VowRM%>inhi
-+Impf+Pred:%>panhi%>ka  N_SUFFIXES_02 ;
++Impf+Pred:%>panhi%>ka  V_SUFFIXES_02 ;!2021-03-02 work around for personal endings.
+
 !! aiata+Impf+Pred:__caça/hunting__
 !! aiatapanhika
 ! V_SUFFIXES_02 ; !This may allow all
@@ -182,7 +184,7 @@ LEXICON  VRBLZ
 +Vblz:%>ta YES/NO_HYPOTH ;
 @D.VerbDerv@ YES/NO_HYPOTH ;
 +Vblz+Der+Der/NomAct+N:%>ta%^VowRM%>inhi N_SUFFIXES_02 ;
-+Vblz+Impf+Pred:%>ta%>panhi%>ka  N_SUFFIXES_02 ;
++Vblz+Impf+Pred:%>ta%>panhi%>ka  V_SUFFIXES_02 ;
 !ukatsaã-ta-panhi-ka
 
 LEXICON YES/NO_HYPOTH
@@ -215,7 +217,7 @@ LEXICON YES/NO_HAB
 LEXICON YES/NO_PRED-KA
 +Pred:%>ka V_SUFFIXES_02 ;
  V_SUFFIXES_02 ;
-+Pred+Der+Der/NomAct+N:%>ka%^VowRM%>inhi N_SUFFIXES_02 ;
++Pred+Der+Der/NomAct+N:%>ka%^VowRM%>inhi N_SUFFIXES_01_Msc ; !Direct from verb stem PX required
 
 
 
