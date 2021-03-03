@@ -3,7 +3,7 @@
 !! Verbs in APURINÃ language are actions.
 
 LEXICON Verbs
-txa+V:txa V_SUFFIXES_01 "TV, IV, AUX" ;
+txa+V+Aux:txa V_SUFFIXES_01 "TV, IV, AUX" ;
 aiata+V:aiata V_SUFFIXES_01 "TV hunt" ;
 apuka+v1+V:apuka V_SUFFIXES_01 "TV find" ;
 apuka+v2+V:apu V_SUFFIXES_01 "TV find" ;
@@ -266,7 +266,8 @@ nykata+V+TV:nykata V_SUFFIXES_01 "TV" ;
 nymyrã+V+TV:nymyrã V_SUFFIXES_01 "TV" ;
 nyrupata+V+TV:nyrupata V_SUFFIXES_01 "TV" ;
 nyta+V+TV:nyta V_SUFFIXES_01 "TV" ;
-nytãukyta+V+TV:nytãukyta V_SUFFIXES_01 "TV" ;
+nytãukyta+V+TV:nytãukyta V_SUFFIXES_01 "TV?" ;
+tãukyta+V+TV:tãukyta V_SUFFIXES_01 "TV find/encontrar" ;
 paama+V+TV:paama V_SUFFIXES_01 "TV" ;
 peruãta+V+TV:peruãta V_SUFFIXES_01 "TV" ;
 petemata+V+TV:petemata V_SUFFIXES_01 "TV" ;
@@ -304,7 +305,7 @@ tsutaka+V+TV:tsutaka V_SUFFIXES_01 "TV" ;
 tukary+V+TV:tukary V_SUFFIXES_01 "TV" ;
 tukũakata+V+TV:tukũakata V_SUFFIXES_01 "TV" ;
 tuta+V+TV:tuta V_SUFFIXES_01 "TV" ;
-txa6+V+TV:txa6 V_SUFFIXES_01 "TV" ;
+!txa6+V+TV:txa6 V_SUFFIXES_01 "TV" ;
 txima+V+TV:txima V_SUFFIXES_01 "TV" ;
 txirã+V+TV:txirã V_SUFFIXES_01 "TV" ;
 txirata+V+TV:txirata V_SUFFIXES_01 "TV" ;
@@ -316,6 +317,7 @@ ukatsãta+V+TV:ukatsãta V_SUFFIXES_01 "TV" ;
 umaiãta+V+TV:umaiãta V_SUFFIXES_01 "TV" ;
 umimata+V+TV:umimata V_SUFFIXES_01 "TV" ;
 uwarata+V+TV:uwarata V_SUFFIXES_01 "TV" ;
+erekata+V+TV:erekata V_SUFFIXES_01 "TV prepare, fix/prepapar, arrumar" ;
 wakaka+V+TV:wakaka V_SUFFIXES_01 "TV" ;
 wereka+V+TV:wereka V_SUFFIXES_01 "TV" ;
 xinhika+V+TV:xinhika V_SUFFIXES_01 "TV" ;
