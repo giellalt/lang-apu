@@ -2,10 +2,10 @@
 
 This page documents the work on the **Apurinã language model**. 
 
-<a href="https://giellalt.github.io/MaturityClassification.html"><img src="https://img.shields.io/badge/Maturity-Experiment-black.svg" height="15"/></a>
-<a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/Lic-GPLv3-blue.svg" height="15"/></a>
-<a href="https://github.com/giellalt/lang-apu/issues"><img src="https://img.shields.io/github/issues/giellalt/lang-apu" height="15"/></a>
-<a href="https://github.com/giellalt/lang-apu/actions"><img src="https://github.com/giellalt/lang-apu/workflows/Speller%20CI+CD/badge.svg" height="15"/></a>
+[![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
+[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Issues](https://img.shields.io/github/issues/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/issues)
+[![Build status](https://github.com/giellalt/lang-apu/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-apu/actions)
 
 # Project documentation
 
