@@ -18,9 +18,9 @@
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
  
 
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for @CODE@
 
-!! !!Analysis symbols
+!! ## Analysis symbols
 !  ----------------
 !! The morphological analyses of wordforms for the Apurinã
 !! language are presented in this system in terms of the following symbols.
@@ -120,7 +120,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  +Qst +Foc
 
 
-!! !Tags distinguishing different versions of the same lemma (before POS)
+!! ### Tags distinguishing different versions of the same lemma (before POS)
 +v1   !!≈ * @CODE@
 +v2   !!≈ * @CODE@
 +v3   !!≈ * @CODE@
@@ -185,13 +185,13 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 %{aã%} !!≈
 %{uũ%} !!≈
 
-%^VowRM  !!= __@CODE@__ this will remove stem final vowel
-%^VowNasL !!= __@CODE@__ This will nasalize preceding vowel
+%^VowRM  !!= **@CODE@** this will remove stem final vowel
+%^VowNasL !!= **@CODE@** This will nasalize preceding vowel
 
 !! And following triggers to control variation
  {front} {back}
 
-!! !Symbols that need to be escaped on the lower side (towards twolc):
+!! ### Symbols that need to be escaped on the lower side (towards twolc):
 
  »7     !! * »
  «7     !! * «
@@ -199,33 +199,33 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  %[%<%] !! * < (escaped with square brackets, to avoid collision with < as morpheme boundary)
 
 
-!! !!Flag diacritics
+!! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
 !! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  
 @U.PN.SG1@
 @U.PN.SG2@

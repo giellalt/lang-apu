@@ -31,8 +31,8 @@ Alphabet
 %{aã%}:a !
 %{aã%}:ã !
 
-%^VowRM:0  !!= __@CODE@__ this will remove stem final vowel
-%^VowNasL:0 !!= __@CODE@__ This will nasalize preceding vowel
+%^VowRM:0  !!= **@CODE@** this will remove stem final vowel
+%^VowNasL:0 !!= **@CODE@** This will nasalize preceding vowel
 
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
  »7     ! »
@@ -67,7 +67,7 @@ Rules
 "Deleting %{hØ%}"
   %{hØ%}:0 <=> n _ [%{yiØ%}:y %< NonPALCns | %{yiØ%}:0 %< [Vow - i] ] ;
 
-!! arika+V+ScSg1+Oc3F: __set on fire__
+!! arika+V+ScSg1+Oc3F: **set on fire**
 !!€ n%{hØ%}%{yiØ%}%<arika%>ru
 !!€ n00%<arika%>ru
 !!$ n%{hØ%}%{yiØ%}%<arika%>ru
@@ -81,13 +81,13 @@ Rules
 
 "Deleting stem-final a before NomAct -inhi"
  a:0 <=> _ %^VowRM: %> ;
-!! myteka+V+Der+Der/NomAct+N+Sg+Nom: __running/corrida__ 
+!! myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
 !!€ myteka%^VowRM%>inhi 
 !!€ mytek00%>inhi 
 
 "Realizing %{hØ%}:h "
   %{hØ%}:h <=> n _ [%{yiØ%}:i %< PALCns | %{yiØ%}:0 %< i ] ;
-!! nhika+V+ScSg1+Oc3F: __I ate it(Fem)/__
+!! nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
 !!€ n%{hØ%}%{yiØ%}%<nhika%>ru
 !!€ nhi%<nhika%>ru
 
@@ -127,25 +127,25 @@ Rules
  %{uũ%}:ũ <=> _ %< [Vow: | NCns ]  ;
 
 "nasalization with -ka passive marker"
-!! __@RULENAME@__
+!! **@RULENAME@**
  Vx:Vy <=>  _ %^VowNasL:0 %> ;
            where Vx in (a e u)
                  Vy in (ã ẽ ũ) matched ;
 
 "nasalization with sg3f"
-!! __@RULENAME@__
+!! **@RULENAME@**
  Vx:Vy <=>  _ %^VowNasL:0 %> ;
           %{uũ%}:ũ %< _ ;
            where Vx in (i)
                  Vy in (ĩ) matched ;
 
 "nasalization with -Ntxi y:ỹ"
-!! __@RULENAME@__
+!! **@RULENAME@**
  y:ỹ <=> _ (y:) %^VowNasL:0 %> NonPALCns ; 
 
 
 "nasalization with -Ntxi y:ĩ"
-!! __@RULENAME@__
+!! **@RULENAME@**
  y:ĩ <=>
  Cns _ %^VowNasL:0 %> PALCns ; 
   _ y: %^VowNasL:0 %> PALCns ; 

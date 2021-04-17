@@ -66,7 +66,7 @@ LEXICON V_SUFFIXES_01
 !sa%^VowRM%>inhi
 +Impf+Pred:%>panhi%>ka  V_SUFFIXES_02 ;!2021-03-02 work around for personal endings.
 
-!! aiata+Impf+Pred:__caça/hunting__
+!! aiata+Impf+Pred:**caça/hunting**
 !! aiatapanhika
 ! V_SUFFIXES_02 ; !This may allow all
 +Der+Der/NomAct+N:%^VowRM%>inhi N_SUFFIXES_02 ;
