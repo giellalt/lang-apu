@@ -3,9 +3,11 @@
 !! Pronouns in the Apurinã language are references to things.
 
 LEXICON Pronouns
-kiripa+Pron+Interr+Msc:kiripa PRON_INTERR "who" ;
-kiripa+Pron+Interr+Msc:kerypa PRON_INTERR "who" ;
+kiripa+v1+Pron+Interr+Msc:kiripa PRON_INTERR "who" ;
+kiripa+v2+Pron+Interr+Msc:kerypa PRON_INTERR "who" ;
 kiripa+Pron+Interr+Fem:kerupa PRON_INTERR "who" ;!checkme
 ykynypuku+Pron:ykynypuku PRON_TOT "everything" ;
+ykynymane+Pron:ykynymane PRON_TOT "everybody" ;
+
 
 ! vim: set ft=xfst-lexc:

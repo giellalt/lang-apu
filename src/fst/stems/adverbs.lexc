@@ -8,6 +8,13 @@ apiku+Adv:apiku ADV-SPAT_ "forward" ;
 apiku+Adv+All:apikumunhi ADV-SPAT_ "forward" ;
 inhinhiã+Adv:inhinhiã ADV_ "so" ;
 ikaatuku+Adv:ikaatuku ADV-TEMP_ "so, then" ;
+kitxakapirĩka+Adv:kitxakapirĩka ADV-TEMP_ "in the olden days" ;
+ywasaaky+Adv:ywasaaky ADV-TEMP_ "at that time" ;
+
+kaiãupuku+Adv:kaiãupuku ADV_ "a lot; many" ;
+puiãuka+Adv:puiãuka ADV_ "little; a few" ;
+puiãũpuku+Adv:puiãũpuku ADV_ "little; a few" ;
+puiaũnuka+Adv:puiaũnuka ADV_ "only little; only a few" ;
 pakyny+Adv:pakyny ADV_ "more/mais" ;
 natuku+Adv+Interr:natuku ADV_ "how/como" ;
 ĩthepary+Adv+Interr:ĩthepary ADV_ "where/cadê" ;

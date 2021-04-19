@@ -30,10 +30,18 @@ LEXICON N_SUFFIXES_01_Msc_te/0
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
 @P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_Msc_re/0
+@P.PossD.Y-re@+Msc:@P.PossD.Y-re@	N_SUFFIXES_02 ;
+@P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
+
 LEXICON N_SUFFIXES_01_Msc_ne-te/0
 @P.PossD.Y-ne@+Msc:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
 @P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Fem_re/0
+@P.PossD.Y-re@+Fem:@P.PossD.Y-re@ N_SUFFIXES_02 ;
+@P.PossD.N-0@+Fem:@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem-ru_te/0
 @P.PossD.Y-te@+Fem:@P.PossD.Y-te@	N_SUFFIXES_02 ;
