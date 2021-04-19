@@ -3,9 +3,14 @@
 !! Numerals in the Apurinã language are numbers.
 
 LEXICON Numerals
-epi+v1+Num:epi Cases ; ! 2
-epi+v2+Num:ipi Cases ; ! 2
+epi+v1:epi Numerals_2/3 ; ! 2
+epi+v2:ipi Numerals_2/3 ; ! 2
 hãty+Num+Msc:hãty    Cases   ; ! 1
 hãty+Num+Fem:hãtu    Cases   ; ! 1
+
+LEXICON Numerals_2/3
+hãty+Num+Msc:-hãty    Cases   ; ! -1
+hãty+Num+Fem:-hãtu    Cases   ; ! -1
++Num: Case ;
 
 ! vim: set ft=xfst-lexc:

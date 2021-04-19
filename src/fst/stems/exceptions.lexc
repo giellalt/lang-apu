@@ -1,0 +1,29 @@
+!! Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+!! else. This file contains all enumerated word forms that cannot reasonably be
+!! created from lexical data by regular inflection. Usually there should be next
+!! to none exceptions, it's always better to have a paradigm that covers only
+!! one or few words than an exception since these will not work nicely with e.g.
+!! compounding scheme or possibly many end applications.
+
+LEXICON EXCEPTIONS
+
+! Plural work needed in nouns
+atukyritxi+N+Msc+Pl:atukyrywakurinhi # "grandfather/avô"; !grandfather.in-PL-M-AFET
+sytu+N+Fem+Pl+Nom:sytuwakuru # ; !N_SUFFIXES_01_Fem_ne/0 
+pupỹkary+N+Msc+Pl+Nom:pupỹkarywakury # ; !N_SUFFIXES_01_Msc
+pupỹkary+N+Msc+Pl+Nom:pupỹkarynyry # ; ! united
+
+kamỹyry+N+Msc+Pl+Nom:kamỹyrywakury # "Macaw clan" ; ! N_SUFFIXES_01_Fem_ne/0 ;
+pyra+N+Msc+Pl+Nom+PxSg1:nypyrawakury # ;
+pathery+N+Msc+Pl+Nom:patherywakury # ;
+
+
+! Verbs
+kama+V+Loc+ScPl3F:ukamaãne # ; !
+
+!atuku
+karywa+N+Msc+Sg+Nom:karywa # ; !
+
+
+
+! vim: set ft=xfst-lexc:

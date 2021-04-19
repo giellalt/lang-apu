@@ -5,6 +5,9 @@
 LEXICON Nouns
 hãkiti+v1+N:hãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
 hãkiti+v2+N:ãkiti N_SUFFIXES_01_Msc "jaguar/onça" ;
+ãkitiwakury+N:ãkitiwakury N_SUFFIXES_01_Msc ;
+ãkitiyãkyry+N:ãkitiyãkyry N_SUFFIXES_01_Msc ;
+hãkiti-waku+N:hãkiti-waku N_SUFFIXES_01_Msc ;
 
 amaru+N:amaru N_SUFFIXES_01_Fem-ru_te/0 "girl/menina" ;
 amary+N:amary N_SUFFIXES_01_Msc-ry_te/0 "boy/menino" ;
@@ -75,7 +78,8 @@ nyrymanetxi+v1+N:nyrymane N_SUFFIXES_01_Msc_0/txi "relative/parente" ; !The non-
 nyrymanetxi+v2+N:nyrymany N_SUFFIXES_01_Msc_0/txi "relative/parente" ;
 
 
-sytu+N:sytu N_SUFFIXES_01_Fem_0/NULL "woman Fem_re/0?" ;
+sytu+N:sytu N_SUFFIXES_01_Fem_re/0 "woman Fem_re/0?" ;! N_SUFFIXES_01_Fem_0/NULL
+
 
 ximaky+N:ximaky N_SUFFIXES_01_Msc_te/0 "fish/peixe" ;
 
@@ -91,6 +95,9 @@ pirikery+N:pirike N_SUFFIXES_01_Msc_re2/ry "wall/parede" ;
 xikary+N:xika N_SUFFIXES_01_Msc_re2/ry "canção, canto" ;
 kutary+N:kuta N_SUFFIXES_01_Msc_re2/ry "cesta" ;
 hãpukyry+N:hãpuky N_SUFFIXES_01_Msc_re2/ry "flauta" ;
+apỹkyry+N:apỹkyry N_SUFFIXES_01_Msc_te/0 "urucum" ;
+ãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_te/0 "tipo de flauta2" ;
+ãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_ne/0 "tipo de flauta2" ;
 ikiianary+N:ikiiana N_SUFFIXES_01_Msc_re2/ry "veneno" ;
 iãry+N:iã N_SUFFIXES_01_Msc_re2/ry "juice/xsuco" ;
 kawyry+N:kawy N_SUFFIXES_01_Msc_re2/ry "pupunha" ;
@@ -198,7 +205,8 @@ neenamatxi+N:neenama N_SUFFIXES_01_Msc_0/txi "briga, valentia" ;
 
 
 
-ĩparãa+N:ĩparãa N_SUFFIXES_01_Msc_te/0 "água" ;
+ĩparãa+v1+N:ĩparãa N_SUFFIXES_01_Msc_te/0 "água" ;
+ĩparãa+v2+N:ipara N_SUFFIXES_01_Msc_te/0 "água" ;
 sutuãry+N:sutuãry N_SUFFIXES_01_Msc_te/0 "igarapé" ;
 kysy+N:kysy N_SUFFIXES_01_Msc_te/0 "arco-íris" ;
 ĩtima+N:ĩtima N_SUFFIXES_01_Msc_te/0 "vento" ;
@@ -217,7 +225,6 @@ tukury+N:tukury N_SUFFIXES_01_Msc_te/0 "roçado2" ;
 kimi+Hom1+N:kimi N_SUFFIXES_01_Msc_te/0 "milho" ;
 kimi+Hom1+N:kimi N_SUFFIXES_01_Msc_ne/0 "milho" ;
 kimi+Hom2+N:kimi N_SUFFIXES_01_Msc_re/0 "assado (na brasa)" ;
-apỹkyry+N:apỹkyry N_SUFFIXES_01_Msc_te/0 "urucum" ;
 puriti+N:puriti N_SUFFIXES_01_Msc_te/0 "pimenta" ;
 awiri+N:awiri N_SUFFIXES_01_Msc_te/0 "rapé" ;
 kumyry+N:kumyry N_SUFFIXES_01_Msc_te/0 "mandioca" ;
@@ -297,7 +304,6 @@ xamynaky+N:xamynaky N_SUFFIXES_01_Msc_te/0 "shotgun/espingarda" ;
 xamynakypanhi+N:xamynakypanhi N_SUFFIXES_01_Msc_te/0 "gunpowder/pólvora1" ;
 xãmynakypa+N:xãmynakypa N_SUFFIXES_01_Msc_te/0 "cartucho1" ;
 duryky+N:duryky N_SUFFIXES_01_Msc_te/0 "tipo de flauta1" ;
-ãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_te/0 "tipo de flauta2" ;
 kaxaxã+N:kaxaxã N_SUFFIXES_01_Msc_te/0 "cachaça4" ;
 parĩa+N:parĩa N_SUFFIXES_01_Msc_te/0 "farinha2" ;
 kanawa+N:kanawa N_SUFFIXES_01_Msc_te/0 "canoa" ;
@@ -365,7 +371,6 @@ kutary+N:kutary N_SUFFIXES_01_Msc_ne/0 "cesta de palha2" ;
 kitai+N:kitai N_SUFFIXES_01_Msc_ne/0 "machado" ;
 xãmynakypa+N:xãmynakypa N_SUFFIXES_01_Msc_ne/0 "cartucho1" ;
 duryky+N:duryky N_SUFFIXES_01_Msc_ne/0 "tipo de flauta1" ;
-ãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_ne/0 "tipo de flauta2" ;
 tapaku+N:tapaku N_SUFFIXES_01_Msc_ne/0 "tabaco" ;
 parĩa+N:parĩa N_SUFFIXES_01_Msc_ne/0 "farinha2" ;
 sãpuwa+N:sãpuwa N_SUFFIXES_01_Msc_ne/0 "sabão" ;
@@ -438,8 +443,6 @@ aiuty+N:aiuty N_SUFFIXES_01_Msc ;
 ãkaiary+N:ãkaiary N_SUFFIXES_01_Msc ;
 akawary+N:akawary N_SUFFIXES_01_Msc ;
 ãkiri+N:ãkiri N_SUFFIXES_01_Msc "" ;
-ãkitiwakury+N:ãkitiwakury N_SUFFIXES_01_Msc ;
-ãkitiyãkyry+N:ãkitiyãkyry N_SUFFIXES_01_Msc ;
 ãkutsa+N:ãkutsa N_SUFFIXES_01_Msc ;
 ãkypatxi+N:ãkypatxi N_SUFFIXES_01_Msc ;
 akytsaru+N:akytsaru N_SUFFIXES_01_Msc ;
@@ -499,7 +502,6 @@ etsypyry+N:etsypyry N_SUFFIXES_01_Msc ;
 ẽpirikanany+N:ẽpirikanany N_SUFFIXES_01_Msc ;
 hãkery+N:hãkery N_SUFFIXES_01_Msc ;
 hãketi+N:hãketi N_SUFFIXES_01_Msc ;
-hãkiti-waku+N:hãkiti-waku N_SUFFIXES_01_Msc ;
 hanawakuri+N:hanawakuri N_SUFFIXES_01_Msc ;
 hãtakury+N:hãtakury N_SUFFIXES_01_Msc ;
 iãkakury+N:iãkakury N_SUFFIXES_01_Msc ;
@@ -1581,7 +1583,6 @@ surũty+N:surũty N_SUFFIXES_01_Fem_ne/0 ;
 sỹpyry+N:sỹpyry N_SUFFIXES_01_Fem_ne/0 ;
 sỹpyrymaĩta+N:sỹpyrymaĩta N_SUFFIXES_01_Fem_ne/0 ;
 syrỹky+N:syrỹky N_SUFFIXES_01_Fem_ne/0 ;
-sytuwakuru+N:sytuwakuru N_SUFFIXES_01_Fem_ne/0 ;
 tãe+N:tãe N_SUFFIXES_01_Fem_ne/0 ;
 taia+N:taia N_SUFFIXES_01_Fem_ne/0 ;
 tamakureru+N:tamakureru N_SUFFIXES_01_Fem_ne/0 ;
