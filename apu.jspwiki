@@ -1,0 +1,167 @@
+!!!Free and Open source Apurinã analyser giella-apu
+
+;Authors: Divvun and Giellatekno teams, community members
+;Software version: 2012
+;Documentation license: GNU GFDL
+;SVN Revision: $Revision: 68217 $
+;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
+
+!!!giella-apu
+
+This is free and open source Apurinã morphology.
+
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
+
+
+ !!!Definitions for Multichar_Symbols
+
+!!Analysis symbols
+The morphological analyses of wordforms for the Apurinã
+language are presented in this system in terms of the following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+The parts-of-speech are:
+
+The parts of speech are further split up into:
+
+The Usage extents are marked using following tags:
+
+The nominals are inflected in the following Case and Number
+
++Aff  +Aff    affected by action of verb %>nhi
++Loc  +Loc    -ã
++Dat  +Dat    -munhi allative
++Com  +Com    -kata  (Assoc) 
++All	  +All	     -mukary
+
+
++Msc  +Msc    ywa
+
+Possession is marked as such:
++NPossd  +NPossd    not possessed
+The comparative forms are:
+Numerals are classified under:
+Verb moods are:
+Verb personal forms are:
+
+Other verb forms are
+ +Relzr-Subj   relativizer with subject reference
+ +Relzr-Obj    relativizer with object reference
+
+ +Impf        IPFTV
+ +Perf        PFTV perfective -pe
+
+
+ +Pss	       passivizer -~ka
+ * +Pred = ka
+ * +Frustr = ma: awa-pyty-ka-ma
+ * +Emph	 = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
+
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+Special symbols are classified with:
+The verbs are syntactically split according to transitivity:
+Special multiword units are analysed with:
+Non-dictionary words can be recognised with:
+
+Question and Focus particles:
+
+
+!Tags distinguishing different versions of the same lemma (before POS)
+ * +v1
+ * +v2
+ * +v3
+ * +v4
+ * +v5
+ * +v6
+ * +v7
+ * +v8
+ * +v9
+ * +v10
+ * +v11
+ * +v12
+ * +v13
+ * +v14
+ * +v15
+ * +v16
+ * +v17
+ * +v18
+ * +v19
+ * +v20
+ * +v21
+ * +v22
+ * +v23
+ * +v24
+
+Semantics are classified with
+
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+Morphophonology
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+%{hØ%} %{hØ%}   
+
+ __%^VowRM  __ this will remove stem final vowel
+ __%^VowNasL __ This will nasalize preceding vowel
+
+And following triggers to control variation
+
+!Symbols that need to be escaped on the lower side (towards twolc):
+
+* »
+* «
+* > (escaped with square brackets, to avoid collision with > as morpheme boundary)
+* < (escaped with square brackets, to avoid collision with < as morpheme boundary)
+
+
+!!Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+ | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ | @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+ | @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+ | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+ | @P.CmpPref.FALSE@ | Block these words from making further compounds
+ | @D.CmpLast.TRUE@ | Block such words from entering R
+ | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+ | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+ | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+ | @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+ | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+ | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The word forms in Apurinã language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+
+
+
