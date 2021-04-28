@@ -21,7 +21,7 @@ The nominals are inflected in the following Case and Number
 +Loc  +Loc    -ã
 +Dat  +Dat    -munhi allative
 +Com  +Com    -kata  (Assoc) 
-+All	  +All	     -mukary
++All  +All	     -mukary
 
 
 +Msc  +Msc    ywa
@@ -32,10 +32,12 @@ The comparative forms are:
 Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
++Vido  +Vido    object formed intransitive descriptive
++Vids  +Vids    subject formed intransitive descriptive
 
 Other verb forms are
- +Relzr-Subj   relativizer with subject reference
- +Relzr-Obj    relativizer with object reference
+ +Relzr-Subj   relativizer with subject reference kary/karu
+ +Relzr-Obj    relativizer with object reference kyty/kytu
 
  +Impf        IPFTV
  +Perf        PFTV perfective -pe
@@ -44,7 +46,7 @@ Other verb forms are
  +Pss	       passivizer -~ka
  * +Pred = ka
  * +Frustr = ma: awa-pyty-ka-ma
- * +Emph	 = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
+ * +Emph = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
 
  * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
