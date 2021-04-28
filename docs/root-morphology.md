@@ -32,10 +32,12 @@ The comparative forms are:
 Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
++Vido  +Vido    object formed intransitive descriptive
++Vids  +Vids    subject formed intransitive descriptive
 
 Other verb forms are
- +Relzr-Subj   relativizer with subject reference
- +Relzr-Obj    relativizer with object reference
+ +Relzr-Subj   relativizer with subject reference kary/karu
+ +Relzr-Obj    relativizer with object reference kyty/kytu
 
  +Impf        IPFTV
  +Perf        PFTV perfective -pe
