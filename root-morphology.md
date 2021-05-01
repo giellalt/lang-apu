@@ -21,7 +21,7 @@ The nominals are inflected in the following Case and Number
 +Loc  +Loc    -ã
 +Dat  +Dat    -munhi allative
 +Com  +Com    -kata  (Assoc) 
-+All  +All	     -mukary
++All	  +All	     -mukary
 
 
 +Msc  +Msc    ywa
@@ -46,7 +46,7 @@ Other verb forms are
  +Pss	       passivizer -~ka
  * +Pred = ka
  * +Frustr = ma: awa-pyty-ka-ma
- * +Emph = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
+ * +Emph	 = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
 
  * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:

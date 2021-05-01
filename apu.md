@@ -1,3 +1,204 @@
+Noun inflection
+The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suffixes
+
+
+
+Proper noun inflection
+The Apurinã language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+
+
+Prefixes
+Prefixes in the Apurinã language are bound to beginning of other words.
+
+
+
+
+
+Noun inflection
+The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adverb inflection
+The APURINÃ language adverbs compare.
+
+
+
+
+
+Adjective inflection
+The Apurinã language adjectives compare.
+
+
+
+Verb inflection
+Prefixes
+
+
+
+
+
+Suffixes
+
+
+
+
+
+
+
+aiata+Impf+Pred:**caça/hunting**
+aiatapanhika
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================================== !
+The Apurinã morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+ **%^VowRM:0  ** this will remove stem final vowel
+ **%^VowNasL:0 ** This will nasalize preceding vowel
+
+
+
+
+
+
+
+
+
+
+
+
+arika+V+ScSg1+Oc3F: **set on fire**
+* *n%{hØ%}%{yiØ%}%<arika%>ru*
+* *n00%<arika%>ru*
+* ★*n%{hØ%}%{yiØ%}%<arika%>ru* (is not standard language)
+* ★*nh0%<arika%>ru* (is not standard language)
+nyrymanetxi+N+Msc+Sg+PxSg1+Possd:
+n{hØ%}{yiØ}<nyrymane
+n0y<nyrymane
+
+
+
+myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
+* *myteka%^VowRM%>inhi*
+* *mytek00%>inhi*
+
+nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
+* *n%{hØ%}%{yiØ%}%<nhika%>ru*
+* *nhi%<nhika%>ru*
+
+
+
+
+
+
+
+
+
+
+
+**nasalization with -ka passive marker**
+
+**nasalization with sg3f**
+
+**nasalization with -Ntxi y:ỹ**
+
+
+**nasalization with -Ntxi y:ĩ**
+* *kywy%^VowNasL%>txi*
+* *kywĩ0%>txi*
+* *tsyy%^VowNasL%>txi*
+* *tsĩi0%>txi*
+
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
 
@@ -21,7 +222,7 @@ The nominals are inflected in the following Case and Number
 +Loc  +Loc    -ã
 +Dat  +Dat    -munhi allative
 +Com  +Com    -kata  (Assoc) 
-+All  +All	     -mukary
++All	  +All	     -mukary
 
 
 +Msc  +Msc    ywa
@@ -46,7 +247,7 @@ Other verb forms are
  +Pss	       passivizer -~ka
  * +Pred = ka
  * +Frustr = ma: awa-pyty-ka-ma
- * +Emph = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
+ * +Emph	 = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
 
  * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
@@ -155,6 +356,156 @@ The word forms in Apurinã language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 
+
+Nouns
+Nouns in the Apurinã language are things.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+These need further classification 2020-05-10
+
+
+Proper nouns
+Proper nouns in the Apurinã language are People and places.
+
+
+
+
+Pronouns
+Pronouns in the Apurinã language are references to things.
+
+
+
+Adverbs
+Adverbs in the APURINÃ language describe things.
+
+
+
+
+Adjectives
+Adjectives in the Apurinã language describe things.
+
+
+Verbs
+Verbs in APURINÃ language are actions.
+
+
+More test verbs 2020-05-10
+
+
+
+
+
+
+
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+
+
+
+
+
+
+
+Numerals
+Numerals in the Apurinã language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 

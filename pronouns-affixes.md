@@ -1,0 +1,12 @@
+Noun inflection
+The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
