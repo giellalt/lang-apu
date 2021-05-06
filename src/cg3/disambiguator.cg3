@@ -63,6 +63,11 @@ LIST Def = Def ;
 LIST Indef = Indef ;
 LIST Cmp = Cmp ;
 LIST Superl = Superl ;
+LIST Oc3F = Oc3F ;
+LIST Sc3F = Sc3F ;
+LIST Vido = Vido ;
+LIST Vids = Vids ;
+
 LIST Prs = Prs ;
 LIST Prt = Prt ;
 LIST PxSg1 = PxSg1 ;
@@ -266,6 +271,10 @@ LIST BAREPLURALS = "barn" "fólk" "bygdafólk" "konufólk" ;
 
 SECTION
 
+#
+SUBSTITUTE:Vido (Vido Oc3F) (Vido Sc3F) TARGET (V IV) ;
+
+##
 
 REMOVE Guess ; # If any other reading is possible.
 
