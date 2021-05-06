@@ -68,7 +68,7 @@ ienamãatxi+N+Sem/Body:ienamãa N_SUFFIXES_01_Msc_0/txi "saliva" ;!ienamãa-txi
 !tsyrỹy+N+Sem/Body:tsyrỹy N_SUFFIXES_01_Msc_0/Ntxi "tooth (should this be long or short?) / dente" ;tsyrĩ-txi
 !kaipẽ+N+Sem/Body:kaipẽ  "sêmen (?derivation -pe-ã)" ;kaĩ-txi
 
-yritxi+N:yry N_SUFFIXES_01_Msc_0/txi "father/pai" ;
+yritxi+N:yry N_SUFFIXES_01_Msc_0/Y2Itxi "father/pai" ;
 
 ynyrutxi+N:ynyru N_SUFFIXES_01_Fem_0/txi "mother/mãe" ;
 atukyritxi+N:atukyry N_SUFFIXES_01_Msc_0/txi "grandfather/avô" ;

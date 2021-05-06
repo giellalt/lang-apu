@@ -11,49 +11,49 @@
 
 LEXICON N_SUFFIXES_01_Fem_ne/0
 @P.PossD.Y-ne@+Fem:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Fem:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem_ne/txi
 @P.PossD.Y-ne@+Fem:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
-@P.PossD.N-txi@+Fem:@P.PossD.N-txi@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-txi@+Fem:@U.PossD-Y.Off@@P.PossD.N-txi@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem_te/0
 @P.PossD.Y-te@+Fem:@P.PossD.Y-te@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Fem:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem_ne-te/0
 @P.PossD.Y-ne@+Fem:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
 @P.PossD.Y-te@+Fem:@P.PossD.Y-te@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Fem:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_te/0
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_re/0
 @P.PossD.Y-re@+Msc:@P.PossD.Y-re@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_ne-te/0
 @P.PossD.Y-ne@+Msc:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem_re/0
 @P.PossD.Y-re@+Fem:@P.PossD.Y-re@ N_SUFFIXES_02 ;
-@P.PossD.N-0@+Fem:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem-ru_te/0
 @P.PossD.Y-te@+Fem:@P.PossD.Y-te@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Fem:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc-ry_te/0
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_re2/ry
 @P.PossD.Y-re2@+Msc:@P.PossD.Y-re2@ N_SUFFIXES_02 ;
-@P.PossD.N-ry@+Msc:@P.PossD.N-ry@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-ry@+Msc:@U.PossD-Y.Off@@P.PossD.N-ry@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem_UNDET
 N_SUFFIXES_01_Fem_0/NULL ;
@@ -62,40 +62,62 @@ LEXICON N_SUFFIXES_01_Msc_UNDET
 
 LEXICON N_SUFFIXES_01_Msc ! THIS IS FOR DEVELOPMENT Work2020-11-17
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@	N_SUFFIXES_02 ;
-@P.PossD.N-0@+Msc:@P.PossD.N-0@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_0/txi ! e.g. clothes marked -txi when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
-@P.PossD.N-txi@+Msc:@P.PossD.N-txi@ N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-txi@+Msc:@U.PossD-Y.Off@@P.PossD.N-txi@ N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem_0/txi ! e.g. clothes marked -txi when not possessed
 @P.PossD.Y-0@+Fem:@P.PossD.Y-0@ N_SUFFIXES_02 ;
-@P.PossD.N-txi@+Fem:@P.PossD.N-txi@ N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-txi@+Fem:@U.PossD-Y.Off@@P.PossD.N-txi@ N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_0/Ntxi ! clothes marked when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
-@P.PossD.N-Ntxi@+Msc:@P.PossD.N-Ntxi@ N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-Ntxi@+Msc:@U.PossD-Y.Off@@P.PossD.N-Ntxi@ N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Msc_0/Y2Itxi ! clothes marked when not possessed
+@P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-Y2Itxi@+Msc:@U.PossD-Y.Off@@P.PossD.N-Y2Itxi@ N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_Fem_0/Y2Itxi ! clothes marked when not possessed
+@P.PossD.Y-0@+Fem:@P.PossD.Y-0@ N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-Y2Itxi@+Fem:@U.PossD-Y.Off@@P.PossD.N-Y2Itxi@ N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_0/txi-Ntxi ! clothes marked when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
-@P.PossD.N-txi@+Msc:@P.PossD.N-txi@ N_SUFFIXES_02 ;
-@P.PossD.N-Ntxi@+Msc:@P.PossD.N-Ntxi@ N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-txi@+Msc:@U.PossD-Y.Off@@P.PossD.N-txi@ N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-Ntxi@+Msc:@U.PossD-Y.Off@@P.PossD.N-Ntxi@ N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Msc_0/NULL !yry father always possessed. inalienable FIXME
-+Msc:   N_SUFFIXES_02 ;
+@P.PossD.Y-0@+Msc:@P.PossD.Y-0@   N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-txi@+Msc:@U.PossD-Y.Off@@P.PossD.N-txi@ N_SUFFIXES_02 ;
+!+Msc: N_SUFFIXES_02 ;
 
 LEXICON N_SUFFIXES_01_Fem_0/NULL !ynyru mother always possessed. inalienable FIXME
 !check for morphology between yny AND ru
-+Fem:   N_SUFFIXES_02 ;
+@P.PossD.Y-0@+Fem:@P.PossD.Y-0@  N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-txi@+Fem:@U.PossD-Y.Off@@P.PossD.N-txi@ N_SUFFIXES_02 ;
+!+Fem: N_SUFFIXES_02 ;
+
+LEXICON Cases-PRE_POSSD !ka-x-Possd->
+ Cases ;
+@R.PossD-Y.On@+Prp+Vido:@R.PossD-Y.On@ V_SUFFIXES_01 ;
+LEXICON Cases-PRE_NPOSSD !-x-NPossd->
+ Cases ;
+@R.PossD-Y.Off@+Cap+Vido:@R.PossD-Y.Off@ V_SUFFIXES_01 ;
 
 LEXICON Cases
 +Nom:0     #   ;
 !+N+Pl+Nom:i     #   ;
 +Aff:%>nhi # ; ! affected by the event described in the verb
-+Dat:%>munhi    #   ;!to para
-+Com:%>kata    #   ;!with, +Com in kpv Associative marker
 +All:%>mukary    #   ;!to para
-+Loc:%>ã   #   ;! both +Loc and +Ins
++Cau:%>xika # ; ! 
++Com:%>kata    #   ;!with, +Com in kpv Associative marker
++Dat:%>munhi    #   ;!to para
++Loc:%>ã   #   ;! both +Loc and +Ins locativo/instrumental
++Prx:%>takute # ;!Formativo usado para indicar “próximo a” ou “próximo” ao referente do nome ou do pronome ao qual ele ocorre associado.
+
 
 !#:0   Nouns   ;
 
@@ -127,17 +149,18 @@ LEXICON N_SUFFIXES_03
 !@R.PossD.Y-ne@ N_SUFFIXES_03_ne/txi ;
 
 LEXICON N_SUFFIXES_03_POSSD/NPOSSD
-@R.PossD.Y-0@+Possd:@R.PossD.Y-0@ Cases ;
-@R.PossD.Y-te@+Possd:@R.PossD.Y-te@%>te Cases ;
-@R.PossD.Y-ne@+Possd:@R.PossD.Y-ne@%>ne Cases ;
-@R.PossD.Y-re@+Possd:@R.PossD.Y-re@%>re Cases ;
-@R.PossD.Y-re1@+Possd:@R.PossD.Y-re1@%>re Cases ;
-@R.PossD.Y-re2@+Possd:@R.PossD.Y-re2@%>re Cases ;
-@D.PN@@R.PossD.N-txi@+NPossd:@D.PN@@R.PossD.N-txi@%>txi Cases ;
-@D.PN@@R.PossD.N-Ntxi@+NPossd:@D.PN@@R.PossD.N-Ntxi@%^VowNasL%>txi Cases ;
-@D.PN@@R.PossD.N-ry@+NPossd:@D.PN@@R.PossD.N-ry@%>ry Cases ;
-@D.PN@@R.PossD.N-ru@+NPossd:@D.PN@@R.PossD.N-ru@%>ru Cases ;
-@D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ Cases ;
+@R.PossD.Y-0@+Possd:@R.PossD.Y-0@ Cases-PRE_POSSD ;
+@R.PossD.Y-te@+Possd:@R.PossD.Y-te@%>te Cases-PRE_POSSD ;
+@R.PossD.Y-ne@+Possd:@R.PossD.Y-ne@%>ne Cases-PRE_POSSD ;
+@R.PossD.Y-re@+Possd:@R.PossD.Y-re@%>re Cases-PRE_POSSD ;
+@R.PossD.Y-re1@+Possd:@R.PossD.Y-re1@%>re Cases-PRE_POSSD ;
+@R.PossD.Y-re2@+Possd:@R.PossD.Y-re2@%>re Cases-PRE_POSSD ;
+@D.PN@@R.PossD.N-txi@+NPossd:@D.PN@@R.PossD.N-txi@%>txi Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-Y2Itxi@+NPossd:@D.PN@@R.PossD.N-Y2Itxi@%^VowY2I%>txi Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-Ntxi@+NPossd:@D.PN@@R.PossD.N-Ntxi@%^VowNasL%>txi Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-ry@+NPossd:@D.PN@@R.PossD.N-ry@%>ry Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-ru@+NPossd:@D.PN@@R.PossD.N-ru@%>ru Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ Cases-PRE_NPOSSD ;
 @R.PossD.N-0@+Possd:@R.PossD.N-0@ Cases ; !-inhi gerunds
 
 LEXICON N_SUFFIXES_03_re2/ry !CHECKME 2020-08-22
