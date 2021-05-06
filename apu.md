@@ -1,5 +1,9 @@
-Noun inflection
-The APURINÃ language nouns inflect in cases.
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
 
 
 
@@ -9,6 +13,8 @@ The APURINÃ language nouns inflect in cases.
 
 
 
+Nouns
+Nouns in the Apurinã language are things.
 
 
 
@@ -36,99 +42,55 @@ The APURINÃ language nouns inflect in cases.
 
 
 
-Suffixes
 
 
 
-Proper noun inflection
-The Apurinã language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
 
 
 
 
 
 
-Prefixes
-Prefixes in the Apurinã language are bound to beginning of other words.
 
 
+These need further classification 2020-05-10
 
 
+Numerals
+Numerals in the Apurinã language are numbers.
 
-Noun inflection
-The APURINÃ language nouns inflect in cases.
 
 
+Adverbs
+Adverbs in the APURINÃ language describe things.
 
 
 
 
+Proper nouns
+Proper nouns in the Apurinã language are People and places.
 
 
 
 
+Verbs
+Verbs in APURINÃ language are actions.
 
-# Symbol affixes
 
+More test verbs 2020-05-10
 
 
 
 
-Adverb inflection
-The APURINÃ language adverbs compare.
 
 
 
+Adjectives
+Adjectives in the Apurinã language describe things.
 
 
-Adjective inflection
-The Apurinã language adjectives compare.
-
-
-
-Verb inflection
-Prefixes
-
-
-
-
-
-Suffixes
-
-
-
-
-
-
-
-aiata+Impf+Pred:**caça/hunting**
-aiatapanhika
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Pronouns
+Pronouns in the Apurinã language are references to things.
 
 
 
@@ -198,6 +160,140 @@ nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
 * *kywĩ0%>txi*
 * *tsyy%^VowNasL%>txi*
 * *tsĩi0%>txi*
+
+
+# Symbol affixes
+
+
+
+
+
+Noun inflection
+The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suffixes
+
+
+
+Adverb inflection
+The APURINÃ language adverbs compare.
+
+
+
+
+
+Proper noun inflection
+The Apurinã language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+
+
+Verb inflection
+Prefixes
+
+
+
+
+
+Suffixes
+
+
+
+
+
+
+
+aiata+Impf+Pred:**caça/hunting**
+aiatapanhika
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prefixes
+Prefixes in the Apurinã language are bound to beginning of other words.
+
+
+
+
+
+Adjective inflection
+The Apurinã language adjectives compare.
+
+
+
+Noun inflection
+The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
@@ -357,100 +453,20 @@ word classes, or optionally from prefixes:
 
 
 
-Nouns
-Nouns in the Apurinã language are things.
 
 
 
+We describe here how abbreviations are in Apurinã are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-These need further classification 2020-05-10
-
-
-Proper nouns
-Proper nouns in the Apurinã language are People and places.
-
-
-
-
-Pronouns
-Pronouns in the Apurinã language are references to things.
-
-
-
-Adverbs
-Adverbs in the APURINÃ language describe things.
-
-
-
-
-Adjectives
-Adjectives in the Apurinã language describe things.
-
-
-Verbs
-Verbs in APURINÃ language are actions.
-
-
-More test verbs 2020-05-10
-
-
-
-
-
-
-
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-
-
-
-
-
-
-
-Numerals
-Numerals in the Apurinã language are numbers.
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -506,20 +522,4 @@ Numerals in the Apurinã language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Apurinã are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
