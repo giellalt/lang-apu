@@ -11,6 +11,7 @@ The Apurinã morphophonological/twolc rules file !
 
  **%^VowRM:0  ** this will remove stem final vowel
  **%^VowNasL:0 ** This will nasalize preceding vowel
+ **%^VowY2I:0 ** This will change stem-final y to i
 
 
 
@@ -57,6 +58,8 @@ nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
 **nasalization with sg3f**
 
 **nasalization with -Ntxi y:ỹ**
+
+**y to i with -Y2Itxi y:i**
 
 
 **nasalization with -Ntxi y:ĩ**

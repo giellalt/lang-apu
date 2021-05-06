@@ -18,10 +18,14 @@ The Usage extents are marked using following tags:
 The nominals are inflected in the following Case and Number
 
 +Aff  +Aff    affected by action of verb %>nhi
-+Loc  +Loc    -ã
-+Dat  +Dat    -munhi allative
-+Com  +Com    -kata  (Assoc) 
 +All  +All	     -mukary
++Cau  +Cau	     -xika 'because of'
++Cap  +Cap	     0 N>V capacity
++Com  +Com    -kata  (Assoc) 
++Dat  +Dat    -munhi allative
++Loc  +Loc    -ã Locative (at, to), instrumental
++Prx  +Prx    -takute 'in the proximity of'
++Prp  +Prp    ka- vido verbs from nouns
 
 
 +Msc  +Msc    ywa
@@ -97,6 +101,8 @@ symbols in the lexicon files:
 
  **%^VowRM  ** this will remove stem final vowel
  **%^VowNasL ** This will nasalize preceding vowel
+ **%^VowY2I ** This will change stem-final y to i
+
 
 And following triggers to control variation
 
@@ -135,6 +141,8 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+
 
 
 

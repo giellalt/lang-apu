@@ -36,6 +36,10 @@ The APURINÃ language nouns inflect in cases.
 
 
 
+
+
+
+
 Suffixes
 
 

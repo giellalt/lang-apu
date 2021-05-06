@@ -13,6 +13,7 @@ Suffixes
 
 
 
+
 aiata+Impf+Pred:**caça/hunting**
 aiatapanhika
 
