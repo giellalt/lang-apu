@@ -33,6 +33,7 @@ Alphabet
 
 %^VowRM:0  !!= **@CODE@** this will remove stem final vowel
 %^VowNasL:0 !!= **@CODE@** This will nasalize preceding vowel
+%^VowY2I:0 !!= **@CODE@** This will change stem-final y to i
 
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
  »7     ! »
@@ -145,6 +146,10 @@ Rules
 "nasalization with -Ntxi y:ỹ"
 !! **@RULENAME@**
  y:ỹ <=> _ (y:) %^VowNasL:0 %> NonPALCns ; 
+
+"y to i with -Y2Itxi y:i"
+!! **@RULENAME@**
+ y:i <=> _ %^VowY2I:0 %> t x i ; 
 
 
 "nasalization with -Ntxi y:ĩ"

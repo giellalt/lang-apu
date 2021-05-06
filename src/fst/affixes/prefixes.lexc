@@ -14,7 +14,7 @@ LEXICON PERSON_PREFIXES
 @P.PN.SG3F@:@P.PN.SG3F@%{uũ%}%< NV_LEX ;
 @P.PN.PL3M@:@P.PN.PL3M@%{yiØ%}%< NV_LEX ;
 @P.PN.PL3F@:@P.PN.PL3F@%{uũ%}%< NV_LEX ;
-
+@U.PossD-Y.On@:@U.PossD-Y.On@ka%< Nouns ;
 
 LEXICON NV_LEX
 Nouns ;

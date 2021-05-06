@@ -49,6 +49,7 @@ LEXICON v_person
 
 LEXICON V_SUFFIXES_01_vido
 +Vido: V_SUFFIXES_01 ;
+
 LEXICON V_SUFFIXES_01_vids
 +Vids: V_SUFFIXES_01 ;
 LEXICON V_SUFFIXES_01_TV
@@ -76,6 +77,7 @@ LEXICON V_SUFFIXES_01
 @D.PN@+Relzr-Obj+Msc:@D.PN@%>ta%>kyty # ;
 @D.PN@+Relzr-Obj+Fem:@D.PN@%>ta%>kytu # ; ! 
 +Perf:%>pe # ;
++Perf+Pred:%>pe%>ka V_SUFFIXES_02 ;
 +Perf+Pss:%>pe%^VowNasL%>ka V_SUFFIXES_02 ;
 +Temp:%>saaky V_SUFFIXES_02 ;
 !apuka+V+Temp+ScSg1+Oc3M
