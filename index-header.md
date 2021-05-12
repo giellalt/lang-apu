@@ -5,11 +5,11 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/issues)
 [![Build status](https://github.com/giellalt/lang-apu/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-apu/actions)
 
-This page documents the work on the **Apurinã language model**. 
+This page documents the work on the [Apurinã language model](https://github.com/giellalt/lang-apu). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
