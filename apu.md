@@ -605,27 +605,24 @@ These were the set types.
 
 
 
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
+Verb inflection
+Prefixes
 
 
 
 
 
+Suffixes
 
 
 
 
-Nouns
-Nouns in the Apurinã language are things.
 
 
 
 
+aiata+Impf+Pred:**caça/hunting**
+aiatapanhika
 
 
 
@@ -654,50 +651,95 @@ Nouns in the Apurinã language are things.
 
 
 
+Proper noun inflection
+The Apurinã language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
 
 
 
 
-These need further classification 2020-05-10
+Noun inflection
+The APURINÃ language nouns inflect in cases.
 
 
-Numerals
-Numerals in the Apurinã language are numbers.
 
 
 
-Adverbs
-Adverbs in the APURINÃ language describe things.
 
 
 
 
-Proper nouns
-Proper nouns in the Apurinã language are People and places.
 
+Adjective inflection
+The Apurinã language adjectives compare.
 
 
 
-Verbs
-Verbs in APURINÃ language are actions.
+Prefixes
+Prefixes in the Apurinã language are bound to beginning of other words.
 
 
-More test verbs 2020-05-10
 
 
+Adverb inflection
+The APURINÃ language adverbs compare.
 
 
 
 
 
-Adjectives
-Adjectives in the Apurinã language describe things.
+Noun inflection
+The APURINÃ language nouns inflect in cases.
 
 
-Pronouns
-Pronouns in the Apurinã language are references to things.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suffixes
+
+
+
+
+# Symbol affixes
+
+
 
 
 
@@ -771,34 +813,46 @@ nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
 * *tsyy%^VowNasL%>txi*
 * *tsĩi0%>txi*
 
+Verbs
+Verbs in APURINÃ language are actions.
 
-# Symbol affixes
 
+More test verbs 2020-05-10
 
 
 
 
-Noun inflection
-The APURINÃ language nouns inflect in cases.
 
 
 
+Proper nouns
+Proper nouns in the Apurinã language are People and places.
 
 
 
 
+Pronouns
+Pronouns in the Apurinã language are references to things.
 
 
 
+Numerals
+Numerals in the Apurinã language are numbers.
 
 
 
+Adjectives
+Adjectives in the Apurinã language describe things.
 
 
+Adverbs
+Adverbs in the APURINÃ language describe things.
 
 
 
 
+Nouns
+Nouns in the Apurinã language are things.
 
 
 
@@ -820,86 +874,32 @@ The APURINÃ language nouns inflect in cases.
 
 
 
-Suffixes
 
 
 
-Adverb inflection
-The APURINÃ language adverbs compare.
 
 
 
 
 
-Proper noun inflection
-The Apurinã language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
 
 
 
 
 
 
-Verb inflection
-Prefixes
 
 
 
+These need further classification 2020-05-10
 
 
-Suffixes
-
-
-
-
-
-
-
-
-aiata+Impf+Pred:**caça/hunting**
-aiatapanhika
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Prefixes
-Prefixes in the Apurinã language are bound to beginning of other words.
-
-
-
-
-Adjective inflection
-The Apurinã language adjectives compare.
-
-
-
-Noun inflection
-The APURINÃ language nouns inflect in cases.
-
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
 
 
 
@@ -1078,22 +1078,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Apurinã are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -1144,6 +1128,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Apurinã are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
