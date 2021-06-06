@@ -822,7 +822,6 @@ Rule: **nasalization with -Ntxi y:ỹ**
 
 **y to i with -Y2Itxi y:i**
 
-
 Rule: **nasalization with -Ntxi y:ĩ** 
 * *kywy%^VowNasL%>txi*
 * *kywĩ0%>txi*
