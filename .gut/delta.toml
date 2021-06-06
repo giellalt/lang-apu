@@ -1,8 +1,9 @@
 template = "https://github.com/giellalt/template-lang-und"
-rev_id = 64
-template_sha = "e66f9ab4b418602a93bf0700d5d94bb50b81df77"
+rev_id = 72
+template_sha = "c86354124e8c85876e17c4bb07ea17433bd16f19"
 
 [replacements]
+__REPO__ = "lang-apu"
 __UND2C__ = "apu"
 __UNDEFINED__ = "Apurinã"
 __UND__ = "apu"
