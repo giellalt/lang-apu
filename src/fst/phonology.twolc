@@ -150,7 +150,7 @@ Rules
 "y to i with -Y2Itxi y:i"
 !! **@RULENAME@**
  y:i <=> _ %^VowY2I:0 %> t x i ; 
-
+        y: _ %^VowNasL:0 %> PALCns ;
 
 "nasalization with -Ntxi y:ĩ"
 !! **@RULENAME@**
@@ -160,7 +160,7 @@ Rules
 ! kywy+N+Sg+Nom+PxNot: __head/cabeça__
 !!€ kywy%^VowNasL%>txi
 !!€ kywĩ0%>txi
-! tsyy+N+Sg+Nom+PxNot: __/dor__
+! tsyy+N+Sg+Nom+PxNot: __pain/dor__
 !!€ tsyy%^VowNasL%>txi
 !!€ tsĩi0%>txi
 
