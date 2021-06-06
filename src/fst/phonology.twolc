@@ -1,6 +1,8 @@
 !! =================================== !
-!! The Apurinã morphophonological/twolc rules file !
+!! # The Apurinã morphophonological/twolc rules file 
 !! =================================== !
+
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-apu/blob/main/src/fst/phonology.twolc) 
 
 Alphabet
  a b c d e f g h i j k l m n o p q r s t u v w x y z 
@@ -66,6 +68,7 @@ NonPALNonNAS = [ Cns - [x|n|m|t] | t [Cns - [x | s | h] | Vow ] ] ;
 Rules
 
 "Deleting %{hØ%}"
+!! Rule: **@RULENAME@** 
   %{hØ%}:0 <=> n _ [%{yiØ%}:y %< NonPALCns | %{yiØ%}:0 %< [Vow - i] ] ;
 
 !! arika+V+ScSg1+Oc3F: **set on fire**
@@ -78,18 +81,22 @@ Rules
 !! n0y<nyrymane
 
 "Deleting %{yiØ%}:0 "
+!! Rule: **@RULENAME@** 
  %{yiØ%}:0 <=> [n %{hØ%}:|p | # ] _ %< Vow ;
 
 "Deleting %{ỹĩØ%}:0 "
+!! Rule: **@RULENAME@** 
  %{ỹĩØ%}:0 <=> h _ %< Vow ;
 
 "Deleting stem-final a before NomAct -inhi"
+!! Rule: **@RULENAME@** 
  a:0 <=> _ %^VowRM: %> ;
 !! myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
 !!€ myteka%^VowRM%>inhi 
 !!€ mytek00%>inhi 
 
 "Realizing %{hØ%}:h "
+!! Rule: **@RULENAME@** 
   %{hØ%}:h <=> n _ [%{yiØ%}:i %< PALCns | %{yiØ%}:0 %< i ] ;
 !! nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
 !!€ n%{hØ%}%{yiØ%}%<nhika%>ru
@@ -97,54 +104,63 @@ Rules
 
 
 "Realizing %{yiØ%}:y LEFT ARROW"
+!! Rule: **@RULENAME@** 
  %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< NonPALNonNAS  ;
 ! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
 
 "Realizing %{yiØ%}:y RIGHT ARROW"
+!! Rule: **@RULENAME@** 
  %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< NonPALNonNAS  ;
 ! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
                _ %< t x a: ;
 
 "Realizing %{yiØ%}:i LEFT ARROW"
+!! Rule: **@RULENAME@** 
  %{yiØ%}:i <= [n %{hØ%}: | p | # ] _ %< PALCns  ;
 "Realizing %{yiØ%}:i RIGHT ARROW"
  %{yiØ%}:i => [n %{hØ%}: | p | # ] _ %< PALCns  ;
 
 "Realizing %{yiØ%}:ỹ "
+!! Rule: **@RULENAME@** 
  %{ỹĩØ%}:ỹ <=> h _ %< NonPALCns  ;
  [n %{hØ%}: | p | # ] _ %< [m|n]  ;
 ! Facundes (2000:141) nasalization
 
 "Realizing %{ỹĩØ%}:ĩ "
+!! Rule: **@RULENAME@** 
  %{ỹĩØ%}:ĩ <=> h _ %< PALCns  ;
 
 "non-nasal a"
+!! Rule: **@RULENAME@** 
  %{aã%}:a <=> _ %< [Cns - NCns]  ;
 
 "non-nasal u"
+!! Rule: **@RULENAME@** 
  %{uũ%}:u <=> _ %< [Cns - NCns]  ;
 
 "nasal ã"
+!! Rule: **@RULENAME@** 
  %{aã%}:ã <=> _ %< [Vow: |NCns] ;
 
 "nasal ũ"
+!! Rule: **@RULENAME@** 
  %{uũ%}:ũ <=> _ %< [Vow: | NCns ]  ;
 
 "nasalization with -ka passive marker"
-!! **@RULENAME@**
+!! Rule: **@RULENAME@** 
  Vx:Vy <=>  _ %^VowNasL:0 %> ;
            where Vx in (a e u)
                  Vy in (ã ẽ ũ) matched ;
 
 "nasalization with sg3f"
-!! **@RULENAME@**
+!! Rule: **@RULENAME@** 
  Vx:Vy <=>  _ %^VowNasL:0 %> ;
           %{uũ%}:ũ %< _ ;
            where Vx in (i)
                  Vy in (ĩ) matched ;
 
 "nasalization with -Ntxi y:ỹ"
-!! **@RULENAME@**
+!! Rule: **@RULENAME@** 
  y:ỹ <=> _ (y:) %^VowNasL:0 %> NonPALCns ; 
 
 "y to i with -Y2Itxi y:i"
@@ -153,7 +169,7 @@ Rules
         y: _ %^VowNasL:0 %> PALCns ;
 
 "nasalization with -Ntxi y:ĩ"
-!! **@RULENAME@**
+!! Rule: **@RULENAME@** 
  y:ĩ <=>
  Cns _ %^VowNasL:0 %> PALCns ; 
   _ y: %^VowNasL:0 %> PALCns ; 
