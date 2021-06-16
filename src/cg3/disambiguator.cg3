@@ -276,6 +276,10 @@ SUBSTITUTE:Vido (Vido Oc3F) (Vido Sc3F) TARGET (V IV) ;
 
 ##
 
+#Kiripa pykama?
+REMOVE:MustBeVerb N IF (NOT *-1 V BARRIER NPNH)(0 V)(NOT *1 V BARRIER NPNH);
+
+
 REMOVE Guess ; # If any other reading is possible.
 
 
