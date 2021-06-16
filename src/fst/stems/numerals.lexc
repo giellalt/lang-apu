@@ -11,6 +11,6 @@ hãty+Num+Fem:hãtu    Cases   ; ! 1
 LEXICON Numerals_2/3
 hãty+Num+Msc:-hãty    Cases   ; ! -1
 hãty+Num+Fem:-hãtu    Cases   ; ! -1
-+Num: Case ;
++Num: Cases ;
 
 ! vim: set ft=xfst-lexc:

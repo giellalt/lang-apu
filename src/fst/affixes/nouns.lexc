@@ -9,6 +9,10 @@
 ! nhi-nhipuku-re 'my food'
 
 
+LEXICON N_SUFFIXES_01_WAKU_Fem_ne/0
+@P.PossD.Y-ne@+Fem:@P.PossD.Y-ne@	N_SUFFIXES_02_WAKU ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02_WAKU ;
+
 LEXICON N_SUFFIXES_01_Fem_ne/0
 @P.PossD.Y-ne@+Fem:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
@@ -26,9 +30,17 @@ LEXICON N_SUFFIXES_01_Fem_ne-te/0
 @P.PossD.Y-te@+Fem:@P.PossD.Y-te@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_WAKU_Msc_te/0
+@P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02_WAKU ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02_WAKU ;
+
 LEXICON N_SUFFIXES_01_Msc_te/0
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_WAKU_Msc_re/0
+@P.PossD.Y-re@+Msc:@P.PossD.Y-re@	N_SUFFIXES_02_WAKU ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02_WAKU ;
 
 LEXICON N_SUFFIXES_01_Msc_re/0
 @P.PossD.Y-re@+Msc:@P.PossD.Y-re@	N_SUFFIXES_02 ;
@@ -38,6 +50,10 @@ LEXICON N_SUFFIXES_01_Msc_ne-te/0
 @P.PossD.Y-ne@+Msc:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_WAKU_Fem_re/0
+@P.PossD.Y-re@+Fem:@P.PossD.Y-re@ N_SUFFIXES_02_WAKU ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Fem:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02_WAKU ;
 
 LEXICON N_SUFFIXES_01_Fem_re/0
 @P.PossD.Y-re@+Fem:@P.PossD.Y-re@ N_SUFFIXES_02 ;
@@ -60,6 +76,11 @@ N_SUFFIXES_01_Fem_0/NULL ;
 LEXICON N_SUFFIXES_01_Msc_UNDET
  N_SUFFIXES_01_Msc ;
 
+
+LEXICON N_SUFFIXES_01_WAKU_Msc ! THIS IS FOR DEVELOPMENT Work2020-11-17
+@P.PossD.Y-0@+Msc:@P.PossD.Y-0@	N_SUFFIXES_02_WAKU ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02_WAKU ;
+
 LEXICON N_SUFFIXES_01_Msc ! THIS IS FOR DEVELOPMENT Work2020-11-17
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
@@ -75,6 +96,10 @@ LEXICON N_SUFFIXES_01_Fem_0/txi ! e.g. clothes marked -txi when not possessed
 LEXICON N_SUFFIXES_01_Msc_0/Ntxi ! clothes marked when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-Ntxi@+Msc:@U.PossD-Y.Off@@P.PossD.N-Ntxi@ N_SUFFIXES_02 ;
+
+LEXICON N_SUFFIXES_01_WAKU_Msc_0/Y2Itxi ! clothes marked when not possessed
+@P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02_WAKU ;
+@U.PossD-Y.Off@@P.PossD.N-Y2Itxi@+Msc:@U.PossD-Y.Off@@P.PossD.N-Y2Itxi@ N_SUFFIXES_02_WAKU ;
 
 LEXICON N_SUFFIXES_01_Msc_0/Y2Itxi ! clothes marked when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
@@ -121,9 +146,12 @@ LEXICON Cases
 
 !#:0   Nouns   ;
 
+LEXICON N_SUFFIXES_02_WAKU
++Pl:%>waku N_SUFFIXES_02-after-number ;
+N_SUFFIXES_02 ;
+
 LEXICON N_SUFFIXES_02
 +Sg: N_SUFFIXES_02-after-number ;
-+Pl:%>waku N_SUFFIXES_02-after-number ;
 
 LEXICON N_SUFFIXES_02-after-number
 @R.PN.SG1@+PxSg1:@R.PN.SG1@ N_SUFFIXES_03 ;
@@ -161,7 +189,8 @@ LEXICON N_SUFFIXES_03_POSSD/NPOSSD
 @D.PN@@R.PossD.N-ry@+NPossd:@D.PN@@R.PossD.N-ry@%>ry Cases-PRE_NPOSSD ;
 @D.PN@@R.PossD.N-ru@+NPossd:@D.PN@@R.PossD.N-ru@%>ru Cases-PRE_NPOSSD ;
 @D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ Cases-PRE_NPOSSD ;
-@R.PossD.N-0@+Possd:@R.PossD.N-0@ Cases ; !-inhi gerunds
+!@R.PossD.N-0@+Possd:@R.PossD.N-0@ Cases ; !-inhi gerunds
+@R.PossD.N-0@+NPossd:@R.PossD.N-0@ Cases ; !-inhi gerunds
 
 LEXICON N_SUFFIXES_03_re2/ry !CHECKME 2020-08-22
 +Possd:%>re Cases ;

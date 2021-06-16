@@ -80,19 +80,21 @@ LEXICON V_SUFFIXES_01
 +Perf+Pred:%>pe%>ka V_SUFFIXES_02 ;
 +Perf+Pss:%>pe%^VowNasL%>ka V_SUFFIXES_02 ;
 +Temp:%>saaky V_SUFFIXES_02 ;
++Temp:%>sawaky V_SUFFIXES_02 ;
 !apuka+V+Temp+ScSg1+Oc3M
 !n-apuka-saaky-ry
 
-LEXICON V_SUFFIXES_02
-@R.PN.SG1@+ScSg1:@R.PN.SG1@ V_SUFFIXES_03 ;
-@R.PN.PL1@+ScPl1:@R.PN.PL1@ V_SUFFIXES_03 ;
-@R.PN.SG2@+ScSg2:@R.PN.SG2@ V_SUFFIXES_03 ;
-@R.PN.PL2@+ScPl2:@R.PN.PL2@ V_SUFFIXES_03 ;
-@R.PN.SG3M@+ScSg3M:@R.PN.SG3M@ V_SUFFIXES_03 ;
-@R.PN.SG3F@+ScSg3F:@R.PN.SG3F@ V_SUFFIXES_03 ;
-@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>na V_SUFFIXES_03 ;
-@R.PN.PL3F@+ScPl3F:@R.PN.PL3F@%>na V_SUFFIXES_03 ;
-@D.PN@ V_SUFFIXES_03 ;
+LEXICON V_SUFFIXES_02 !CHECKORDERING (Facundes 2000: 409)
+!@R.PN.SG1@+ScSg1:@R.PN.SG1@ V_SUFFIXES_03 ;
+!@R.PN.PL1@+ScPl1:@R.PN.PL1@ V_SUFFIXES_03 ;
+!@R.PN.SG2@+ScSg2:@R.PN.SG2@ V_SUFFIXES_03 ;
+!@R.PN.PL2@+ScPl2:@R.PN.PL2@ V_SUFFIXES_03 ;
+!@R.PN.SG3M@+ScSg3M:@R.PN.SG3M@ V_SUFFIXES_03 ;
+!@R.PN.SG3F@+ScSg3F:@R.PN.SG3F@ V_SUFFIXES_03 ;
+!@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>na V_SUFFIXES_03 ;
+!@R.PN.PL3F@+ScPl3F:@R.PN.PL3F@%>na V_SUFFIXES_03 ;
+!@D.PN@ V_SUFFIXES_03 ;
+V_SUFFIXES_03 ;
 
 LEXICON V_SUFFIXES_03
 +Dat:%>munhi    V_SUFFIXES_04   ;!to para
@@ -104,13 +106,26 @@ LEXICON V_SUFFIXES_03
  V_SUFFIXES_04 ;
 
 LEXICON V_SUFFIXES_04
-+OcSg1:%>nu Verbs_END ;
-+OcPl1:%>wa Verbs_END ;
-+OcSg2:%>i Verbs_END ;
-+OcPl2:%>i Verbs_END ;
-+Oc3M:%>ry Verbs_END ; ! Singular and Plural
-+Oc3F:%>ru Verbs_END ;
- Verbs_END ;
++Refl:%>wa V_SUFFIXES_05 ;
++OcSg1:%>nu V_SUFFIXES_05 ;
++OcPl1:%>wa V_SUFFIXES_05 ;
++OcSg2:%>i V_SUFFIXES_05 ;
++OcPl2:%>i V_SUFFIXES_05 ;
++Oc3M:%>ry V_SUFFIXES_05 ; ! Singular and Plural
++Oc3F:%>ru V_SUFFIXES_05 ;
+ V_SUFFIXES_05 ;
+
+LEXICON V_SUFFIXES_05
+@R.PN.SG1@+ScSg1:@R.PN.SG1@ Verbs_END ;
+@R.PN.PL1@+ScPl1:@R.PN.PL1@ Verbs_END ;
+@R.PN.SG2@+ScSg2:@R.PN.SG2@ Verbs_END ;
+@R.PN.PL2@+ScPl2:@R.PN.PL2@ Verbs_END ;
+@R.PN.SG3M@+ScSg3M:@R.PN.SG3M@ Verbs_END ;
+@R.PN.SG3F@+ScSg3F:@R.PN.SG3F@ Verbs_END ;
+@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>na Verbs_END ;
+@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>ne Verbs_END ;!?variation
+@R.PN.PL3F@+ScPl3F:@R.PN.PL3F@%>na Verbs_END ;
+@D.PN@ Verbs_END ;
 
 LEXICON Verbs_END
 +Fut:%>ku # ;
@@ -217,10 +232,17 @@ LEXICON YES/NO_HAB
 +Emph:%>pyty YES/NO_PRED-KA ;
 
 LEXICON YES/NO_PRED-KA
-+Pred:%>ka V_SUFFIXES_02 ;
- V_SUFFIXES_02 ;
++Pred:%>ka YES/NO_FRUSTR ;
+ YES/NO_FRUSTR ;
 +Pred+Der+Der/NomAct+N:%>ka%^VowRM%>inhi N_SUFFIXES_01_Msc ; !Direct from verb stem PX required
 
+LEXICON	YES/NO_FRUSTR
++Frustr:%>ma YES/NO_FOC ;
+ YES/NO_FOC ;
+
+LEXICON YES/NO_FOC
++Foc:%>ra V_SUFFIXES_02 ;
+ V_SUFFIXES_02 ;
 
 
 ! vim: set ft=xfst-lexc:

@@ -9,5 +9,8 @@ kiripa+Pron+Interr+Fem:kerupa PRON_INTERR "who" ;!checkme
 ykynypuku+Pron:ykynypuku PRON_TOT "everything" ;
 ykynymane+Pron:ykynymane PRON_TOT "everybody" ;
 
+iie+Pron+Dem+Msc:iie # ;
+iie+Pron+Dem+Fem:iia # ;
+
 
 ! vim: set ft=xfst-lexc:

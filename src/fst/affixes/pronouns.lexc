@@ -29,6 +29,10 @@ LEXICON PRON_TOT
 
 LEXICON PRON_INTERR
 : # ;
+LEXICON PRON_INTERR_MSC
++Interr+Msc: # ;
+LEXICON PRON_INTERR_FEM
++Interr+Fem: # ;
 
 ! vim: set ft=xfst-lexc:
 
