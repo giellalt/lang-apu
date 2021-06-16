@@ -651,11 +651,14 @@ Nouns in the Apurinã language are things.
 
 
 
+
+
 These need further classification 2020-05-10
 
 
 Adjectives
 Adjectives in the Apurinã language describe things.
+
 
 
 Verbs
@@ -685,8 +688,10 @@ compounding scheme or possibly many end applications.
 
 
 
+
 Pronouns
 Pronouns in the Apurinã language are references to things.
+
 
 
 
@@ -923,6 +928,14 @@ The APURINÃ language nouns inflect in cases.
 
 
 
+
+
+
+
+
+
+
+
 Suffixes
 
 
@@ -950,6 +963,8 @@ Suffixes
 
 aiata+Impf+Pred:**caça/hunting**
 aiatapanhika
+
+
 
 
 

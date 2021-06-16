@@ -5,8 +5,11 @@
 LEXICON Verbs
 txa+V+Aux:txa V_SUFFIXES_01 "TV, IV, AUX" ;
 aiata+V:aiata V_SUFFIXES_01 "TV hunt" ;
+akiritha+V:akiritha V_SUFFIXES_01 "TV call/chamar" ;
+axitha+V:axitha V_SUFFIXES_01 "TV cook/cozinhar" ;
 apuka+v1+V:apuka V_SUFFIXES_01 "TV find" ;
 apuka+v2+V:apu V_SUFFIXES_01 "TV find" ;
+anhika+V:anhika V_SUFFIXES_01 "TV take/levar" ;
 arika+V:arika V_SUFFIXES_01 "TV set on fire" ;
 ãta+V:ãta V_SUFFIXES_01 "TV drink" ;
 atama+V:atama V_SUFFIXES_01 "TV watch" ;
