@@ -651,6 +651,8 @@ aiatapanhika
 
 
 
+
+
 Proper noun inflection
 The Apurinã language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
@@ -692,6 +694,14 @@ The APURINÃ language adverbs compare.
 
 Noun inflection
 The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
 
 
 
@@ -851,6 +861,7 @@ Pronouns in the Apurinã language are references to things.
 
 
 
+
 Numerals
 Numerals in the Apurinã language are numbers.
 
@@ -858,6 +869,7 @@ Numerals in the Apurinã language are numbers.
 
 Adjectives
 Adjectives in the Apurinã language describe things.
+
 
 
 Adverbs
@@ -906,6 +918,8 @@ Nouns in the Apurinã language are things.
 
 
 
+
+
 These need further classification 2020-05-10
 
 
@@ -915,6 +929,7 @@ created from lexical data by regular inflection. Usually there should be next
 to none exceptions, it's always better to have a paradigm that covers only
 one or few words than an exception since these will not work nicely with e.g.
 compounding scheme or possibly many end applications.
+
 
 
 
