@@ -83,3 +83,5 @@ Rule: **nasalization with -Ntxi y:ĩ**
 * *tsyy%^VowNasL%>txi*
 * *tsĩi0%>txi*
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/phonology.twolc)</small>

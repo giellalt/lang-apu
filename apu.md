@@ -199,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -605,341 +605,8 @@ These were the set types.
 
 
 
-Verb inflection
-Prefixes
-
-
-
-
-
-Suffixes
-
-
-
-
-
-
-
-
-aiata+Impf+Pred:**caça/hunting**
-aiatapanhika
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Proper noun inflection
-The Apurinã language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-
-
-
-Noun inflection
-The APURINÃ language nouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-Adjective inflection
-The Apurinã language adjectives compare.
-
-
-
-Prefixes
-Prefixes in the Apurinã language are bound to beginning of other words.
-
-
-
-
-Adverb inflection
-The APURINÃ language adverbs compare.
-
-
-
-
-
-Noun inflection
-The APURINÃ language nouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Suffixes
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-=================================== !
-# The Apurinã morphophonological/twolc rules file 
-=================================== !
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-apu/blob/main/src/fst/phonology.twolc) 
-
-
-
-
-
-
-
-
- **%^VowRM:0  ** this will remove stem final vowel
- **%^VowNasL:0 ** This will nasalize preceding vowel
- **%^VowY2I:0 ** This will change stem-final y to i
-
-
-
-
-
-
-
-
-
-
-
-Rule: **Deleting %{hØ%}** 
-
-arika+V+ScSg1+Oc3F: **set on fire**
-* *n%{hØ%}%{yiØ%}%<arika%>ru*
-* *n00%<arika%>ru*
-* ★*n%{hØ%}%{yiØ%}%<arika%>ru* (is not standard language)
-* ★*nh0%<arika%>ru* (is not standard language)
-nyrymanetxi+N+Msc+Sg+PxSg1+Possd:
-n{hØ%}{yiØ}<nyrymane
-n0y<nyrymane
-
-Rule: **Deleting %{yiØ%}:0 ** 
-
-Rule: **Deleting %{ỹĩØ%}:0 ** 
-
-Rule: **Deleting stem-final a before NomAct -inhi** 
-myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
-* *myteka%^VowRM%>inhi*
-* *mytek00%>inhi*
-
-Rule: **Realizing %{hØ%}:h ** 
-nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
-* *n%{hØ%}%{yiØ%}%<nhika%>ru*
-* *nhi%<nhika%>ru*
-
-
-Rule: **Realizing %{yiØ%}:y LEFT ARROW** 
-
-Rule: **Realizing %{yiØ%}:y RIGHT ARROW** 
-
-Rule: **Realizing %{yiØ%}:i LEFT ARROW** 
-
-Rule: **Realizing %{yiØ%}:ỹ ** 
-
-Rule: **Realizing %{ỹĩØ%}:ĩ ** 
-
-Rule: **non-nasal a** 
-
-Rule: **non-nasal u** 
-
-Rule: **nasal ã** 
-
-Rule: **nasal ũ** 
-
-Rule: **nasalization with -ka passive marker** 
-
-Rule: **nasalization with sg3f** 
-
-Rule: **nasalization with -Ntxi y:ỹ** 
-
-**y to i with -Y2Itxi y:i**
-
-Rule: **nasalization with -Ntxi y:ĩ** 
-* *kywy%^VowNasL%>txi*
-* *kywĩ0%>txi*
-* *tsyy%^VowNasL%>txi*
-* *tsĩi0%>txi*
-
-Verbs
-Verbs in APURINÃ language are actions.
-
-
-More test verbs 2020-05-10
-
-
-
-
-
-
-
-Proper nouns
-Proper nouns in the Apurinã language are People and places.
-
-
-
-
-Pronouns
-Pronouns in the Apurinã language are references to things.
-
-
-
-
-Numerals
-Numerals in the Apurinã language are numbers.
-
-
-
-Adjectives
-Adjectives in the Apurinã language describe things.
-
-
-
-Adverbs
-Adverbs in the APURINÃ language describe things.
-
-
-
-
-Nouns
-Nouns in the Apurinã language are things.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-These need further classification 2020-05-10
-
-
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-
-
-
-
-
-
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-apu/blob/main/../src/cg3/functions.cg3)</small>
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
 
 
@@ -1105,7 +772,359 @@ word classes, or optionally from prefixes:
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/root.lexc)</small>Proper noun inflection
+The Apurinã language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/propernouns.lexc)</small>Noun inflection
+The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/pronouns.lexc)</small>Prefixes
+Prefixes in the Apurinã language are bound to beginning of other words.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/prefixes.lexc)</small>Noun inflection
+The APURINÃ language nouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suffixes
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
+The Apurinã language adjectives compare.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
+Prefixes
+
+
+
+
+
+Suffixes
+
+
+
+
+
+
+
+
+aiata+Impf+Pred:**caça/hunting**
+aiatapanhika
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/verbs.lexc)</small>Adverb inflection
+The APURINÃ language adverbs compare.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/adverbs.lexc)</small>Proper nouns
+Proper nouns in the Apurinã language are People and places.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/propernouns.lexc)</small>Pronouns
+Pronouns in the Apurinã language are references to things.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/pronouns.lexc)</small>Nouns
+Nouns in the Apurinã language are things.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+These need further classification 2020-05-10
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+Adjectives in the Apurinã language describe things.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/adjectives.lexc)</small>Verbs
+Verbs in APURINÃ language are actions.
+
+
+More test verbs 2020-05-10
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/verbs.lexc)</small>Adverbs
+Adverbs in the APURINÃ language describe things.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/adverbs.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/exceptions.lexc)</small>Numerals
+Numerals in the Apurinã language are numbers.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/numerals.lexc)</small>=================================== !
+# The Apurinã morphophonological/twolc rules file 
+=================================== !
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-apu/blob/main/src/fst/phonology.twolc) 
+
+
+
+
+
+
+
+
+ **%^VowRM:0  ** this will remove stem final vowel
+ **%^VowNasL:0 ** This will nasalize preceding vowel
+ **%^VowY2I:0 ** This will change stem-final y to i
+
+
+
+
+
+
+
+
+
+
+
+Rule: **Deleting %{hØ%}** 
+
+arika+V+ScSg1+Oc3F: **set on fire**
+* *n%{hØ%}%{yiØ%}%<arika%>ru*
+* *n00%<arika%>ru*
+* ★*n%{hØ%}%{yiØ%}%<arika%>ru* (is not standard language)
+* ★*nh0%<arika%>ru* (is not standard language)
+nyrymanetxi+N+Msc+Sg+PxSg1+Possd:
+n{hØ%}{yiØ}<nyrymane
+n0y<nyrymane
+
+Rule: **Deleting %{yiØ%}:0 ** 
+
+Rule: **Deleting %{ỹĩØ%}:0 ** 
+
+Rule: **Deleting stem-final a before NomAct -inhi** 
+myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
+* *myteka%^VowRM%>inhi*
+* *mytek00%>inhi*
+
+Rule: **Realizing %{hØ%}:h ** 
+nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
+* *n%{hØ%}%{yiØ%}%<nhika%>ru*
+* *nhi%<nhika%>ru*
+
+
+Rule: **Realizing %{yiØ%}:y LEFT ARROW** 
+
+Rule: **Realizing %{yiØ%}:y RIGHT ARROW** 
+
+Rule: **Realizing %{yiØ%}:i LEFT ARROW** 
+
+Rule: **Realizing %{yiØ%}:ỹ ** 
+
+Rule: **Realizing %{ỹĩØ%}:ĩ ** 
+
+Rule: **non-nasal a** 
+
+Rule: **non-nasal u** 
+
+Rule: **nasal ã** 
+
+Rule: **nasal ũ** 
+
+Rule: **nasalization with -ka passive marker** 
+
+Rule: **nasalization with sg3f** 
+
+Rule: **nasalization with -Ntxi y:ỹ** 
+
+**y to i with -Y2Itxi y:i**
+
+Rule: **nasalization with -Ntxi y:ĩ** 
+* *kywy%^VowNasL%>txi*
+* *kywĩ0%>txi*
+* *tsyy%^VowNasL%>txi*
+* *tsĩi0%>txi*
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/phonology.twolc)</small>
 
 
 
@@ -1159,7 +1178,8 @@ word classes, or optionally from prefixes:
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Apurinã are read out, e.g.
@@ -1175,8 +1195,9 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
-
-      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+[ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
 
@@ -1586,3 +1607,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-apu/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
