@@ -606,116 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-apu/blob/main/../src/cg3/functions.cg3)</small>Nouns
-Nouns in the Apurinã language are things.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-These need further classification 2020-05-10
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/nouns.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/exceptions.lexc)</small>Adverbs
-Adverbs in the APURINÃ language describe things.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/adverbs.lexc)</small>Adjectives
-Adjectives in the Apurinã language describe things.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/adjectives.lexc)</small>Verbs
-Verbs in APURINÃ language are actions.
-
-
-More test verbs 2020-05-10
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the Apurinã language are numbers.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/numerals.lexc)</small>Proper nouns
-Proper nouns in the Apurinã language are People and places.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/propernouns.lexc)</small>Pronouns
-Pronouns in the Apurinã language are references to things.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/pronouns.lexc)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-apu/blob/main/../src/cg3/functions.cg3)</small>=================================== !
 # The Apurinã morphophonological/twolc rules file 
 =================================== !
 
@@ -801,7 +692,15 @@ Rule: **nasalization with -Ntxi y:ĩ**
 * *tsĩi0%>txi*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/phonology.twolc)</small>Noun inflection
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/phonology.twolc)</small>Adverb inflection
+The APURINÃ language adverbs compare.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/adverbs.lexc)</small>Noun inflection
 The APURINÃ language nouns inflect in cases.
 
 
@@ -813,79 +712,8 @@ The APURINÃ language nouns inflect in cases.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Suffixes
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/nouns.lexc)</small>Prefixes
-Prefixes in the Apurinã language are bound to beginning of other words.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/prefixes.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/symbols.lexc)</small>Adverb inflection
-The APURINÃ language adverbs compare.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/adverbs.lexc)</small>Adjective inflection
-The Apurinã language adjectives compare.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/pronouns.lexc)</small>Verb inflection
 Prefixes
 
 
@@ -934,7 +762,14 @@ aiatapanhika
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/verbs.lexc)</small>Prefixes
+Prefixes in the Apurinã language are bound to beginning of other words.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/prefixes.lexc)</small>Proper noun inflection
 The Apurinã language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
@@ -956,8 +791,173 @@ The APURINÃ language nouns inflect in cases.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suffixes
+
+
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
+The Apurinã language adjectives compare.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/affixes/adjectives.lexc)</small>Adverbs
+Adverbs in the APURINÃ language describe things.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/adverbs.lexc)</small>Pronouns
+Pronouns in the Apurinã language are references to things.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/pronouns.lexc)</small>Numerals
+Numerals in the Apurinã language are numbers.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/numerals.lexc)</small>Verbs
+Verbs in APURINÃ language are actions.
+
+
+More test verbs 2020-05-10
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/verbs.lexc)</small>Proper nouns
+Proper nouns in the Apurinã language are People and places.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/propernouns.lexc)</small>Nouns
+Nouns in the Apurinã language are things.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+These need further classification 2020-05-10
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+Adjectives in the Apurinã language describe things.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/adjectives.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/stems/exceptions.lexc)</small>
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
 
 
