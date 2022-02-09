@@ -1,7 +1,6 @@
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
 
-
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
@@ -27,7 +26,6 @@ The nominals are inflected in the following Case and Number
 +Prx  +Prx   -takute 'in the proximity of'
 +Prp  +Prp   ka- vido verbs from nouns
 
-
 +Msc  +Msc   ywa
 
 Possession is marked as such:
@@ -46,7 +44,6 @@ Other verb forms are
  +Impf       IPFTV
  +Perf       PFTV perfective -pe
 
-
  +Pss	      passivizer -~ka
 * +Pred = ka
 * +Frustr = ma: awa-pyty-ka-ma
@@ -59,7 +56,6 @@ Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
 Question and Focus particles:
-
 
 ### Tags distinguishing different versions of the same lemma (before POS)
 * +v1
@@ -89,8 +85,6 @@ Question and Focus particles:
 
 Semantics are classified with
 
-
-
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
@@ -103,7 +97,6 @@ symbols in the lexicon files:
 **%^VowNasL ** This will nasalize preceding vowel
 **%^VowY2I ** This will change stem-final y to i
 
-
 And following triggers to control variation
 
 ### Symbols that need to be escaped on the lower side (towards twolc):
@@ -112,7 +105,6 @@ And following triggers to control variation
 * «
 * > (escaped with square brackets, to avoid collision with > as morpheme boundary)
 * < (escaped with square brackets, to avoid collision with < as morpheme boundary)
-
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -142,27 +134,12 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The word forms in Apurinã language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/root.lexc)</small>
+
+---
+

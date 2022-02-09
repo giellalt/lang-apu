@@ -4,26 +4,9 @@
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-apu/blob/main/src/fst/phonology.twolc) 
 
-
-
-
-
-
-
-
 **%^VowRM:0  ** this will remove stem final vowel
 **%^VowNasL:0 ** This will nasalize preceding vowel
 **%^VowY2I:0 ** This will change stem-final y to i
-
-
-
-
-
-
-
-
-
-
 
 Rule: **Deleting %{hØ%}** 
 
@@ -49,7 +32,6 @@ Rule: **Realizing %{hØ%}:h **
 nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
 * *n%{hØ%}%{yiØ%}%<nhika%>ru*
 * *nhi%<nhika%>ru*
-
 
 Rule: **Realizing %{yiØ%}:y LEFT ARROW** 
 
@@ -84,4 +66,8 @@ Rule: **nasalization with -Ntxi y:ĩ**
 * *tsĩi0%>txi*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-apu/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-apu/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
