@@ -1,7 +1,7 @@
 # Apurinã documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-apu)](https://raw.githubusercontent.com/giellalt/lang-apu/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/issues)
 [![Build status](https://github.com/giellalt/lang-apu/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-apu/actions)
 
