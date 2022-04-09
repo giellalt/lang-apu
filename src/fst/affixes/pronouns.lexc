@@ -12,7 +12,8 @@ LEXICON PERS
 nuta+Pron+Pers+Sg1:nuta     Cases   ;
 nuta+Pron+Pers+Pl1:atha     Cases   ;
 
-pitha+Pron+Pers+Sg2:pitha     Cases   ;
+pitha+v1+Pron+Pers+Sg2:pitha     Cases   ;
+pitha+v2+Pron+Pers+Sg2:pithe     Cases   ;
 pitha+Pron+Pers+Pl2:hỹtha     Cases   ;
 
 ywa+Pron+Pers+Sg3+Msc:ywa     Cases   ;

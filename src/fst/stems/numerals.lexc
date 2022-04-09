@@ -5,8 +5,10 @@
 LEXICON Numerals
 epi+v1:epi Numerals_2/3 ; ! 2
 epi+v2:ipi Numerals_2/3 ; ! 2
-hãty+Num+Msc:hãty    Cases   ; ! 1
-hãty+Num+Fem:hãtu    Cases   ; ! 1
+hãty+v1+Num+Msc:hãty    Cases   ; ! 1
+hãty+v2+Num+Msc:ãty    Cases   ; ! 1
+hãty+v1+Num+Fem:hãtu    Cases   ; ! 1
+hãty+v2+Num+Fem:ãtu    Cases   ; ! 1
 
 LEXICON Numerals_2/3
 hãty+Num+Msc:-hãty    Cases   ; ! -1

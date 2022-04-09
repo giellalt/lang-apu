@@ -20,6 +20,9 @@ kamỹyry+N+Msc+Pl+Nom:kamỹyrywakury # "Macaw clan" ; ! N_SUFFIXES_01_Fem_ne/0
 pyra+N+Msc+Pl+Nom+PxSg1:nypyrawakury # ;
 pathery+N+Msc+Pl+Nom:patherywakury # ;
 
+! Interjections
+ateeneka+v1+Interj:ateeneka # ;
+ateeneka+v2+Interj:atheeneka # ;
 
 ! Verbs
 kama+V+Loc+ScPl3F:ukamaãne # ; !
