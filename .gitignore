@@ -13,7 +13,9 @@
 *.zhfst
 *.zip
 *.zpipe
+.~lock.*#
 .DS_Store
+.bundle
 /aclocal.m4
 /autom4te.cache
 /build-aux
@@ -35,9 +37,13 @@
 /docs/*-tools.md
 /docs/???.md
 /docs/Links.md
+/docs/empty.md
 /docs/generated-markdowns.*
 /docs/index.md
+/docs/src-*.md
+/docs/tools-*.md
 /docs/transcriptor-*.md
+/docs/vendor
 /giella-*.pc
 /misc/*
 /src/cg3/dependency.cg3
@@ -85,6 +91,7 @@
 /tools/hyphenators/all_tags.txt
 /tools/mt/apertium/*.cg3
 /tools/mt/apertium/tagsets/apertium.relabel
+/tools/mt/apertium/tagsets/apertium.postproc.relabel
 /tools/mt/apertium/tagsets/apertiumtags.txt
 /tools/mt/apertium/tagsets/mt-tags.txt
 /tools/spellcheckers/filters/rename-POS_before_Der-tags.regex
@@ -110,7 +117,9 @@
 /tools/tts/functions.cg3
 /tools/tts/mwe-dis.cg3
 /tools/tts/pipespec.xml
+/tools/tts/test/run_tests.sh
 Makefile
 Makefile.in
 build
 bygg
+generated-tag-list.*
