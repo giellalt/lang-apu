@@ -16,35 +16,35 @@ The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
 
-+Aff  +Aff   affected by action of verb %>nhi
-+All  +All	    -mukary
-+Cau  +Cau	    -xika 'because of'
-+Cap  +Cap	    0 N>V capacity
-+Com  +Com   -kata  (Assoc) 
-+Dat  +Dat   -munhi allative
-+Loc  +Loc   -ã Locative (at, to), instrumental
-+Prx  +Prx   -takute 'in the proximity of'
-+Prp  +Prp   ka- vido verbs from nouns
+affected by action of verb %>nhi
+-mukary
+-xika 'because of'
+0 N>V capacity
+-kata  (Assoc) 
+-munhi allative
+-ã Locative (at, to), instrumental
+-takute 'in the proximity of'
+ka- vido verbs from nouns
 
-+Msc  +Msc   ywa
+ ywa
 
 Possession is marked as such:
-+NPossd  +NPossd   not possessed
+ not possessed
 The comparative forms are:
 Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
-+Vido  +Vido   object formed intransitive descriptive
-+Vids  +Vids   subject formed intransitive descriptive
+object formed intransitive descriptive
+subject formed intransitive descriptive
 
 Other verb forms are
- +Relzr-Subj  relativizer with subject reference kary/karu
- +Relzr-Obj   relativizer with object reference kyty/kytu
+relativizer with subject reference kary/karu
+relativizer with object reference kyty/kytu
 
- +Impf       IPFTV
- +Perf       PFTV perfective -pe
+IPFTV
+PFTV perfective -pe
 
- +Pss	      passivizer -~ka
+passivizer -~ka
 * +Pred = ka
 * +Frustr = ma: awa-pyty-ka-ma
 * +Emph = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
@@ -91,7 +91,6 @@ source and target part-of-speech.
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-%{hØ%} %{hØ%}  
 
 **%^VowRM  ** this will remove stem final vowel
 **%^VowNasL ** This will nasalize preceding vowel
