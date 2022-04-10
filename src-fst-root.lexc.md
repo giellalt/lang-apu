@@ -138,7 +138,7 @@ word classes, or optionally from prefixes:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt//blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/root.lexc)</small>
 
 ---
 
