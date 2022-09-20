@@ -4,6 +4,8 @@ The Apurinã morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-apu/main/badge.svg)](https://github.com/giellalt/lang-apu/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-apu?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-apu?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Apurinã language,
 for building morphological analysers, proofing tools
