@@ -338,6 +338,7 @@ The parts-of-speech are:
 The parts of speech are further split up into:
 
 The Usage extents are marked using following tags:
+* **+Err/Orth-i-not-y**
 
 The nominals are inflected in the following Case and Number
 
