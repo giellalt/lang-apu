@@ -39,6 +39,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Err/Orth
  +Err/Spellrelax ! used with nasalization marking
  +Use/-Spell 
+  +Err/Orth-i-not-y !!≈ * **@CODE@**
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Pl

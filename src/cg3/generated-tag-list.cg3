@@ -22,6 +22,7 @@ LIST Des = Des ;
 LIST Distr = Distr ;
 LIST Emph = Emph ;
 LIST Err/Orth = Err/Orth ;
+LIST Err/Orth-i-not-y = Err/Orth-i-not-y ;
 LIST Fact = Fact ;
 LIST Fem = Fem ;
 LIST Foc = Foc ;

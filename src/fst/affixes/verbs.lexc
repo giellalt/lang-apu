@@ -112,6 +112,7 @@ LEXICON V_SUFFIXES_04
 +OcSg2:%>i V_SUFFIXES_05 ;
 +OcPl2:%>i V_SUFFIXES_05 ;
 +Oc3M:%>ry V_SUFFIXES_05 ; ! Singular and Plural
++Oc3M+Err/Orth-i-not-y:%>ri V_SUFFIXES_05 ; ! Singular and Plural
 +Oc3F:%>ru V_SUFFIXES_05 ;
  V_SUFFIXES_05 ;
 
@@ -198,6 +199,8 @@ LEXICON YES/NO_RS
 
 LEXICON  VRBLZ
 !14 Vblz -ta see also 325 absent
+!problem: will not accept form mithapuwary, but will accept mithapuwatary
+! Ãamyna mithapuwary pamunukune. 'Uma árvore grande dá medo.'
 +Vblz:%>ta YES/NO_HYPOTH ;
 @D.VerbDerv@ YES/NO_HYPOTH ;
 +Vblz+Der+Der/NomAct+N:%>ta%^VowRM%>inhi N_SUFFIXES_02 ;

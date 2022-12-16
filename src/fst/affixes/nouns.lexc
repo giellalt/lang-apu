@@ -46,6 +46,10 @@ LEXICON N_SUFFIXES_01_Msc_re/0
 @P.PossD.Y-re@+Msc:@P.PossD.Y-re@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_Msc_ne/0
+@P.PossD.Y-ne@+Msc:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
+@U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
+
 LEXICON N_SUFFIXES_01_Msc_ne-te/0
 @P.PossD.Y-ne@+Msc:@P.PossD.Y-ne@	N_SUFFIXES_02 ;
 @P.PossD.Y-te@+Msc:@P.PossD.Y-te@	N_SUFFIXES_02 ;
@@ -85,10 +89,15 @@ LEXICON N_SUFFIXES_01_Msc ! THIS IS FOR DEVELOPMENT Work2020-11-17
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_KinMsc_0/txi
+N_SUFFIXES_01_Msc_0/txi ;
+
 LEXICON N_SUFFIXES_01_Msc_0/txi ! e.g. clothes marked -txi when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-txi@+Msc:@U.PossD-Y.Off@@P.PossD.N-txi@ N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_KinFem_0/txi
+N_SUFFIXES_01_Fem_0/txi ;
 LEXICON N_SUFFIXES_01_Fem_0/txi ! e.g. clothes marked -txi when not possessed
 @P.PossD.Y-0@+Fem:@P.PossD.Y-0@ N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-txi@+Fem:@U.PossD-Y.Off@@P.PossD.N-txi@ N_SUFFIXES_02 ;
@@ -97,9 +106,15 @@ LEXICON N_SUFFIXES_01_Msc_0/Ntxi ! clothes marked when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-Ntxi@+Msc:@U.PossD-Y.Off@@P.PossD.N-Ntxi@ N_SUFFIXES_02 ;
 
+LEXICON N_SUFFIXES_01_WAKU_KinMsc_0/Y2Itxi
+N_SUFFIXES_01_WAKU_Msc_0/Y2Itxi ;
+
 LEXICON N_SUFFIXES_01_WAKU_Msc_0/Y2Itxi ! clothes marked when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02_WAKU ;
 @U.PossD-Y.Off@@P.PossD.N-Y2Itxi@+Msc:@U.PossD-Y.Off@@P.PossD.N-Y2Itxi@ N_SUFFIXES_02_WAKU ;
+
+LEXICON N_SUFFIXES_01_KinMsc_0/Y2Itxi !yry+N:yry is the new way; contlex tells us what is going on
+N_SUFFIXES_01_Msc_0/Y2Itxi ;
 
 LEXICON N_SUFFIXES_01_Msc_0/Y2Itxi ! clothes marked when not possessed
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@ N_SUFFIXES_02 ;

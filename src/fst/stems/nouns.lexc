@@ -69,15 +69,14 @@ ienamãatxi+N+Sem/Body:ienamãa N_SUFFIXES_01_Msc_0/txi "saliva" ;!ienamãa-txi
 tsyrĩtxi+N+Sem/Body:tsyrỹ N_SUFFIXES_01_Msc_0/txi ;!CHECKME
 !kaipẽ+N+Sem/Body:kaipẽ  "sêmen (?derivation -pe-ã)" ;kaĩ-txi
 
-yritxi+N:yry N_SUFFIXES_01_Msc_0/Y2Itxi "father/pai" ;
-
-ynyrutxi+N:ynyru N_SUFFIXES_01_Fem_0/txi "mother/mãe" ;
-atukyritxi+N:atukyry N_SUFFIXES_01_WAKU_Msc_0/Y2Itxi "grandfather/avô" ;
-tanyrutxi+N:tanyru N_SUFFIXES_01_Fem_0/txi "wife/esposa" ;!checkme
-tanyrytxi+N:tanyry N_SUFFIXES_01_Msc_0/txi "husband/esposo" ;
-nyrymanetxi+v1+N:nyrymane N_SUFFIXES_01_Msc_0/txi "relative/parente" ; !The non-possessed is theoretical
-nyrymanetxi+v2+N:nyrymany N_SUFFIXES_01_Msc_0/txi "relative/parente" ;
-iimatykyritxi+N:iimatykyry N_SUFFIXES_01_Msc_0/Y2Itxi "uncle/tio" ;
+yry+N:yry N_SUFFIXES_01_KinMsc_0/Y2Itxi "father/pai" ;
+ynyru+N:ynyru N_SUFFIXES_01_KinFem_0/txi "mother/mãe" ;
+atukyry+N:atukyry N_SUFFIXES_01_WAKU_KinMsc_0/Y2Itxi "grandfather/avô" ;
+iimatykyry+N:iimatykyry N_SUFFIXES_01_KinMsc_0/Y2Itxi "uncle/tio" ;
+tanyru+N:tanyru N_SUFFIXES_01_KinFem_0/txi "wife/esposa" ;!checkme
+tanyry+N:tanyry N_SUFFIXES_01_KinMsc_0/txi "husband/esposo" ;
+nyrymane+v1+N:nyrymane N_SUFFIXES_01_KinMsc_0/txi "relative/parente" ; !The non-possessed is theoretical
+nyrymane+v2+N:nyrymany N_SUFFIXES_01_KinMsc_0/txi "relative/parente" ;
 
 
 sytu+N:sytu N_SUFFIXES_01_WAKU_Fem_re/0 "woman Fem_re/0?" ;! N_SUFFIXES_01_Fem_0/NULL
@@ -98,8 +97,8 @@ xikary+N:xika N_SUFFIXES_01_Msc_re2/ry "canção, canto" ;
 kutary+N:kuta N_SUFFIXES_01_Msc_re2/ry "cesta" ;
 apỹkyry+N:apỹkyry N_SUFFIXES_01_Msc_te/0 "urucum" ;
 hãpukyry+N:hãpuky N_SUFFIXES_01_Msc_re2/ry "flauta" ;
-ãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_te/0 "tipo de flauta2" ;
-ãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_ne/0 "tipo de flauta2" ;
+hãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_te/0 "tipo de flauta2" ;
+hãpukyry+N:ãpukyry N_SUFFIXES_01_Msc_ne/0 "tipo de flauta2" ;
 ikiianary+N:ikiiana N_SUFFIXES_01_Msc_re2/ry "poison/veneno" ;
 iãry+N:iã N_SUFFIXES_01_Msc_re2/ry "juice/suco" ;
 kawyry+N:kawy N_SUFFIXES_01_Msc_re2/ry "peach palm/pupunha" ;
