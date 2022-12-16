@@ -133,8 +133,16 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+For spellrelax of nasals
+
+Person marking
+
 The word forms in Apurinã language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+**ENDLEX**
+
+**ENDLEX2**
 
 * * *
 
