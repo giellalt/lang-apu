@@ -130,7 +130,7 @@ LEXICON Cases-PRE_POSSD !ka-x-Possd->
 @R.PossD-Y.On@+Prp+Vido:@R.PossD-Y.On@ V_SUFFIXES_01 ;
 LEXICON Cases-PRE_NPOSSD !-x-NPossd->
  Cases ;
-@R.PossD-Y.Off@+Cap+Vido:@R.PossD-Y.Off@ V_SUFFIXES_01 ;
+!@R.PossD-Y.Off@+Cap+Vido:@R.PossD-Y.Off@ V_SUFFIXES_01 ; !2022-12-16 How come we have verb here? Should it be here?
 
 LEXICON Cases
 +Nom:0     #   ;
