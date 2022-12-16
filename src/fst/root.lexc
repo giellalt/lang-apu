@@ -36,7 +36,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Temp +Spat
 
 !! The Usage extents are marked using following tags:
- +Err/Orth   
+ +Err/Orth
+ +Err/Spellrelax ! used with nasalization marking
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
@@ -234,7 +235,15 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! given the proper use of these flags.
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
- 
+
+!! For spellrelax of nasals
+@P.SpellRlx.ON@
+@R.SpellRlx.ON@
+@D.SpellRlx.ON@
+@D.SpellRlx@
+@C.SpellRlx@
+
+!! Person marking
 @U.PN.SG1@
 @U.PN.SG2@
 @U.PN.SG3F@
@@ -352,6 +361,19 @@ Propernouns	;
 
 LEXICON CS_
 # ;
+
+LEXICON ENDLEX
+!! **@LEXNAME@**
+ENDLEX2 ;
+
+LEXICON ENDLEX2
+!! **@LEXNAME@**
+ @R.SpellRlx.ON@+Err/Spellrelax@C.SpellRlx@:@R.SpellRlx.ON@@C.SpellRlx@ ENDLEX3 ;
+ @D.SpellRlx.ON@@C.SpellRlx@                                            ENDLEX3 ;
+
+LEXICON ENDLEX3
+# ;
+
 
 
 ! vim: set ft=xfst-lexc:

@@ -190,7 +190,7 @@ LEXICON N_SUFFIXES_03_POSSD/NPOSSD
 @D.PN@@R.PossD.N-ru@+NPossd:@D.PN@@R.PossD.N-ru@%>ru Cases-PRE_NPOSSD ;
 @D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ Cases-PRE_NPOSSD ;
 !@R.PossD.N-0@+Possd:@R.PossD.N-0@ Cases ; !-inhi gerunds
-@R.PossD.N-0@+NPossd:@R.PossD.N-0@ Cases ; !-inhi gerunds
+@D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ Cases ; !-inhi gerunds dissallow @R.PN.stuff
 
 LEXICON N_SUFFIXES_03_re2/ry !CHECKME 2020-08-22
 +Possd:%>re Cases ;

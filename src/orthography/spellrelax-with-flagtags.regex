@@ -1,0 +1,29 @@
+! Changes to be applied to an fst to get spell-relax with tags (by virtue of
+! flag diacritics):
+
+  ã (->) a "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ã (->) A "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ẽ (->) e "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ẽ (->) E "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ĩ (->) i "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ĩ (->) I "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  õ (->) o "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Õ (->) O "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ũ (->) u "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ũ (->) U "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ỹ (->) y "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ỹ (->) Y "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+
+  ã a (->) ã ã "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ã A (->) Ã Ã "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ẽ e (->) ẽ ẽ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ẽ E (->) Ẽ Ẽ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ĩ i (->) ĩ ĩ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ĩ I (->) Ĩ Ĩ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  õ o (->) õ õ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Õ O (->) Õ Õ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ũ u (->) ũ ũ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ũ U (->) Ũ Ũ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  ỹ y (->) ỹ ỹ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+  Ỹ Y (->) Ỹ Ỹ "@D.SpellRlx@" "@P.SpellRlx.ON@" ;
+
