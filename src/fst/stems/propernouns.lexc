@@ -4,10 +4,12 @@
 
 LEXICON Propernouns
 Ĩkiiapa+N+Prop:Ĩkiiapa N_SUFFIXES_01_Msc "male given name" ;
+Iũiãpu+N+Prop:Iũiãpu N_SUFFIXES_01_Msc "male given name" ;
 Kamarapu+N+Prop:Kamarapu N_SUFFIXES_01_Msc "male given name" ;
 Kamaxirĩery+N+Prop:Kamaxirĩery N_SUFFIXES_01_Msc "male given name" ;
 Kamaxiriĩry+N+Prop:Kamaxiriĩry N_SUFFIXES_01_Msc "male given name" ;
 Kasãtumary+N+Prop:Kasãtumary N_SUFFIXES_01_Msc "male given name" ;
+Kataury+N+Prop:Kataury N_SUFFIXES_01_Msc "male given name" ;
 Kĩpuku+N+Prop:Kĩpuku N_SUFFIXES_01_Msc "male given name" ;
 Kirama+N+Prop:Kirama N_SUFFIXES_01_Msc "male given name" ;
 Kirima+N+Prop:Kirima N_SUFFIXES_01_Msc "male given name" ;
@@ -17,15 +19,20 @@ Tutupary+N+Prop:Tutupary N_SUFFIXES_01_Msc "male given name" ;
 Txiiakatxi+N+Prop:Txiiakatxi N_SUFFIXES_01_Msc "male given name" ;
 Txiiupirĩiry+N+Prop:Txiiupirĩiry N_SUFFIXES_01_Msc "male given name" ;
 Txiiupyryỹry+N+Prop:Txiiupyryỹry N_SUFFIXES_01_Msc "male given name" ;
+Txiupyrỹry+N+Prop:Txiupyrỹry N_SUFFIXES_01_Msc "male given name" ;
 Upirĩka+N+Prop:Upirĩka N_SUFFIXES_01_Msc "male given name" ;
 Xirikary+N+Prop:Xirikary N_SUFFIXES_01_Msc "male given name" ;
 
+Iriana+N+Prop:Iriana N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kahukiã+N+Prop:Kahukiã N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kahukyã+N+Prop:Kahukyã N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kamĩkiu+N+Prop:Kamĩkiu N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kamĩkiiu+N+Prop:Kamĩkiiu N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kanaiapa+N+Prop:Kanaiapa N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Mirĩeru+N+Prop:Mirĩeru N_SUFFIXES_01_Fem_UNDET "female given name" ;
+Pymãi+N+Prop:Pymãi N_SUFFIXES_01_Fem_UNDET "female given name" ;
+
+Synapa+N+Prop:Synapa N_SUFFIXES_01_Fem_UNDET "female given name" ;
 
 ! place names
 Syrywyny+N+Prop:Syrywyny N_SUFFIXES_01_Msc "place name" ;
