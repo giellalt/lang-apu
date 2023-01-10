@@ -3,6 +3,8 @@
 !! Proper nouns in the Apurinã language are People and places.
 
 LEXICON Propernouns
+Aramakary+N+Prop:Aramakary N_SUFFIXES_01_Msc "male given name" ;
+
 Ĩkiiapa+N+Prop:Ĩkiiapa N_SUFFIXES_01_Msc "male given name" ;
 Iũiãpu+N+Prop:Iũiãpu N_SUFFIXES_01_Msc "male given name" ;
 Kamarapu+N+Prop:Kamarapu N_SUFFIXES_01_Msc "male given name" ;
@@ -26,6 +28,7 @@ Xirikary+N+Prop:Xirikary N_SUFFIXES_01_Msc "male given name" ;
 Iriana+N+Prop:Iriana N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kahukiã+N+Prop:Kahukiã N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kahukyã+N+Prop:Kahukyã N_SUFFIXES_01_Fem_UNDET "female given name" ;
+Kamasaru+N+Prop:Kamasaru N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kamĩkiu+N+Prop:Kamĩkiu N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kamĩkiiu+N+Prop:Kamĩkiiu N_SUFFIXES_01_Fem_UNDET "female given name" ;
 Kanaiapa+N+Prop:Kanaiapa N_SUFFIXES_01_Fem_UNDET "female given name" ;
