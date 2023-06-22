@@ -18,8 +18,8 @@ pitha+Pron+Pers+Pl2:hỹtha     Cases   ;
 
 ywa+Pron+Pers+Sg3+Msc:ywa     Cases   ;
 ywa+v5+Pron+Pers+Pl3+Msc:ywana     Cases   ;!Check
-ywa+Pron+Pers+Sg3+Fem:uwa     Cases   ;
-ywa+v6+Pron+Pers+Pl3+Fem:uwana     Cases   ;!Check
+uwa+Pron+Pers+Sg3+Fem:uwa     Cases   ;
+uwa+v6+Pron+Pers+Pl3+Fem:uwana     Cases   ;!Check
 ywa+v1+Pron+Pers+Pl3:nynuwa Cases   ;
 ywa+v2+Pron+Pers+Pl3:nynawa Cases   ;
 ywa+v3+Pron+Pers+Pl3:ynuwa Cases   ;
