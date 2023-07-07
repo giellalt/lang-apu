@@ -327,7 +327,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @R.PossD.Y-re@
 @R.PossD@
 
-
+@P.EO.PhonNasal@
+@R.EO.PhonNasal@
+@D.EO.PhonNasal@
 
 @P.VerbDerv.YES@
 @D.VerbDerv@

@@ -2,19 +2,19 @@
 !  ---------------
 !! Prefixes
 
-LEXICON person_prefixes
-@U.pn.sg1@:@U.pn.sg1@ny     nv_lex ;
-@U.pn.sg2@:@U.pn.sg2@py     nv_lex ;
-@U.pn.sg3m@:@U.pn.sg3m@y  nv_lex ;
-@U.pn.sg3f@:@U.pn.sg3f@õ     nv_lex ;
-@U.pn.pl1@:@U.pn.pl1@ã     nv_lex ;
-@U.pn.pl2@:@U.pn.pl2@hĩ     nv_lex ;
-@U.pn.pl3@:@U.pn.pl3@ỹ     nv_lex ;
+!LEXICON person_prefixes
+!@U.pn.sg1@:@U.pn.sg1@ny     nv_lex ;
+!@U.pn.sg2@:@U.pn.sg2@py     nv_lex ;
+!@U.pn.sg3m@:@U.pn.sg3m@y  nv_lex ;
+!@U.pn.sg3f@:@U.pn.sg3f@õ     nv_lex ;
+!@U.pn.pl1@:@U.pn.pl1@ã     nv_lex ;
+!@U.pn.pl2@:@U.pn.pl2@hĩ     nv_lex ;
+!@U.pn.pl3@:@U.pn.pl3@ỹ     nv_lex ;
 
 
-LEXICON nv_lex
-Nouns ;
-Verbs ;
+!LEXICON nv_lex
+!Nouns ;
+!Verbs ;
 
 
 !! Suffixes
@@ -118,14 +118,17 @@ LEXICON V_SUFFIXES_04
 
 LEXICON V_SUFFIXES_05
 @R.PN.SG1@+ScSg1:@R.PN.SG1@ Verbs_END ;
-@R.PN.PL1@+ScPl1:@R.PN.PL1@ Verbs_END ;
+@R.PN.PL1@@D.EO.PhonNasal@+ScPl1:@R.PN.PL1@@D.EO.PhonNasal@ Verbs_END ;
+@R.PN.PL1@@R.EO.PhonNasal@+ScPl1+Err/Orth-phon-nasal:@R.PN.PL1@@R.EO.PhonNasal@ Verbs_END ;
 @R.PN.SG2@+ScSg2:@R.PN.SG2@ Verbs_END ;
 @R.PN.PL2@+ScPl2:@R.PN.PL2@ Verbs_END ;
 @R.PN.SG3M@+ScSg3M:@R.PN.SG3M@ Verbs_END ;
-@R.PN.SG3F@+ScSg3F:@R.PN.SG3F@ Verbs_END ;
+@R.PN.SG3F@@D.EO.PhonNasal@+ScSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ Verbs_END ;
+@R.PN.SG3F@@R.EO.PhonNasal@+ScSg3F+Err/Orth-phon-nasal:@R.PN.SG3F@@R.EO.PhonNasal@ Verbs_END ;
 @R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>na Verbs_END ;
 @R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>ne Verbs_END ;!?variation
-@R.PN.PL3F@+ScPl3F:@R.PN.PL3F@%>na Verbs_END ;
+@R.PN.PL3F@@D.EO.PhonNasal@+ScPl3F:@R.PN.PL3F@@D.EO.PhonNasal@%>na Verbs_END ;
+@R.PN.PL3F@@R.EO.PhonNasal@+ScPl3F+Err/Orth-phon-nasal:@R.PN.PL3F@@R.EO.PhonNasal@%>na Verbs_END ;
 @D.PN@ Verbs_END ;
 
 LEXICON Verbs_END

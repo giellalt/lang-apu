@@ -72,7 +72,8 @@ tsyrĩtxi+N+Sem/Body:tsyrỹ N_SUFFIXES_01_Msc_0/txi ;!CHECKME
 yry+N:yry N_SUFFIXES_01_KinMsc_0/Y2Itxi "father/pai" ;
 ynyru+N:ynyru N_SUFFIXES_01_KinFem_0/txi "mother/mãe" ;
 atukyry+N:atukyry N_SUFFIXES_01_WAKU_KinMsc_0/Y2Itxi "grandfather/avô" ;
-iimatykyry+N:iimatykyry N_SUFFIXES_01_KinMsc_0/Y2Itxi "uncle/tio" ;
+imatykyry+v1+N:imatykyry N_SUFFIXES_01_KinMsc_0/Y2Itxi "uncle/tio" ;
+imatykyry+v2+N:iimatykyry N_SUFFIXES_01_KinMsc_0/Y2Itxi "uncle/tio:Check long-i variant" ;
 tanyru+N:tanyru N_SUFFIXES_01_KinFem_0/txi "wife/esposa" ;!checkme
 tanyry+N:tanyry N_SUFFIXES_01_KinMsc_0/txi "husband/esposo" ;
 nyrymane+v1+N:nyrymane N_SUFFIXES_01_KinMsc_0/txi "relative/parente" ; !The non-possessed is theoretical
@@ -288,7 +289,8 @@ anãnapẽe+N:anãnapẽe N_SUFFIXES_01_Msc_te/0 "vinho de abacaxi" ;
 katarukyry+N:katarukyry N_SUFFIXES_01_Msc_te/0 "farinha1" ;
 iukyra+N:iukyra N_SUFFIXES_01_Msc_te/0 "sal" ;
 putxuaru+N:putxuaru N_SUFFIXES_01_Msc_te/0 "açúcar1" ;
-kỹpatykỹã+N:kỹpatykỹã N_SUFFIXES_01_Msc_te/0 "café1" ;
+!kỹpatykỹã+N:kỹpatykỹã N_SUFFIXES_01_Msc_te/0 "café1" ;
+kỹpatykỹã+N:kỹpatykỹã N_SUFFIXES_01_Fem_te/0 "coffee/café1" ;
 iãrĩiã+N:iãrĩiã N_SUFFIXES_01_Msc_te/0 "vinho" ;
 kaisuru+N:kaisuru N_SUFFIXES_01_Msc_te/0 "pedra de amolar" ;
 kaisuru+N:kaisuru N_SUFFIXES_01_Msc_ne/0 "pedra de amolar" ;
@@ -411,10 +413,10 @@ sãpaka+N:sãpaka N_SUFFIXES_01_Msc_re/0 "cansaço" ;
 pĩtxita+N:pĩtxita N_SUFFIXES_01_Msc_re/0 "pente" ;
 ãputa+N:ãputa N_SUFFIXES_01_Msc_re/0 "abano" ;
 ãata+N:ãata N_SUFFIXES_01_Msc_re/0 "canoa tradicional" ;
+ãata+N:ãata N_SUFFIXES_01_Msc_ne/0 "canoa tradicional" ;
 ãatxapata+N:ãatxapata N_SUFFIXES_01_Msc_re/0 "forquilha" ;
 pĩtxita+N:pĩtxita N_SUFFIXES_01_Msc_ne/0 "pente" ;
 ãputa+N:ãputa N_SUFFIXES_01_Msc_ne/0 "abano" ;
-ãata+N:ãata N_SUFFIXES_01_Msc_ne/0 "canoa tradicional" ;
 
 !xurũkypytsa+N+Sem/Body:xurũkypytsa N_SUFFIXES_01_Msc_0/txi "cordão umbilical’ xurũky-txi-pytsa" ;
 

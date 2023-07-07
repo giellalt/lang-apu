@@ -132,19 +132,25 @@ Rules
 
 "non-nasal a"
 !! Rule: **@RULENAME@** 
- %{aã%}:a <=> _ %< [Cns - NCns]  ;
+ %{aã%}:a <=> _ %< Cns  ; !orthographic
+!2023-07-06 _ %< [Cns - NCns]  ;!Phonetic
 
 "non-nasal u"
 !! Rule: **@RULENAME@** 
- %{uũ%}:u <=> _ %< [Cns - NCns]  ;
+ %{uũ%}:u <=> _ %< Cns  ; !orthographic
+!2023-07-06 _ %< [Cns - NCns]  ;!Phonetic
 
 "nasal ã"
 !! Rule: **@RULENAME@** 
- %{aã%}:ã <=> _ %< [Vow: |NCns] ;
+ %{aã%}:ã <=> _ %< Vow: ;
+               _ %^VowNasL: %< NCns: ;
+!2023-07-06 _ %< [Vow: |NCns] ;
 
 "nasal ũ"
 !! Rule: **@RULENAME@** 
- %{uũ%}:ũ <=> _ %< [Vow: | NCns ]  ;
+ %{uũ%}:ũ <=> _ %< Vow: ;
+               _ %^VowNasL: %< NCns: ;
+!2023-07-06 _ %< [Vow: | NCns ]  ;
 
 "nasalization with -ka passive marker"
 !! Rule: **@RULENAME@** 
@@ -183,3 +189,9 @@ Rules
 !!TESTS
 !echo 'n {hØ}:0 {yiØ}:y < t a k a > r y' | hfst-pair-test src/fst/phonology.compose.hfst
 !echo 'taka+V+ScSg1+OcSg3M' | hfst-lookup src/morphology/lexicon.hfst
+
+
+!DISALLOW
+
+"Disallow %^VowNasL:0 when not followed by Nas"
+%^VowNasL: /<= [%{aã%}: | %{uũ%}: ]  _ %< [Vow:| [Cns - NCns]];
