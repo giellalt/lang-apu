@@ -55,6 +55,7 @@ Alphabet
 Sets
 
  Vow = a e i u y ã ẽ ĩ ũ ỹ ;
+ NVow = ã ẽ ĩ ũ ỹ ;
  Cns = b c d f g h j k l m n p q r s t v w x z ;
  NCns = m n ;
 
@@ -90,10 +91,13 @@ Rules
 
 "Deleting stem-final a before NomAct -inhi"
 !! Rule: **@RULENAME@** 
- a:0 <=> _ %^VowRM: %> ;
-!! myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
+ a:0 <=> _ %^VowRM: [%>|#] ;
+!! myteka+V+Der+Der/NomAct+N+Sg+Nom: **run›running/corrir›corrida** 
 !!€ myteka%^VowRM%>inhi 
-!!€ mytek00%>inhi 
+!!€ mytek00%>inhi
+!uwa+Pron+Pers+Sg3+Fem+Contr#ãta+V+Der+Der/NIku+N+Msc+Sg+NPossd+Nom: **drink/beber**
+!!€ uwa^VowRM#ãta^VowRM>iku
+!!€ uw00#ãt00>iku
 
 "Realizing %{hØ%}:h "
 !! Rule: **@RULENAME@** 
@@ -132,23 +136,23 @@ Rules
 
 "non-nasal a"
 !! Rule: **@RULENAME@** 
- %{aã%}:a <=> _ %< Cns  ; !orthographic
+ %{aã%}:a <=> _ %< [Cns| NVow ]  ; !orthographic
 !2023-07-06 _ %< [Cns - NCns]  ;!Phonetic
 
 "non-nasal u"
 !! Rule: **@RULENAME@** 
- %{uũ%}:u <=> _ %< Cns  ; !orthographic
+ %{uũ%}:u <=> _ %< [Cns| NVow ]  ; !orthographic
 !2023-07-06 _ %< [Cns - NCns]  ;!Phonetic
 
 "nasal ã"
 !! Rule: **@RULENAME@** 
- %{aã%}:ã <=> _ %< Vow: ;
+ %{aã%}:ã <=> _ %< [Vow: - NVow:] ;
                _ %^VowNasL: %< NCns: ;
 !2023-07-06 _ %< [Vow: |NCns] ;
 
 "nasal ũ"
 !! Rule: **@RULENAME@** 
- %{uũ%}:ũ <=> _ %< Vow: ;
+ %{uũ%}:ũ <=> _ %< [Vow: - NVow:] ;
                _ %^VowNasL: %< NCns: ;
 !2023-07-06 _ %< [Vow: | NCns ]  ;
 
@@ -195,3 +199,6 @@ Rules
 
 "Disallow %^VowNasL:0 when not followed by Nas"
 %^VowNasL: /<= [%{aã%}: | %{uũ%}: ]  _ %< [Vow:| [Cns - NCns]];
+
+"Disallow word-initial Cns in contraction with pronouns" 
+Cns /<= a: %^VowRM # _ ;
