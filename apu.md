@@ -276,9 +276,11 @@ Rule: **Deleting %{yiØ%}:0 **
 Rule: **Deleting %{ỹĩØ%}:0 ** 
 
 Rule: **Deleting stem-final a before NomAct -inhi** 
-myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
+myteka+V+Der+Der/NomAct+N+Sg+Nom: **run›running/corrir›corrida** 
 * *myteka%^VowRM%>inhi*
 * *mytek00%>inhi*
+* *uwa^VowRM#ãta^VowRM>iku*
+* *uw00#ãt00>iku*
 
 Rule: **Realizing %{hØ%}:h ** 
 nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
@@ -413,6 +415,10 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+inhi
+verbal noun indicating instrument or result: ‘things to V with’ or ‘things to V’ (Facundes 2001: 240)
+
+this is for contractions, which usually involve a personal pronoun followed by a verb or noun with word-initial vowel.
 
 Morphophonology
 To represent phonologic variations in word forms we use the following

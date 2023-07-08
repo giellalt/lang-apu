@@ -24,9 +24,11 @@ Rule: **Deleting %{yiØ%}:0 **
 Rule: **Deleting %{ỹĩØ%}:0 ** 
 
 Rule: **Deleting stem-final a before NomAct -inhi** 
-myteka+V+Der+Der/NomAct+N+Sg+Nom: **running/corrida** 
+myteka+V+Der+Der/NomAct+N+Sg+Nom: **run›running/corrir›corrida** 
 * *myteka%^VowRM%>inhi*
 * *mytek00%>inhi*
+* *uwa^VowRM#ãta^VowRM>iku*
+* *uw00#ãt00>iku*
 
 Rule: **Realizing %{hØ%}:h ** 
 nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
