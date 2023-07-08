@@ -63,6 +63,7 @@ LEXICON V_SUFFIXES_01
 !0-upũ-pe
   YES/NO_DISTR ;
 +Der+Der/NomAct+N:%^VowRM%>inhi N_SUFFIXES_01_Msc ;!Direct from verb stem 
++Der+Der/NIku+N:%^VowRM%>iku N_SUFFIXES_01_Msc_UND/0 ;!Direct from verb stem 
 !+Der+Der/NomAct+N:%^VowRM%>inhi Cases ;!Direct from verb stem to cases 2021-03-02
 !sa%^VowRM%>inhi
 +Impf+Pred:%>panhi%>ka  V_SUFFIXES_02 ;!2021-03-02 work around for personal endings.
