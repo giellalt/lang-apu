@@ -9,21 +9,25 @@ kirikatape+Pron+Com:kirikatape # "with whom/com o que" ;
 
 
 LEXICON PERS
-nuta+Pron+Pers+Sg1:nuta     Cases   ;
-nuta+Pron+Pers+Pl1:atha     Cases   ;
+nuta+Pron+Pers+Sg1:nuta     PRON_FOR_CONTRACTION   ;
+nuta+Pron+Pers+Pl1:atha     PRON_FOR_CONTRACTION   ;
 
 pitha+v1+Pron+Pers+Sg2:pitha     Cases   ;
 pitha+v2+Pron+Pers+Sg2:pithe     Cases   ;
 pitha+Pron+Pers+Pl2:hỹtha     Cases   ;
 
-ywa+Pron+Pers+Sg3+Msc:ywa     Cases   ;
-ywa+v5+Pron+Pers+Pl3+Msc:ywana     Cases   ;!Check
-uwa+Pron+Pers+Sg3+Fem:uwa     Cases   ;
-uwa+v6+Pron+Pers+Pl3+Fem:uwana     Cases   ;!Check
+ywa+v1+Pron+Pers+Sg3+Msc:ywa     PRON_FOR_CONTRACTION   ;
+ywa+v2+Pron+Pers+Sg3+Msc:iwa     PRON_FOR_CONTRACTION   ;
+uwa+Pron+Pers+Sg3+Fem:uwa     PRON_FOR_CONTRACTION   ;
 ywa+v1+Pron+Pers+Pl3:nynuwa Cases   ;
 ywa+v2+Pron+Pers+Pl3:nynawa Cases   ;
 ywa+v3+Pron+Pers+Pl3:ynuwa Cases   ;
 ywa+v4+Pron+Pers+Pl3:ynawa Cases   ;
+
+LEXICON PRON_FOR_CONTRACTION
+Cases ;
++Contr#:%^VowRM# Verbs ;
++Contr#:%^VowRM# Nouns ;
 
 LEXICON PRON_TOT
 # ;
