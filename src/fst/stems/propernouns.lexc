@@ -5,39 +5,41 @@
 LEXICON Propernouns
 Aramakary+N+Prop:Aramakary N_SUFFIXES_01_Msc "male given name" ;
 
-Ĩkiiapa+N+Prop:Ĩkiiapa N_SUFFIXES_01_Msc "male given name" ;
-Iũiãpu+N+Prop:Iũiãpu N_SUFFIXES_01_Msc "male given name" ;
-Kamarapu+N+Prop:Kamarapu N_SUFFIXES_01_Msc "male given name" ;
-Kamaxirĩery+N+Prop:Kamaxirĩery N_SUFFIXES_01_Msc "male given name" ;
-Kamaxiriĩry+N+Prop:Kamaxiriĩry N_SUFFIXES_01_Msc "male given name" ;
-Kasãtumary+N+Prop:Kasãtumary N_SUFFIXES_01_Msc "male given name" ;
-Kataury+N+Prop:Kataury N_SUFFIXES_01_Msc "male given name" ;
-Kĩpuku+N+Prop:Kĩpuku N_SUFFIXES_01_Msc "male given name" ;
-Kirama+N+Prop:Kirama N_SUFFIXES_01_Msc "male given name" ;
-Kirima+N+Prop:Kirima N_SUFFIXES_01_Msc "male given name" ;
-Mutxaka+N+Prop:Mutxaka N_SUFFIXES_01_Msc "male given name" ;
-Puiaka+N+Prop:Puiaka N_SUFFIXES_01_Msc "male given name" ;
-Tutupary+N+Prop:Tutupary N_SUFFIXES_01_Msc "male given name" ;
-Txiiakatxi+N+Prop:Txiiakatxi N_SUFFIXES_01_Msc "male given name" ;
-Txiiupirĩiry+N+Prop:Txiiupirĩiry N_SUFFIXES_01_Msc "male given name" ;
-Txiiupyryỹry+N+Prop:Txiiupyryỹry N_SUFFIXES_01_Msc "male given name" ;
-Txiupyrỹry+N+Prop:Txiupyrỹry N_SUFFIXES_01_Msc "male given name" ;
-Upirĩka+N+Prop:Upirĩka N_SUFFIXES_01_Msc "male given name" ;
-Xirikary+N+Prop:Xirikary N_SUFFIXES_01_Msc "male given name" ;
+Awãi+v1+N+Prop:Awãi N_SUFFIXES_01_Msc_UND/0 ;
+Awãi+v2+N+Prop:Awãĩ N_SUFFIXES_01_Msc_UND/0 ;
+Ĩkiiapa+N+Prop:Ĩkiiapa N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Iũiãpu+N+Prop:Iũiãpu N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kamarapu+N+Prop:Kamarapu N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kamaxirĩery+N+Prop:Kamaxirĩery N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kamaxiriĩry+N+Prop:Kamaxiriĩry N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kasãtumary+N+Prop:Kasãtumary N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kataury+N+Prop:Kataury N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kĩpuku+N+Prop:Kĩpuku N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kirama+N+Prop:Kirama N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Kirima+N+Prop:Kirima N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Mutxaka+N+Prop:Mutxaka N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Puiaka+N+Prop:Puiaka N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Tutupary+N+Prop:Tutupary N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Txiiakatxi+N+Prop:Txiiakatxi N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Txiiupirĩiry+N+Prop:Txiiupirĩiry N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Txiiupyryỹry+N+Prop:Txiiupyryỹry N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Txiupyrỹry+N+Prop:Txiupyrỹry N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Upirĩka+N+Prop:Upirĩka N_SUFFIXES_01_Msc_UND/0 "male given name" ;
+Xirikary+N+Prop:Xirikary N_SUFFIXES_01_Msc_UND/0 "male given name" ;
 
-Iriana+N+Prop:Iriana N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Kahukiã+N+Prop:Kahukiã N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Kahukyã+N+Prop:Kahukyã N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Kamasaru+N+Prop:Kamasaru N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Kamĩkiu+N+Prop:Kamĩkiu N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Kamĩkiiu+N+Prop:Kamĩkiiu N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Kanaiapa+N+Prop:Kanaiapa N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Mirĩeru+N+Prop:Mirĩeru N_SUFFIXES_01_Fem_UNDET "female given name" ;
-Pymãi+N+Prop:Pymãi N_SUFFIXES_01_Fem_UNDET "female given name" ;
+Iriana+N+Prop:Iriana N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Kahukiã+N+Prop:Kahukiã N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Kahukyã+N+Prop:Kahukyã N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Kamasaru+N+Prop:Kamasaru N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Kamĩkiu+N+Prop:Kamĩkiu N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Kamĩkiiu+N+Prop:Kamĩkiiu N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Kanaiapa+N+Prop:Kanaiapa N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Mirĩeru+N+Prop:Mirĩeru N_SUFFIXES_01_Fem_UND/0 "female given name" ;
+Pymãi+N+Prop:Pymãi N_SUFFIXES_01_Fem_UND/0 "female given name" ;
 
-Synapa+N+Prop:Synapa N_SUFFIXES_01_Fem_UNDET "female given name" ;
+Synapa+N+Prop:Synapa N_SUFFIXES_01_Fem_UND/0 "female given name" ;
 
 ! place names
-Syrywyny+N+Prop:Syrywyny N_SUFFIXES_01_Msc "place name" ;
+Syrywyny+N+Prop:Syrywyny N_SUFFIXES_01_Msc_UND/0 "place name" ;
 
 ! vim: set ft=xfst-lexc:
