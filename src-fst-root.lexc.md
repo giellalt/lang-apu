@@ -142,6 +142,10 @@ For spellrelax of nasals
 
 Person marking
 
+Subject Person marking
+
+Object Person marking
+
 The word forms in Apurinã language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
