@@ -4,34 +4,34 @@
 
 LEXICON Adverbs
 apaka+Adv:apaka ADV_ "also/também" ;
-apiku+Adv:apiku ADV-SPAT_ "forward" ;
-apiku+Adv+All:apikumunhi ADV-SPAT_ "forward" ;
+apiku+Adv:apiku ADV_SPAT "forward" ;
+apiku+Adv+All:apikumunhi ADV_SPAT "forward" ;
 inhinhiã+Adv:inhinhiã ADV_ "so" ;
-ikaatuku+Adv:ikaatuku ADV-TEMP_ "so, then" ;
-kitxakapirĩka+Adv:kitxakapirĩka ADV-TEMP_ "in the olden days" ;
-ywasaaky+Adv:ywasaaky ADV-TEMP_ "at that time" ;
-mitxi+Adv:mitxi ADV-TEMP_ "at first" ;
+ikaatuku+Adv:ikaatuku ADV_TEMP "so, then" ;
+kitxakapirĩka+Adv:kitxakapirĩka ADV_TEMP "in the olden days" ;
+ywasaaky+Adv:ywasaaky ADV_TEMP "at that time" ;
+mitxi+Adv:mitxi ADV_TEMP "at first" ;
 
-kaiãupuku+Adv:kaiãupuku ADV_ "a lot; many" ;
+kaiãupuku+Adv:kaiãupuku ADV_DISTR "a lot; many" ;
 puiãuka+Adv:puiãuka ADV_ "little; a few" ;
-puiãũpuku+Adv:puiãũpuku ADV_ "little; a few" ;
+puiãũpuku+Adv:puiãũpuku ADV_DISTR "little; a few" ;
 puiaũnuka+Adv:puiaũnuka ADV_ "only little; only a few" ;
 pakyny+Adv:pakyny ADV_ "more/mais" ;
 natuku+Adv+Interr:natuku ADV_ "how/como" ;
 ĩthepary+Adv+Interr:ĩthepary ADV_ "where/cadê" ;
 nanhikiripa+Adv+Interr:nanhikiripa ADV_ "whence/de onde" ;
-nanhipa+Adv+Interr:nanhipa ADV_ "where/onde" ;
+nanhipa+Adv+Interr:nanhipa ADV_SPAT "where/onde" ;
 kiriãpa+Adv+Interr+Ine:kiriãpa ADV_ "with what/com o que" ;
 kiapypa+Adv+Interr+Ela:kiapypa ADV_ "from what/de que" ;!check this
-kirisaakypa+Adv+Interr:kirisaakypa ADV_ "when/quando" ;
-kipakynypa+Adv+Interr:kipakynypa ADV_ "how many/quanto" ;
-nhapakynypa+Adv+Interr:nhapakynypa ADV_ "how many/quanto" ;
+kirisaakypa+Adv+Interr:kirisaakypa ADV_TEMP "when/quando" ;
+kipakynypa+Adv+Interr:kipakynypa ADV_QNT "how many/quanto" ;
+nhapakynypa+Adv+Interr:nhapakynypa ADV_QNT "how many/quanto" ;
 kynerepa+Adv+Interr:kynerepa ADV_ "why/por que" ;
 
-era+Adv:era ADV-SPAT_ "there" ;
-wai+Adv:wai ADV-SPAT_ "here" ;
-kyta+Adv:kyta ADV-TEMP_ "yesterday/ontem" ;
-watxa+Adv:watxa ADV-TEMP_ "today/hoje" ;
+era+Adv:era ADV_SPAT "there" ;
+wai+Adv:wai ADV_SPAT "here" ;
+kyta+Adv:kyta ADV_TEMP "yesterday/ontem" ;
+watxa+Adv:watxa ADV_TEMP "today/hoje" ;
 !
 kutxi+CS:kutxi CS_ "because/pois" ;
 !

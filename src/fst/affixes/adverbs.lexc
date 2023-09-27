@@ -5,10 +5,16 @@
 LEXICON ADV_
  # ;
 
-LEXICON ADV-SPAT_
+LEXICON ADV_DISTR
++Distr: # ;
+
+LEXICON ADV_QNT
+: # ;
+
+LEXICON ADV_SPAT
 +Spat: # ;
 
-LEXICON ADV-TEMP_
+LEXICON ADV_TEMP
 +Temp: # ;
 
 ! vim: set ft=xfst-lexc:
