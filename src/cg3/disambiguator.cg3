@@ -47,6 +47,7 @@ LIST Refl = Refl ;
 LIST Recipr = Recipr ;
 LIST Poss = Poss ;
 LIST NPossd = NPossd ;
+LIST Possd = Possd ;
 LIST Interr = Interr ;
 LIST IM = IM ;
 
@@ -73,6 +74,36 @@ LIST Prt = Prt ;
 LIST PxSg1 = PxSg1 ;
 LIST PxSg2 = PxSg2 ;
 LIST PxSg3 = PxSg3 ;
+LIST PxSg3M = PxSg3M ;
+LIST PxSg3F = PxSg3F ;
+LIST PxPl1 = PxPl1 ;
+LIST PxPl2 = PxPl2 ;
+LIST PxPl3 = PxPl3 ;
+LIST PxPl3M = PxPl3M ;
+LIST PxPl3F = PxPl3F ;
+LIST ScSg1 = ScSg1 ;
+LIST ScSg2 = ScSg2 ;
+LIST ScSg3 = ScSg3 ;
+LIST ScSg3M = ScSg3M ;
+LIST ScSg3F = ScSg3F ;
+LIST ScPl1 = ScPl1 ;
+LIST ScPl2 = ScPl2 ;
+LIST ScPl3 = ScPl3 ;
+LIST ScPl3M = ScPl3M ;
+LIST ScPl3F = ScPl3F ;
+
+LIST OcSg1 = OcSg1 ;
+LIST OcSg2 = OcSg2 ;
+LIST OcSg3 = OcSg3 ;
+LIST OcSg3M = OcSg3M ;
+LIST OcSg3F = OcSg3F ;
+LIST OcPl1 = OcPl1 ;
+LIST OcPl2 = OcPl2 ;
+LIST OcPl3 = OcPl3 ;
+LIST OcPl3M = OcPl3M ;
+LIST OcPl3F = OcPl3F ;
+LIST Oc3M = Oc3M ;
+LIST Oc3F = Oc3F ;
 LIST 1Sg = 1Sg ;
 LIST 2Sg = 2Sg ;
 LIST 3Sg = 3Sg ;
@@ -102,7 +133,9 @@ LIST GENDER = Msc Fem Neu ;
 LIST NUMBER = Sg Pl ;
 SET NAGDNUMBERGENDER = (Msc Sg Nom) OR (Msc Sg Acc) OR (Msc Sg Gen) OR (Msc Sg Dat) OR (Msc Pl Nom) OR (Msc Pl Acc) OR (Msc Pl Gen) OR (Msc Pl Dat) OR (Fem Sg Nom) OR (Fem Sg Acc) OR (Fem Sg Gen) OR (Fem Sg Dat) OR (Fem Pl Nom) OR (Fem Pl Acc) OR (Fem Pl Gen) OR (Fem Pl Dat) OR (Neu Sg Nom) OR (Neu Sg Acc) OR (Neu Sg Gen) OR (Neu Sg Dat) OR (Neu Pl Nom) OR (Neu Pl Acc) OR (Neu Pl Gen) OR (Neu Pl Dat) ;
 
-
+SET Possd-No-PX = Possd - PxSg1 - PxSg2 - PxSg3M - PxSg3F - PxPl1 - PxPl2 - PxPl3M - PxPl3F ;
+SET Possd-With-PX = (PxSg1 Possd) | (PxSg2 Possd) | (PxSg3M Possd) | (PxSg3F Possd) | (PxPl1 Possd) | (PxPl2 Possd) | (PxPl3M Possd) | (PxPl3F Possd) ;
+SET Possd-With-PX3 =  (PxSg3M Possd) | (PxSg3F Possd) | (PxPl3M Possd) | (PxPl3F Possd) ;
 # Sets
 # ====
 
@@ -278,6 +311,12 @@ SUBSTITUTE:Vido (Vido Oc3F) (Vido Sc3F) TARGET (V IV) ;
 
 #Kiripa pykama?
 REMOVE:MustBeVerb N IF (NOT *-1 V BARRIER NPNH)(0 V)(NOT *1 V BARRIER NPNH);
+
+REMOVE Possd-With-PX3 IF (-1 N) (0 Possd-No-PX);
+# Kyky etamatary ãkiti iãkyny.
+REMOVE Possd-No-PX IF (NOT -1 N) (0 Possd-With-PX3);
+# Inhinhiã ywa apikumunhi ysa iãkynykata apukary uky.
+
 
 
 REMOVE Guess ; # If any other reading is possible.
