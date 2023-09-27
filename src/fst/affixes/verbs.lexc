@@ -107,30 +107,41 @@ LEXICON V_SUFFIXES_03
  V_SUFFIXES_04 ;
 
 LEXICON V_SUFFIXES_04
-+Refl:%>wa V_SUFFIXES_05 ;
-+OcSg1:%>nu V_SUFFIXES_05 ;
-+OcPl1:%>wa V_SUFFIXES_05 ;
-+OcSg2:%>i V_SUFFIXES_05 ;
-+OcPl2:%>i V_SUFFIXES_05 ;
-+Oc3M:%>ry V_SUFFIXES_05 ; ! Singular and Plural
-+Oc3M+Err/Orth-i-not-y:%>ri V_SUFFIXES_05 ; ! Singular and Plural
-+Oc3F:%>ru V_SUFFIXES_05 ;
+@D.OCPN@+Refl:@D.OCPN@%>wa V_SUFFIXES_05 ;
+@P.OCPN.SG1@:@P.OCPN.SG1@%>nu V_SUFFIXES_05 ;
+@P.OCPN.PL1@:@P.OCPN.PL1@%>wa V_SUFFIXES_05 ;
+@P.OCPN.SG2@:@P.OCPN.SG2@%>i V_SUFFIXES_05 ;
+@P.OCPN.PL2@:@P.OCPN.PL2@%>i V_SUFFIXES_05 ;
+@P.OCPN.3M@:@P.OCPN.3M@%>ry V_SUFFIXES_05 ; ! Singular and Plural
+@P.OCPN.3M@+Err/Orth-i-not-y:@P.OCPN.3M@%>ri V_SUFFIXES_05 ; ! Singular and Plural
+@P.OCPN.3F@:@P.OCPN.3F@%>ru V_SUFFIXES_05 ;
+
  V_SUFFIXES_05 ;
 
 LEXICON V_SUFFIXES_05
-@R.PN.SG1@+ScSg1:@R.PN.SG1@ Verbs_END ;
-@R.PN.PL1@@D.EO.PhonNasal@+ScPl1:@R.PN.PL1@@D.EO.PhonNasal@ Verbs_END ;
-@R.PN.PL1@@R.EO.PhonNasal@+ScPl1+Err/Orth-phon-nasal:@R.PN.PL1@@R.EO.PhonNasal@ Verbs_END ;
-@R.PN.SG2@+ScSg2:@R.PN.SG2@ Verbs_END ;
-@R.PN.PL2@+ScPl2:@R.PN.PL2@ Verbs_END ;
-@R.PN.SG3M@+ScSg3M:@R.PN.SG3M@ Verbs_END ;
-@R.PN.SG3F@@D.EO.PhonNasal@+ScSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ Verbs_END ;
-@R.PN.SG3F@@R.EO.PhonNasal@+ScSg3F+Err/Orth-phon-nasal:@R.PN.SG3F@@R.EO.PhonNasal@ Verbs_END ;
-@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>na Verbs_END ;
-@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>ne Verbs_END ;!?variation
-@R.PN.PL3F@@D.EO.PhonNasal@+ScPl3F:@R.PN.PL3F@@D.EO.PhonNasal@%>na Verbs_END ;
-@R.PN.PL3F@@R.EO.PhonNasal@+ScPl3F+Err/Orth-phon-nasal:@R.PN.PL3F@@R.EO.PhonNasal@%>na Verbs_END ;
-@D.PN@ Verbs_END ;
+@R.PN.SG1@+ScSg1:@R.PN.SG1@ V_SUFFIXES_06 ;
+@R.PN.PL1@@D.EO.PhonNasal@+ScPl1:@R.PN.PL1@@D.EO.PhonNasal@ V_SUFFIXES_06 ;
+@R.PN.PL1@@R.EO.PhonNasal@+ScPl1+Err/Orth-phon-nasal:@R.PN.PL1@@R.EO.PhonNasal@ V_SUFFIXES_06 ;
+@R.PN.SG2@+ScSg2:@R.PN.SG2@ V_SUFFIXES_06 ;
+@R.PN.PL2@+ScPl2:@R.PN.PL2@ V_SUFFIXES_06 ;
+@R.PN.SG3M@+ScSg3M:@R.PN.SG3M@ V_SUFFIXES_06 ;
+@R.PN.SG3F@@D.EO.PhonNasal@+ScSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ V_SUFFIXES_06 ;
+@R.PN.SG3F@@R.EO.PhonNasal@+ScSg3F+Err/Orth-phon-nasal:@R.PN.SG3F@@R.EO.PhonNasal@ V_SUFFIXES_06 ;
+@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>na V_SUFFIXES_06 ;
+@R.PN.PL3M@+ScPl3M:@R.PN.PL3M@%>ne V_SUFFIXES_06 ;!?variation
+@R.PN.PL3F@@D.EO.PhonNasal@+ScPl3F:@R.PN.PL3F@@D.EO.PhonNasal@%>na V_SUFFIXES_06 ;
+@R.PN.PL3F@@R.EO.PhonNasal@+ScPl3F+Err/Orth-phon-nasal:@R.PN.PL3F@@R.EO.PhonNasal@%>na V_SUFFIXES_06 ;
+@D.PN@ V_SUFFIXES_06 ;
+
+LEXICON V_SUFFIXES_06
+@R.OCPN.SG1@+OcSg1:@R.OCPN.SG1@ Verbs_END ;
+@R.OCPN.PL1@+OcPl1:@R.OCPN.PL1@ Verbs_END ;
+@R.OCPN.SG2@+OcSg2:@R.OCPN.SG2@ Verbs_END ;
+@R.OCPN.PL2@+OcPl2:@R.OCPN.PL2@ Verbs_END ;
+@R.OCPN.3M@+Oc3M:@R.OCPN.3M@ Verbs_END ; ! Singular and Plural
+@R.OCPN.3M@+Oc3M:@R.OCPN.3M@ Verbs_END ; ! Singular and Plural
+@R.OCPN.3F@+Oc3F:@R.OCPN.3F@ Verbs_END ;
+ Verbs_END ;
 
 LEXICON Verbs_END
 +Fut:%>ku # ;
@@ -141,6 +152,7 @@ LEXICON YES/NO_DISTR
 !1 Distr -puku
 @P.VerbDerv.YES@+Distr:@P.VerbDerv.YES@%>puku YES/NO_CAUS-1 ;
  YES/NO_CAUS-1 ;
+@P.VerbDerv.YES@+Distr:@P.VerbDerv.YES@%>puku V_SUFFIXES_02 ; !CHECKME 2023-09-25
 
 LEXICON YES/NO_CAUS-1
 !2 Caus -ka2

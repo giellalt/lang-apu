@@ -61,7 +61,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Fem !!≈	uwa
  
 !! Possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3M +PxSg3F
+ +PxPl1 +PxPl2 +PxPl3M +PxPl3F
  +PxMsc +PxFem
  +NPossd !!≈  not possessed
  +Possd
@@ -276,6 +277,72 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @R.PN.PL3M@
 
 @D.PN@
+
+!! Subject Person marking
+@U.SCPN.SG1@
+@U.SCPN.SG2@
+@U.SCPN.SG3F@
+@U.SCPN.SG3M@
+@U.SCPN.PL1@
+@U.SCPN.PL2@
+@U.SCPN.PL3F@
+@U.SCPN.PL3M@
+
+@P.SCPN.SG1@
+@P.SCPN.SG2@
+@P.SCPN.SG3F@
+@P.SCPN.SG3M@
+@P.SCPN.PL1@
+@P.SCPN.PL2@
+@P.SCPN.PL3F@
+@P.SCPN.PL3M@
+
+@R.SCPN.SG1@
+@R.SCPN.SG2@
+@R.SCPN.SG3F@
+@R.SCPN.SG3M@
+@R.SCPN.PL1@
+@R.SCPN.PL2@
+@R.SCPN.PL3F@
+@R.SCPN.PL3M@
+
+@D.SCPN@
+
+!! Object Person marking
+@U.OCPN.SG1@
+@U.OCPN.SG2@
+@U.OCPN.SG3F@
+@U.OCPN.SG3M@
+@U.OCPN.PL1@
+@U.OCPN.PL2@
+@U.OCPN.PL3F@
+@U.OCPN.PL3M@
+@U.OCPN.3F@
+@U.OCPN.3M@
+
+@P.OCPN.SG1@
+@P.OCPN.SG2@
+@P.OCPN.SG3F@
+@P.OCPN.SG3M@
+@P.OCPN.PL1@
+@P.OCPN.PL2@
+@P.OCPN.PL3F@
+@P.OCPN.PL3M@
+@P.OCPN.3F@
+@P.OCPN.3M@
+
+@R.OCPN.SG1@
+@R.OCPN.SG2@
+@R.OCPN.SG3F@
+@R.OCPN.SG3M@
+@R.OCPN.PL1@
+@R.OCPN.PL2@
+@R.OCPN.PL3F@
+@R.OCPN.PL3M@
+@R.OCPN.3F@
+@R.OCPN.3M@
+
+@D.OCPN@
 
 ! ama%>ru, ama%>ry
 @P.NounEnding.ry@
