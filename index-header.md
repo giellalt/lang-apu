@@ -1,9 +1,10 @@
 # Apurinã documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-apu%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-apu/main/badge.svg)](https://github.com/giellalt/lang-apu/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-apu/main/badge.svg)](https://github.com/giellalt/lang-apu/actions)
 
 This page documents the work on the [Apurinã language model](https://github.com/giellalt/lang-apu). Not much has been done to it yet, it contains some 100 noun and word
 stems and the basic morphology.
