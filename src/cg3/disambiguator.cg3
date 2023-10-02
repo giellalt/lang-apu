@@ -314,7 +314,7 @@ REMOVE:MustBeVerb N IF (NOT *-1 V BARRIER NPNH)(0 V)(NOT *1 V BARRIER NPNH);
 
 REMOVE Possd-With-PX3 IF (-1 N) (0 Possd-No-PX);
 # Kyky etamatary ãkiti iãkyny.
-REMOVE Possd-No-PX IF (NOT -1 N) (0 Possd-With-PX3);
+REMOVE:WhenWordToLeftIsNotNoun Possd-No-PX IF (NOT -1 N) (0 Possd-With-PX3);
 # Inhinhiã ywa apikumunhi ysa iãkynykata apukary uky.
 
 
