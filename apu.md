@@ -175,7 +175,7 @@ The Apurinã language adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -184,7 +184,7 @@ The APURINÃ language adverbs compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -195,7 +195,7 @@ Suffixes
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -204,7 +204,7 @@ Prefixes in the Apurinã language are bound to beginning of other words.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/prefixes.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
 
 ---
 
@@ -213,7 +213,7 @@ The APURINÃ language nouns inflect in cases.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -223,7 +223,7 @@ nouns, but with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -232,7 +232,7 @@ nouns, but with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -246,7 +246,7 @@ aiatapanhika
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -321,7 +321,7 @@ Rule: **nasalization with -Ntxi y:ĩ**
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-apu/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -482,7 +482,7 @@ word classes, or optionally from prefixes:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -491,7 +491,7 @@ Adjectives in the Apurinã language describe things.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -500,7 +500,7 @@ Adverbs in the APURINÃ language describe things.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
 
@@ -513,7 +513,7 @@ compounding scheme or possibly many end applications.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -524,7 +524,7 @@ These need further classification 2020-05-10
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -533,7 +533,7 @@ Numerals in the Apurinã language are numbers.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -542,7 +542,7 @@ Pronouns in the Apurinã language are references to things.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -551,7 +551,7 @@ Proper nouns in the Apurinã language are People and places.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
 
@@ -562,7 +562,7 @@ More test verbs 2020-05-10
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -729,7 +729,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-apu/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-apu/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -749,7 +749,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-apu/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -763,7 +763,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-apu/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
