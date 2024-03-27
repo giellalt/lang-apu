@@ -79,6 +79,19 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
+# The HFST Grammar Checker analyser (keep the Err/SpaceCmp strings):
+.generated/analyser-gramcheck-gt-desc.hfst: \
+		orthography/spellrelax-with-flagtags.compose.hfst $(GENDIR)
+	$(AM_V_HXFST)$(PRINTF) "\
+	set encode-weights ON\n\
+	read regex \
+			@\"orthography/spellrelax-with-flagtags.compose.hfst\" \
+		;\n\
+	twosided flag-diacritics\n\
+	invert net\n\
+	save stack $@\n\
+	quit\n" | $(HFST_XFST) -p $(MORE_VERBOSITY)
+
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
 ##################################################################
