@@ -1,6 +1,10 @@
-# Apurinã description 
+# Apurinã language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-functions.cg3.md 
 
 
 
@@ -170,7 +174,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-apu/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-apu/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 The Apurinã language adjectives compare.
 
 * * *
@@ -178,6 +189,8 @@ The Apurinã language adjectives compare.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-adverbs.lexc.md 
 
 Adverb inflection
 The APURINÃ language adverbs compare.
@@ -187,6 +200,8 @@ The APURINÃ language adverbs compare.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
 The APURINÃ language nouns inflect in cases.
@@ -199,6 +214,8 @@ Suffixes
 
 ---
 
+# src-fst-morphology-affixes-prefixes.lexc.md 
+
 Prefixes
 Prefixes in the Apurinã language are bound to beginning of other words.
 
@@ -208,6 +225,8 @@ Prefixes in the Apurinã language are bound to beginning of other words.
 
 ---
 
+# src-fst-morphology-affixes-pronouns.lexc.md 
+
 Noun inflection
 The APURINÃ language nouns inflect in cases.
 
@@ -216,6 +235,8 @@ The APURINÃ language nouns inflect in cases.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The Apurinã language proper nouns inflect in the same cases as regular
@@ -227,6 +248,8 @@ nouns, but with a colon (':') as separator.
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -235,6 +258,8 @@ nouns, but with a colon (':') as separator.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
 Prefixes
@@ -249,6 +274,8 @@ aiatapanhika
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 =================================== !
 # The Apurinã morphophonological/twolc rules file 
@@ -324,6 +351,8 @@ Rule: **nasalization with -Ntxi y:ĩ**
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Apurinã LANGUAGE.
@@ -486,6 +515,8 @@ word classes, or optionally from prefixes:
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 Adjectives
 Adjectives in the Apurinã language describe things.
 
@@ -495,6 +526,8 @@ Adjectives in the Apurinã language describe things.
 
 ---
 
+# src-fst-morphology-stems-adverbs.lexc.md 
+
 Adverbs
 Adverbs in the APURINÃ language describe things.
 
@@ -503,6 +536,8 @@ Adverbs in the APURINÃ language describe things.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-exceptions.lexc.md 
 
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
@@ -517,6 +552,8 @@ compounding scheme or possibly many end applications.
 
 ---
 
+# src-fst-morphology-stems-nouns.lexc.md 
+
 Nouns
 Nouns in the Apurinã language are things.
 
@@ -528,6 +565,8 @@ These need further classification 2020-05-10
 
 ---
 
+# src-fst-morphology-stems-numerals.lexc.md 
+
 Numerals
 Numerals in the Apurinã language are numbers.
 
@@ -536,6 +575,8 @@ Numerals in the Apurinã language are numbers.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 Pronouns
 Pronouns in the Apurinã language are references to things.
@@ -546,6 +587,8 @@ Pronouns in the Apurinã language are references to things.
 
 ---
 
+# src-fst-morphology-stems-propernouns.lexc.md 
+
 Proper nouns
 Proper nouns in the Apurinã language are People and places.
 
@@ -554,6 +597,8 @@ Proper nouns in the Apurinã language are People and places.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 Verbs
 Verbs in APURINÃ language are actions.
@@ -565,6 +610,8 @@ More test verbs 2020-05-10
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -733,6 +780,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Apurinã are read out, e.g.
@@ -753,6 +802,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -766,6 +817,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-apu/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -1064,7 +1117,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-apu/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for apu
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-apu/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for apu
 
 Usage:
 ```
@@ -1126,6 +1186,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-apu/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for apu
 
@@ -1190,6 +1252,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1251,6 +1315,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-apu/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
