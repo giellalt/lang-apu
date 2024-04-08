@@ -93,7 +93,9 @@ LEXICON N_SUFFIXES_01_Msc_UND/0
 !Help detect possd markers @P.PossD.Y-0@+Msc:@P.PossD.Y-0@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
 
-
+LEXICON N_SUFFIXES_01_Msc/Fem
+ N_SUFFIXES_01_Msc_UNDET ;
+ N_SUFFIXES_01_Fem_UNDET ;
 LEXICON N_SUFFIXES_01_Msc ! THIS IS FOR DEVELOPMENT Work2020-11-17
 @P.PossD.Y-0@+Msc:@P.PossD.Y-0@	N_SUFFIXES_02 ;
 @U.PossD-Y.Off@@P.PossD.N-0@+Msc:@U.PossD-Y.Off@@P.PossD.N-0@	N_SUFFIXES_02 ;
