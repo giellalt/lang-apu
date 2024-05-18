@@ -1,0 +1,13 @@
++N+Sg+Nom
++N+Sg+Abl
++N+Sg+Com
++N+Sg+Dat
++N+Sg+Loc
++N+Coll+Nom
++N+Sg+Nom+PxSg2
++N+Sg+Abl+PxSg2
++N+Sg+Com+PxSg2
++N+Sg+Dat+PxSg2
++N+Sg+Loc+PxSg2
++N+Coll+Nom+PxSg2
+
