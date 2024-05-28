@@ -26,3 +26,4 @@ analyser-gramcheck-gt-desc.hfst: orthography/spellrelax-with-flagtags.compose.hf
 
 
 include $(top_srcdir)/../giella-core/am-shared/src-dir-include.am
+include $(top_srcdir)/../giella-core/am-shared/devtest-include.am
