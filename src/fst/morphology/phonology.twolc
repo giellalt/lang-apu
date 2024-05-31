@@ -106,7 +106,6 @@ Rules
 !!€ n%{hØ%}%{yiØ%}%<nhika%>ru
 !!€ nhi%<nhika%>ru
 
-
 "Realizing %{yiØ%}:y LEFT ARROW"
 !! Rule: **@RULENAME@** 
  %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< NonPALNonNAS  ;
