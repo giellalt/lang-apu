@@ -171,7 +171,7 @@ LEXICON YES/NO_AUGM
 
 LEXICON YES/NO_TCAUS
 !5	T.Caus -kũtaka
-@P.VerbDerv.YES@+TCaus:@P.VerbDerv.YES@%>kũtka YES/NO_FACT ;
+@P.VerbDerv.YES@+TCaus:@P.VerbDerv.YES@%>kũtaka YES/NO_FACT ;
  YES/NO_FACT ;
 
 LEXICON YES/NO_FACT
