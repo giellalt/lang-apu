@@ -19,14 +19,15 @@ puiaũnuka+Adv:puiaũnuka ADV_ "only little; only a few" ;
 pakyny+Adv:pakyny ADV_ "more/mais" ;
 natuku+Adv+Interr:natuku ADV_ "how/como" ;
 ĩthepary+Adv+Interr:ĩthepary ADV_ "where/cadê" ;
-nanhikiripa+Adv+Interr:nanhikiripa ADV_ "whence/de onde" ;
-nanhipa+Adv+Interr:nanhipa ADV_SPAT "where/onde" ;
-kiriãpa+Adv+Interr+Ine:kiriãpa ADV_ "with what/com o que" ;
-kiapypa+Adv+Interr+Ela:kiapypa ADV_ "from what/de que" ;!check this
-kirisaakypa+Adv+Interr:kirisaakypa ADV_TEMP "when/quando" ;
-kipakynypa+Adv+Interr:kipakynypa ADV_QNT "how many/quanto" ;
-nhapakynypa+Adv+Interr:nhapakynypa ADV_QNT "how many/quanto" ;
-kynerepa+Adv+Interr:kynerepa ADV_ "why/por que" ;
+nanhikiripa+Adv+Interr:nanhikiri#pa ADV_ "whence/de onde" ;
+nanhipa+Adv+Interr:nanhi#pa ADV_SPAT "where/onde" ;
+kiriãpa+Adv+Interr+Ine:kiriã#pa ADV_ "with what/com o que" ;
+kiapypa+Adv+Interr+Ela:kiapy#pa ADV_ "from what/de que" ;!check this
+kirisaakypa+Adv+Interr:kirisaaky#pa ADV_TEMP "when/quando" ;
+kipakynypa+Adv+Interr:kipakyny#pa ADV_QNT "how many/quanto" ;
+nhapakynypa+Adv+Interr:nhapakyny#pa ADV_QNT "how many/quanto" ;
+kynerepa+Adv+Interr:kynere#pa ADV_ "why/por que" ;
+kanhipa+Adv+Interr:kanhi#pa ADV_ "how/como" ;
 
 era+Adv:era ADV_SPAT "there" ;
 wai+Adv:wai ADV_SPAT "here" ;
