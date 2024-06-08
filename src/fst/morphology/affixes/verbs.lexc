@@ -141,12 +141,14 @@ LEXICON V_SUFFIXES_06
 @R.OCPN.3M@+Oc3M:@R.OCPN.3M@ Verbs_END ; ! Singular and Plural
 @R.OCPN.3M@+Oc3M:@R.OCPN.3M@ Verbs_END ; ! Singular and Plural
 @R.OCPN.3F@+Oc3F:@R.OCPN.3F@ Verbs_END ;
- Verbs_END ;
+@D.OCPN@ Verbs_END ;
 
 LEXICON Verbs_END
-+Fut:%>ku # ;
+ FUT_ ;
 # ;
 
+LEXICON FUT_
++Fut:%>ku # ;
 
 LEXICON YES/NO_DISTR
 !1 Distr -puku
@@ -188,6 +190,7 @@ LEXICON	YES/NO_PROG
 !8 Prog -nany
 @P.VerbDerv.YES@+Prog:@P.VerbDerv.YES@%>nany YES/NO_ALMOST ;
  YES/NO_ALMOST ;
+ 
 LEXICON YES/NO_ALMOST
 !9 Almost -wari
 @P.VerbDerv.YES@+Almost:@P.VerbDerv.YES@%>wari YES/NO_RANDOM ;

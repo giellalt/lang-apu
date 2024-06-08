@@ -28,6 +28,7 @@ LEXICON PRON_FOR_CONTRACTION
 Cases ;
 +Contr#:%^VowRM# Verbs ;
 +Contr#:%^VowRM# Nouns ;
+FUT_ ;! 2024-06-07 nuta>ku what other predicate-oriented things can be attached? 
 
 LEXICON PRON_TOT
 # ;
