@@ -6,8 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-apu/main/badge.svg)](https://github.com/giellalt/lang-apu/actions)
 
-This page documents the work on the [Apurinã language model](https://github.com/giellalt/lang-apu). Not much has been done to it yet, it contains some 100 noun and word
-stems and the basic morphology.
+This page documents the work on the [Apurinã language model](https://github.com/giellalt/lang-apu). Work is underway, with a lexicon of more than 2000 stems (1600 nouns) and the basic morphology being in place.
 
 # Project documentation
 
