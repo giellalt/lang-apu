@@ -35,6 +35,37 @@
 ~€
 
 ## Inclusions: this is the real alphabet definition:
+A
+Ã
+B
+C
+D
+E
+Ẽ
+F
+G
+H
+I
+Ĩ
+J
+K
+L
+M
+N
+O
+Õ
+P
+R
+S
+T
+U
+Ũ
+V
+W
+X
+Y
+Ỹ
+Z
 a
 ã
 b
