@@ -7,6 +7,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-a
 **%^VowRM:0  ** this will remove stem final vowel
 **%^VowNasL:0 ** This will nasalize preceding vowel
 **%^VowY2I:0 ** This will change stem-final y to i
+**%^I1:0	 ** This will cause %{yiØ%}:i before all consonants
 
 Rule: **Deleting %{hØ%}** 
 

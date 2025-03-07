@@ -102,6 +102,7 @@ symbols in the lexicon files:
 **%^VowY2I ** This will change stem-final y to i
 
 And following triggers to control variation
+**%^I1	 ** This will cause %{yiØ%}:i before all consonants
 
 ### Symbols that need to be escaped on the lower side (towards twolc):
 
@@ -139,6 +140,8 @@ given the proper use of these flags.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 For spellrelax of nasals
+
+For prefix bad orthography
 
 Person marking
 
