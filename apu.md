@@ -289,7 +289,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-a
 **%^I1:0	 ** This will cause %{yiØ%}:i before all consonants
 
 Rule: **Deleting %{hØ%}** 
-
+hỹruwa+V+Imprt+ScSg2: **enter/entrar**
+* *p{yiØ}<{hØ}ỹruwa*
+* *py<0ỹruwa*
 arika+V+ScSg1+Oc3F: **set on fire**
 * *n%{hØ%}%{yiØ%}%<arika%>ru*
 * *n00%<arika%>ru*
