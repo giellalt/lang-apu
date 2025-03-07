@@ -74,7 +74,10 @@ Rules
 "Deleting %{hØ%}"
 !! Rule: **@RULENAME@** 
   %{hØ%}:0 <=> n _ [%{yiØ%}:y %< NonPALCns | %{yiØ%}:0 %< [Vow - i] ] ;
-
+           %{yiØ%}: %< _ ỹ ;
+!! hỹruwa+V+Imprt+ScSg2: **enter/entrar**
+!!€ p{yiØ}<{hØ}ỹruwa
+!!€ py<0ỹruwa
 !! arika+V+ScSg1+Oc3F: **set on fire**
 !!€ n%{hØ%}%{yiØ%}%<arika%>ru
 !!€ n00%<arika%>ru
@@ -111,12 +114,12 @@ Rules
 
 "Realizing %{yiØ%}:y LEFT ARROW"
 !! Rule: **@RULENAME@** 
- %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< NonPALNonNAS  ;
+ %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< [NonPALNonNAS|%{hØ%}: ỹ]  ;
 ! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
 
 "Realizing %{yiØ%}:y RIGHT ARROW"
 !! Rule: **@RULENAME@** 
- %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< NonPALNonNAS  ;
+ %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< [NonPALNonNAS|%{hØ%}: ỹ]  ;
 ! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
                _ %< t x a: ;
 

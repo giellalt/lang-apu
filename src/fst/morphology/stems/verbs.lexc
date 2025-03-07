@@ -96,6 +96,7 @@ etyka+V+TV:etyka V_SUFFIXES_01 "TV" ;
 hare+V+IV:hare V_SUFFIXES_01_vido "vido" ;
 hareka+V+IV:hareka V_SUFFIXES_01_vido "vido" ;
 himata+V+TV:himata V_SUFFIXES_01 "TV" ;
+hỹruwa+V+IV:%{hØ%}ỹruwa V_SUFFIXES_01 "IV entrar" ;
 iarita+V+TV:iarita V_SUFFIXES_01 "TV" ;
 iaryry+V+IV:iaryry V_SUFFIXES_01_vido "vido" ;
 iaryry+V+TV:iaryry V_SUFFIXES_01 "TV" ;
