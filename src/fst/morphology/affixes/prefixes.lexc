@@ -10,6 +10,7 @@ LEXICON PERSON_PREFIXES
 @P.PN.PL1@:@P.PN.PL1@%{aã%}%< NV_LEX ;
 @P.PN.PL1@@P.EO.PhonNasal@:@P.PN.PL1@@P.EO.PhonNasal@%{aã%}%^VowNasL%< NV_LEX ;
 @P.PN.SG2@:@P.PN.SG2@p%{yiØ%}%< NV_LEX ;
+@P.PN.SG2@@U.ERRORTH.inoty@:@P.PN.SG2@@U.ERRORTH.inoty@p%{yiØ%}%^I1%< NV_LEX ;
 @P.PN.PL2@:@P.PN.PL2@h%{ỹĩØ%}%< NV_LEX ;
 @P.PN.SG3M@:@P.PN.SG3M@%{yiØ%}%< NV_LEX ;
 @P.PN.SG3F@:@P.PN.SG3F@%{uũ%}%< NV_LEX ;

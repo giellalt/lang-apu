@@ -204,6 +204,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! And following triggers to control variation
  {front} {back}
+%^I1	 !!= **@CODE@** This will cause %{yiØ%}:i before all consonants
 
 !! ### Symbols that need to be escaped on the lower side (towards twolc):
 
@@ -247,6 +248,12 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @D.SpellRlx.ON@
 @D.SpellRlx@
 @C.SpellRlx@
+
+!! For prefix bad orthography
+!!+Err/Orth-i-not-y
+@U.ERRORTH.inoty@
+@R.ERRORTH.inoty@
+@D.ERRORTH.inoty@
 
 !! Person marking
 @U.PN.SG1@

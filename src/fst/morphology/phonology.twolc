@@ -36,6 +36,7 @@ Alphabet
 %^VowRM:0  !!= **@CODE@** this will remove stem final vowel
 %^VowNasL:0 !!= **@CODE@** This will nasalize preceding vowel
 %^VowY2I:0 !!= **@CODE@** This will change stem-final y to i
+%^I1:0	 !!= **@CODE@** This will cause %{yiØ%}:i before all consonants
 
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
  »7     ! »
@@ -58,13 +59,15 @@ Sets
  NVow = ã ẽ ĩ ũ ỹ ;
  Cns = b c d f g h j k l m n p q r s t v w x z ;
  NCns = m n ;
+ Ltrs = Vow Cns;
 
 Definitions
 
 PALCns = [n h | x | t x | t s | t h ] ;
 
 NonPALCns = [n [Vow | Cns - [h]]  | Cns - [x|n|t] | t [Cns - [x | s | h] | Vow ] ] ;
-NonPALNonNAS = [ Cns - [x|n|m|t] | t [Cns - [x | s | h] | Vow ] ] ;
+NonPALNonNAS = [ Cns - [x|n|m|t|k] | t [Cns - [x | s | h] | Vow ] | n [Cns - [h] | Vow ] | k [Vow - i]| k i Cns [Vow - i] ] ;
+!NonPALNonNAS = [ Cns - [x|n|m|t|k] | t [Cns - [x | s | h] | n | k [Vow - i]| k i Cns [Vow - i]| Vow ] ] ;
 
 Rules
 
@@ -119,9 +122,12 @@ Rules
 
 "Realizing %{yiØ%}:i LEFT ARROW"
 !! Rule: **@RULENAME@** 
- %{yiØ%}:i <= [n %{hØ%}: | p | # ] _ %< PALCns  ;
+ %{yiØ%}:i <= [n %{hØ%}: | p | # ] _ %< [ PALCns | [ k ] i Cns i ]  ;
+           p _ %^I1:0 %< NonPALNonNAS ;
+
 "Realizing %{yiØ%}:i RIGHT ARROW"
- %{yiØ%}:i => [n %{hØ%}: | p | # ] _ %< PALCns  ;
+ %{yiØ%}:i => [n %{hØ%}: | p | # ] _ %< [ PALCns | [ k ] i Cns i ]  ;
+           p _ %^I1:0 %< NonPALNonNAS ;
 
 "Realizing %{yiØ%}:ỹ "
 !! Rule: **@RULENAME@** 
@@ -201,3 +207,6 @@ Rules
 
 "Disallow word-initial Cns in contraction with pronouns" 
 Cns /<= a: %^VowRM # _ ;
+
+"Disallow %^I1: when not followed by Cns"
+%^I1: /<= _ %< [ Vow: |  PALCns ] ;
