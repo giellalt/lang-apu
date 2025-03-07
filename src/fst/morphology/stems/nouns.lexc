@@ -1132,7 +1132,7 @@ saasara+N:saasara N_SUFFIXES_01_Msc_te/0 "terçado2" ;
 saiamary+N:saiamary N_SUFFIXES_01_Msc_UND/0 ;
 sakanakatxi+N:sakanakatxi N_SUFFIXES_01_Msc_UND/0 ;
 sãkiretxi+N:sãkire N_SUFFIXES_01_Msc_0/txi "language/idioma, fala" ;
-sãkiretxi+N:sãkiretxi N_SUFFIXES_01_Msc_UND/0 "?speech/" ;
+!sãkiretxi+N:sãkiretxi N_SUFFIXES_01_Msc_UND/0 "?speech/" ;
 sãku+N:sãku N_SUFFIXES_01_Msc_UND/0 ;
 samariiri+N:samariiri N_SUFFIXES_01_Msc_UND/0 ;
 samary+N:samary N_SUFFIXES_01_Msc_UND/0 ;
