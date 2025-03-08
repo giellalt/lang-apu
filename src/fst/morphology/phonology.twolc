@@ -74,7 +74,7 @@ Rules
 "Deleting %{hØ%}"
 !! Rule: **@RULENAME@** 
   %{hØ%}:0 <=> n _ [%{yiØ%}:y %< NonPALCns | %{yiØ%}:0 %< [Vow - i] ] ;
-           %{yiØ%}: %< _ ỹ ;
+           %{yiØ%}: %< _ NVow: ;
 !! hỹruwa+V+Imprt+ScSg2: **enter/entrar**
 !!€ p{yiØ}<{hØ}ỹruwa
 !!€ py<0ỹruwa
@@ -89,7 +89,8 @@ Rules
 
 "Deleting %{yiØ%}:0 "
 !! Rule: **@RULENAME@** 
- %{yiØ%}:0 <=> [n %{hØ%}:|p | # ] _ %< Vow ;
+ %{yiØ%}:0 <=> [n %{hØ%}:|p ] _ %< Vow ;
+           # _ %< [Vow - NVow ];
 
 "Deleting %{ỹĩØ%}:0 "
 !! Rule: **@RULENAME@** 
@@ -135,7 +136,8 @@ Rules
 "Realizing %{yiØ%}:ỹ "
 !! Rule: **@RULENAME@** 
  %{ỹĩØ%}:ỹ <=> h _ %< NonPALCns  ;
- [n %{hØ%}: | p | # ] _ %< [m|n]  ;
+ [n %{hØ%}: | p ] _ %< [m|n]  ;
+         # _ %< [m|n|(%{hØ%}:) NVow:]  ;
 ! Facundes (2000:141) nasalization
 
 "Realizing %{ỹĩØ%}:ĩ "
@@ -154,7 +156,8 @@ Rules
 
 "nasal ã"
 !! Rule: **@RULENAME@** 
- %{aã%}:ã <=> _ %< [Vow: - NVow:] ;
+ %{aã%}:ã <=> _ %< Vow:  ;
+! _ %< [Vow: - NVow:] ;
                _ %^VowNasL: %< NCns: ;
 !2023-07-06 _ %< [Vow: |NCns] ;
 
