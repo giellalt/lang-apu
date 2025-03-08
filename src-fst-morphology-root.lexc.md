@@ -141,13 +141,13 @@ given the proper use of these flags.
 
 For spellrelax of nasals
 
-For prefix bad orthography
-
 Person marking
 
 Subject Person marking
 
 Object Person marking
+
+For prefix bad orthography
 
 The word forms in Apurinã language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
