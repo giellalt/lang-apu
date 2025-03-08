@@ -111,8 +111,8 @@ apatxatyry+N:apatxatyry N_SUFFIXES_01_Msc_UND/0 ;
 apiruky+N:apiruky N_SUFFIXES_01_Msc_UND/0 ;
 apĩtxi+N+Sem/Body:apy N_SUFFIXES_01_Msc_0/Ntxi "osso" ; !apĩ-txi 
 ãpuri+N:ãpuri N_SUFFIXES_01_Msc_UND/0 ;
-ãputa+N:ãputa N_SUFFIXES_01_Msc_ne/0 "abano" ;
-ãputa+N:ãputa N_SUFFIXES_01_Msc_re/0 "abano" ;
+hãputa+N:%{hØ%}ãputa N_SUFFIXES_01_Msc_ne/0 "abano" ;
+hãputa+N:%{hØ%}ãputa N_SUFFIXES_01_Msc_re/0 "abano" ;
 ãputasãny+N:ãputasãny N_SUFFIXES_01_Msc_te/0 "marimbondo de chapéu" ;
 aputxi+N:aputxi N_SUFFIXES_01_Msc_UND/0 ;
 apuumary+N:apuumary N_SUFFIXES_01_Msc_UND/0 "fever/";
