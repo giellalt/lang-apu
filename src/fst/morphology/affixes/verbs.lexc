@@ -122,8 +122,8 @@ LEXICON V_SUFFIXES_05
 @R.PN.SG1@+ScSg1:@R.PN.SG1@ V_SUFFIXES_06 ;
 @R.PN.PL1@@D.EO.PhonNasal@+ScPl1:@R.PN.PL1@@D.EO.PhonNasal@ V_SUFFIXES_06 ;
 @R.PN.PL1@@R.EO.PhonNasal@+ScPl1+Err/Orth-phon-nasal:@R.PN.PL1@@R.EO.PhonNasal@ V_SUFFIXES_06 ;
-@R.PN.SG2@@D.ERRORTH.inoty@+ScSg2:@R.PN.SG2@@D.ERRORTH.inoty@ V_SUFFIXES_06 ;
-@R.PN.SG2@@R.ERRORTH.inoty@+ScSg2+Err/Orth-i-not-y:@R.PN.SG2@@R.ERRORTH.inoty@ V_SUFFIXES_06 ;
+@R.PN.SG2@@D.EO.inoty@+ScSg2:@R.PN.SG2@@D.EO.inoty@ V_SUFFIXES_06 ;
+@R.PN.SG2@@R.EO.inoty@+ScSg2+Err/Orth-i-not-y:@R.PN.SG2@@R.EO.inoty@ V_SUFFIXES_06 ;
 @R.PN.PL2@+ScPl2:@R.PN.PL2@ V_SUFFIXES_06 ;
 @R.PN.SG3M@+ScSg3M:@R.PN.SG3M@ V_SUFFIXES_06 ;
 @R.PN.SG3F@@D.EO.PhonNasal@+ScSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ V_SUFFIXES_06 ;

@@ -249,12 +249,6 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @D.SpellRlx@
 @C.SpellRlx@
 
-!! For prefix bad orthography
-!!+Err/Orth-i-not-y
-@U.ERRORTH.inoty@
-@R.ERRORTH.inoty@
-@D.ERRORTH.inoty@
-
 !! Person marking
 @U.PN.SG1@
 @U.PN.SG2@
@@ -403,6 +397,12 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @R.PossD.Y-ne@
 @R.PossD.Y-re@
 @R.PossD@
+
+!! For prefix bad orthography
+!!+Err/Orth-i-not-y
+@P.EO.inoty@
+@R.EO.inoty@
+@D.EO.inoty@
 
 @P.EO.PhonNasal@
 @R.EO.PhonNasal@
