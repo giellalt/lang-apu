@@ -186,9 +186,11 @@ LEXICON N_SUFFIXES_02-after-number
 @R.PN.SG2@@R.EO.inoty@+PxSg2+Err/Orth-i-not-y:@R.PN.SG2@@R.EO.inoty@ N_SUFFIXES_03 ;
 @R.PN.PL2@+PxPl2:@R.PN.PL2@ N_SUFFIXES_03 ;
 @R.PN.SG3M@+PxSg3M:@R.PN.SG3M@ N_SUFFIXES_03 ;
-@R.PN.SG3F@+PxSg3F:@R.PN.SG3F@ N_SUFFIXES_03 ;
+@R.PN.SG3F@@D.EO.PhonNasal@+PxSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ N_SUFFIXES_03 ;
+@R.PN.SG3F@@R.EO.PhonNasal@+PxSg3F+Err/Orth-phon-nasal:@R.PN.SG3F@@R.EO.PhonNasal@ N_SUFFIXES_03 ;
 @R.PN.PL3M@+PxPl3M:@R.PN.PL3M@%>na N_SUFFIXES_03 ;
-@R.PN.PL3F@+PxPl3F:@R.PN.PL3F@%>na N_SUFFIXES_03 ;
+@R.PN.PL3F@@D.EO.PhonNasal@+PxPl3F:@R.PN.PL3F@@D.EO.PhonNasal@%>na N_SUFFIXES_03 ;
+@R.PN.PL3F@@R.EO.PhonNasal@+PxPl3F+Err/Orth-phon-nasal:@R.PN.PL3F@@R.EO.PhonNasal@%>na N_SUFFIXES_03 ;
 @D.PN@ N_SUFFIXES_03 ;
 
 LEXICON N_SUFFIXES_03
