@@ -371,7 +371,7 @@ syka+V+TV:syka V_SUFFIXES_01 "TV" ;
 sypãka+V+IV:sypãka V_SUFFIXES_01 "IV" ;
 syrỹka+V+TV:syrỹka V_SUFFIXES_01 "TV" ;
 sytỹka+V+IV:sytỹka V_SUFFIXES_01 "IV" ;
-taka+V:taka    V_SUFFIXES_01 "TV put" ;
+taka+V:taka    V_SUFFIXES_01 "TV put theme_place" ;
 takamãkata+V+TV:takamãkata V_SUFFIXES_01 "TV" ;
 takanyry+V+TV:takanyry V_SUFFIXES_01 "TV" ;
 takuka+V:takuka V_SUFFIXES_01 "v" ;
