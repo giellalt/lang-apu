@@ -6,9 +6,11 @@ LEXICON Adverbs
 apaka+Adv:apaka ADV_ "also/também" ;
 apiku+Adv:apiku ADV_SPAT "forward" ;
 apiku+Adv+All:apikumunhi ADV_SPAT "forward" ;
+iiana+Adv:iiana ADV_ "later" ;
 inhinhiã+Adv:inhinhiã ADV_ "so" ;
 ikaatuku+Adv:ikaatuku ADV_TEMP "so, then" ;
 kitxakapirĩka+Adv:kitxakapirĩka ADV_TEMP "in the olden days" ;
+kanera+Adv:kanera ADV_ "também" ;
 ywasaaky+Adv:ywasaaky ADV_TEMP "at that time" ;
 mitxi+Adv:mitxi ADV_TEMP "at first" ;
 
