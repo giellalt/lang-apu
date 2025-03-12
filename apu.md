@@ -335,6 +335,8 @@ Rule: **nasal ã**
 
 Rule: **nasal ũ** 
 
+Rule: **ortho denasalization at prefix** 
+
 Rule: **nasalization with -ka passive marker** 
 
 Rule: **nasalization with sg3f** 
