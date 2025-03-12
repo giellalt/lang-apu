@@ -22,8 +22,10 @@ puiãũpuku+Adv:puiãũpuku ADV_DISTR "little; a few" ;
 puiaũnuka+Adv:puiaũnuka ADV_ "only little; only a few" ;
 pakyny+Adv:pakyny ADV_ "more/mais" ;
 natuku+Adv+Interr:natuku ADV_ "how/como" ;
+natukupa+Adv+Interr:natukupa ADV_ "how/como CHECKME" ;
 ĩthepary+Adv+Interr:ĩthepary ADV_ "where/cadê" ;
-nanhikiripa+Adv+Interr:nanhikiri#pa ADV_ "whence/de onde" ;
+nanhikiripa+v1+Adv+Interr:nanhikiri#pa ADV_ "whence/de onde" ;
+nanhikiripa+v2+Adv+Interr:nanhikeru#pa ADV_ "whence/de onde" ;
 nanhipa+Adv+Interr:nanhi#pa ADV_SPAT "where/onde" ;
 kiriãpa+Adv+Interr+Ine:kiriã#pa ADV_ "with what/com o que" ;
 kiapypa+Adv+Interr+Ela:kiapy#pa ADV_ "from what/de que" ;!check this
