@@ -159,11 +159,17 @@ Rules
 
 "nasal ã"
 !! Rule: **@RULENAME@** 
-%{aã%}:ã <=> _ %< Vow:  ;
+%{aã%}:ã <=> _ %< [Vow: - [ e: | ẽ: ]]  ;
 ! _ %< [Vow: - NVow:] ;
                _ %^VowNasL: %< NCns: ;
 !2023-07-06 _ %< [Vow: |NCns] ;
 
+"nasal ẽ"
+!! Rule: **@RULENAME@** 
+%{aã%}:ẽ <=> _ %< [ e: | ẽ: ]  ;
+! erẽka+N+Sg+Nom+PxPl1: __blood/sangue__
+!!€ {aã}<erẽka
+!!€ ẽ<erẽka
 
 "nasal ũ"
 !! Rule: **@RULENAME@** 
@@ -209,8 +215,8 @@ Rules
 !!€ kywy%^VowNasL%>txi
 !!€ kywĩ0%>txi
 ! tsyy+N+Sg+Nom+PxNot: __pain/dor__
-!!€ tsyy%^VowNasL%>txi
-!!€ tsĩi0%>txi
+!!€ tsyy^VowNasL>txi
+!!€ tsĩi0>txi
 
 !!TESTS
 !echo 'n {hØ}:0 {yiØ}:y < t a k a > r y' | hfst-pair-test src/fst/phonology.compose.hfst
