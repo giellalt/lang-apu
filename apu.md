@@ -333,6 +333,10 @@ Rule: **non-nasal u**
 
 Rule: **nasal ã** 
 
+Rule: **nasal ẽ** 
+* *{aã}<erẽka*
+* *ẽ<erẽka*
+
 Rule: **nasal ũ** 
 
 Rule: **ortho denasalization at prefix** 
@@ -348,8 +352,8 @@ Rule: **nasalization with -Ntxi y:ỹ**
 Rule: **nasalization with -Ntxi y:ĩ** 
 * *kywy%^VowNasL%>txi*
 * *kywĩ0%>txi*
-* *tsyy%^VowNasL%>txi*
-* *tsĩi0%>txi*
+* *tsyy^VowNasL>txi*
+* *tsĩi0>txi*
 
 * * *
 
