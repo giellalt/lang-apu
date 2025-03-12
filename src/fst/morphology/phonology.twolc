@@ -9,7 +9,9 @@ Alphabet
  ã ẽ ĩ ũ ỹ
 
  á é ó ú í õ
- ç
+ ç ɨ ʃ ɾ
+
+ ɨ̃ ! U+0268 LATIN SMALL LETTER I WITH STROKE PLUS U+0303 COMBINING TILDE
 
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
  Ã Ẽ Ĩ Ũ Ỹ
@@ -146,7 +148,8 @@ Rules
 
 "non-nasal a"
 !! Rule: **@RULENAME@** 
- %{aã%}:a <=> _ %< [Cns| NVow ]  ; !orthographic
+ %{aã%}:a <=> _ %< Cns  ; !orthographic
+! _ %< [Cns| NVow ]  ; !orthographic
 !2023-07-06 _ %< [Cns - NCns]  ;!Phonetic
 
 "non-nasal u"
@@ -156,16 +159,24 @@ Rules
 
 "nasal ã"
 !! Rule: **@RULENAME@** 
- %{aã%}:ã <=> _ %< Vow:  ;
+%{aã%}:ã <=> _ %< Vow:  ;
 ! _ %< [Vow: - NVow:] ;
                _ %^VowNasL: %< NCns: ;
 !2023-07-06 _ %< [Vow: |NCns] ;
+
 
 "nasal ũ"
 !! Rule: **@RULENAME@** 
  %{uũ%}:ũ <=> _ %< [Vow: - NVow:] ;
                _ %^VowNasL: %< NCns: ;
 !2023-07-06 _ %< [Vow: | NCns ]  ;
+
+"ortho denasalization at prefix"
+!! Rule: **@RULENAME@** 
+ Vx:Vy <=> [%{uũ%}:|%{aã%}:] %> _ ;
+           where Vx in (ã ẽ ũ ĩ)
+                 Vy in (a e u i) matched ;
+
 
 "nasalization with -ka passive marker"
 !! Rule: **@RULENAME@** 
