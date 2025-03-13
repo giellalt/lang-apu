@@ -20,26 +20,20 @@ fi
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
 morf_codes="+V \
-            +V+Vids \
-            +V+Vido \
-            +V+Ind+Vids+ScSg1 \
-            +V+Ind+Vids+ScSg2 \
-            +V+Ind+Vids+ScSg3 \
-            +V+Ind+Vids+ScPl1 \
-            +V+Ind+Vids+ScPl2 \
-            +V+Ind+Vids+ScPl3 \
-            +V+Ind+Vido+OcSg1 \
-            +V+Ind+Vido+OcSg2 \
-            +V+Ind+Vido+OcSg3 \
-            +V+Ind+Vido+OcPl1 \
-            +V+Ind+Vido+OcPl2 \
-            +V+Ind+Vido+OcPl3 "
-
+            +V+ScSg1+Oc3M  \
+            +V+ScSg1+Oc3F  \
+            +V+ScSg1+OcSg2 \
+            +V+ScSg1+OcPl2 \
+            +V+ScPl1+Oc3M  \
+            +V+ScPl1+Oc3F  \
+            +V+ScPl1+OcSg2 \
+            +V+ScPl1+OcPl2 "
+     
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/morphology/stems/verbs.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons="(flagK)"
+exception_lexicons=""
 
 # FST used for generation, MINUS suffix:
 generator_file=src/fst/generator-gt-norm
