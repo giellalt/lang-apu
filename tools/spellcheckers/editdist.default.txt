@@ -115,6 +115,7 @@ z
 @@
 
 ## Transition pair specifications + weight:
+ĩ	ỹ	0.4
 a	ã	0.4
 e	ẽ	0.4
 i	ĩ	0.4
