@@ -439,6 +439,7 @@ language are presented in this system in terms of the following symbols.
 ## Adjectival tags
 
 ## Tenses
+* **+Fut** Future
 
 ## Verb person-number-gender
 
