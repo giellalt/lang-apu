@@ -19,16 +19,21 @@ fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+V+Ind+Prs \
-            +V+Ind+Prs+Sg1 \
-            +V+Ind+Prs+Sg2 \
-            +V+Ind+Prs+Sg3 \
-            +V+Ind+Prs+Sg3c \
-            +V+Ind+Prs+Pl1 \
-            +V+Ind+Prs+Pl2 \
-            +V+Ind+Prs+pl3c \
-            +V+Ind+Pst+Imprf+Sg1 \
-            +V+Ind+Pst+Imprf+Rep+Sg1"
+morf_codes="+V \
+            +V+Vids \
+            +V+Vido \
+            +V+Ind+Vids+ScSg1 \
+            +V+Ind+Vids+ScSg2 \
+            +V+Ind+Vids+ScSg3 \
+            +V+Ind+Vids+ScPl1 \
+            +V+Ind+Vids+ScPl2 \
+            +V+Ind+Vids+ScPl3 \
+            +V+Ind+Vido+OcSg1 \
+            +V+Ind+Vido+OcSg2 \
+            +V+Ind+Vido+OcSg3 \
+            +V+Ind+Vido+OcPl1 \
+            +V+Ind+Vido+OcPl2 \
+            +V+Ind+Vido+OcPl3 "
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/morphology/stems/verbs.lexc
