@@ -33,7 +33,7 @@ morf_codes="+V \
 source_file=src/fst/morphology/stems/verbs.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons=""
+exception_lexicons="vido"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/fst/generator-gt-norm
