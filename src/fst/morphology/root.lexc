@@ -96,6 +96,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! ## Adjectival tags
 
 !! ## Tenses
+ +Fut	!!≈ * **@CODE@** Future
 
 !! ## Verb person-number-gender
 
@@ -131,11 +132,11 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Attr +Card
  +Ord 
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt +Fut
+ +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
- +ScSg1 +ScSg2 +ScPl1 +ScPl2 +ScPl3M +ScPl3F +ScSg3M +ScSg3F +Sc3M  +Sc3F
- +OcSg1 +OcSg2 +OcPl1 +OcPl2 +Oc3M  +Oc3F
+ +Sc3M  +Sc3F
+ +Oc3M  +Oc3F
  +Vido  !!≈ object formed intransitive descriptive
  +Vids  !!≈ subject formed intransitive descriptive
 
