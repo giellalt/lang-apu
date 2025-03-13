@@ -39,6 +39,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Po      !!≈ * **@CODE@** Postpostion
  +Pr      !!≈ * **@CODE@** Preposition
  +Pron    !!≈ * **@CODE@** Pronoun
+ +Pers    !!≈ * **@CODE@** Personal Pronoun
  +V       !!≈ * **@CODE@** Verb
 
 !! ## Tags for sub-POS
