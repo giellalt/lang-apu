@@ -26,14 +26,96 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-!! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+!! ## Tags for POS
+ +A       !!≈ * **@CODE@** Adjective
+ +Adp     !!≈ * **@CODE@** Adposition, ie Post- and Prepostion, NOT IN USE/ NÃO USADO
+ +Adv     !!≈ * **@CODE@** Adverb
+ +CC      !!≈ * **@CODE@** Conjunction
+ +CS      !!≈ * **@CODE@** Subjunction
+ +Interj  !!≈ * **@CODE@** Interjection
+ +N       !!≈ * **@CODE@** Noun
+ +Num     !!≈ * **@CODE@** Numeral
+ +Pcle    !!≈ * **@CODE@** Particle
+ +Po      !!≈ * **@CODE@** Postpostion
+ +Pr      !!≈ * **@CODE@** Preposition
+ +Pron    !!≈ * **@CODE@** Pronoun
+ +V       !!≈ * **@CODE@** Verb
 
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
- +Aux
+!! ## Tags for sub-POS
+ +Arab      !!≈ * **@CODE@** Arabic numeral, subtag for +Num
+ +Aux	    !!≈ * **@CODE@** Auxiliary
+ +Coll      !!≈ * **@CODE@** Collective numerals, subtag for +N
+ +Dem       !!≈ * **@CODE@** Demonstrative Pronoun
+ +Fem 	    !!≈	* **@CODE@** uwa
+ +Indef     !!≈ * **@CODE@** Indefinitive Pronoun
+ +Interr    !!≈ * **@CODE@** Interrogative Pronoun
+ +Msc 	    !!≈ * **@CODE@**  ywa
+ +Pass      !!≈ * **@CODE@** 
+ +Pers      !!≈ * **@CODE@** Personal Pronoun
+ +Prop      !!≈ * **@CODE@** Propernoun
+ +Recipr    !!≈ * **@CODE@** Reciprocal Pronoun
+ +Refl      !!≈ * **@CODE@** Reflexive Pronoun
+ +Rel       !!≈ * **@CODE@** Relative Pronoun
+ +Rom       !!≈ * **@CODE@** Roman numeral, subtag for +Num
+
  +Temp +Spat
+
+!! # Tags for Inflection
+
+!! ## Tags for Case and Number Inflection
+ +Sg   !!≈ * **@CODE@** Singular
+ +Pl   !!≈ * **@CODE@** Plural
+
+ +All  !!≈ * **@CODE@** -mukary (allative)
+ +Cau  !!≈ * **@CODE@**	-xika 'because of'
+ +Com  !!≈ * **@CODE@** Comitative -kata  (Assoc)
+ +Dat  !!≈ * **@CODE@** Dative -munhi (allative)
+ +Ill  !!≈ * **@CODE@** Illative
+ +Loc  !!≈ * **@CODE@** Locative -ã Locative (at, to), instrumental
+ +Nom  !!≈ * **@CODE@** Nominative (morphological ZERO)
+ +Prx  !!≈ * **@CODE@** -takute 'in the proximity of'
+
+ +Aff  !!≈ * **@CODE@** affected by action of verb %>nhi
+ +Cap  !!≈ * **@CODE@** 0 N>V capacity
+ +Prp  !!≈ * **@CODE@** ka- vido verbs from nouns
+!!≈	   -ka, -nhi
+
+!! ## Possessive tags
+
+ +PxSg1   !!≈ * **@CODE@** Singular First Person
+ +PxSg2   !!≈ * **@CODE@** Singular Second Person
+ +PxSg3F  !!≈ * **@CODE@** Singular Third Person Feminine
+ +PxSg3M  !!≈ * **@CODE@** Singular Third Person Male
+ +PxPl1   !!≈ * **@CODE@** Plural First Person
+ +PxPl2   !!≈ * **@CODE@** Plural Second Person
+ +PxPl3F  !!≈ * **@CODE@** Plural Third Person Feminine
+ +PxPl3M  !!≈ * **@CODE@** Plural Third Person Male
+ +NPossd  !!≈ * **@CODE@** not possessed
+ +Possd	  !!≈ * **@CODE@** Possessed
+
+!! ## Adjectival tags
+
+!! ## Tenses
+
+!! ## Verb person-number-gender
+
+ +ScSg1 !!≈ * **@CODE@** subject conjugation first person singular
+ +ScSg2 !!≈ * **@CODE@** subject conjugation second person singular
+ +ScSg3F !!≈ * **@CODE@** subject conjugation third person singular Feminine
+ +ScSg3M !!≈ * **@CODE@** subject conjugation third person singular Male
+ +ScPl1 !!≈ * **@CODE@** subject conjugation first person plural
+ +ScPl2 !!≈ * **@CODE@** subject conjugation second person plural
+ +ScPl3F !!≈ * **@CODE@** subject conjugation third person plural Feminine
+ +ScPl3M !!≈ * **@CODE@** subject conjugation third person plural Male
+
+ +OcSg1 !!≈ * **@CODE@** object conjugation first person singular
+ +OcSg2 !!≈ * **@CODE@** object conjugation second person singular
+ +OcSg3F !!≈ * **@CODE@** object conjugation third person singular Feminine
+ +OcSg3M !!≈ * **@CODE@** object conjugation third person singular Male
+ +OcPl1 !!≈ * **@CODE@** object conjugation first person plural
+ +OcPl2 !!≈ * **@CODE@** object conjugation second person plural
+ +OcPl3F !!≈ * **@CODE@** object conjugation third person plural Feminine
+ +OcPl3M !!≈ * **@CODE@** object conjugation third person plural Male
 
 !! The Usage extents are marked using following tags:
  +Err/Orth
@@ -42,30 +124,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
   +Err/Orth-i-not-y !!≈ * **@CODE@**
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Pl
 
- +Aff  !!≈ affected by action of verb %>nhi
- +All	   !!≈ -mukary
- +Cau	   !!≈ -xika 'because of'
- +Cap	   !!≈ 0 N>V capacity
- +Com  !!≈ -kata  (Assoc) 
- +Dat  !!≈ -munhi allative
- +Loc  !!≈ -ã Locative (at, to), instrumental
- +Prx  !!≈ -takute 'in the proximity of'
- +Prp  !!≈ ka- vido verbs from nouns
- +Nom +Gen +Acc +Ill +Ins
-!!≈	   -ka, -nhi
-
-
- +Msc !!≈  ywa
- +Fem !!≈	uwa
- 
-!! Possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3M +PxSg3F
- +PxPl1 +PxPl2 +PxPl3M +PxPl3F
- +PxMsc +PxFem
- +NPossd !!≈  not possessed
- +Possd
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -109,13 +168,13 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +Immin
 +Caus
 +Hab
-+Pred !!≈ * @CODE@ = ka
-+Frustr !!≈ * @CODE@ = ma: awa-pyty-ka-ma
-+Emph	!!≈ * @CODE@ = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
++Pred !!≈ * **@CODE@** = ka
++Frustr !!≈ * **@CODE@** = ma: awa-pyty-ka-ma
++Emph	!!≈ * **@CODE@** = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
++Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
@@ -130,6 +189,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 
 !! ### Tags distinguishing different versions of the same lemma (before POS)
++v/iy !!≈ * **@CODE@** used to tag neutralized i/y and ĩ/ỹ /usado para mostrar neutralidade de i/y e ĩ/ỹ
 +v1   !!≈ * @CODE@
 +v2   !!≈ * @CODE@
 +v3   !!≈ * @CODE@
@@ -398,6 +458,11 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @R.PossD.Y-re@
 @R.PossD@
 
+!! For variant phonetics
+!!+v/iy
+@P.VAR.iy@
+@R.VAR.iy@
+@D.VAR.iy@
 !! For prefix bad orthography
 !!+Err/Orth-i-not-y
 @P.EO.inoty@
