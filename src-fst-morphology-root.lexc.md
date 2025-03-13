@@ -8,29 +8,98 @@ The morphological analyses of wordforms for the Apurinã
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-The parts-of-speech are:
+## Tags for POS
+* **+A** Adjective
+* **+Adp** Adposition, ie Post- and Prepostion, NOT IN USE/ NÃO USADO
+* **+Adv** Adverb
+* **+CC** Conjunction
+* **+CS** Subjunction
+* **+Interj** Interjection
+* **+N** Noun
+* **+Num** Numeral
+* **+Pcle** Particle
+* **+Po** Postpostion
+* **+Pr** Preposition
+* **+Pron** Pronoun
+* **+V** Verb
 
-The parts of speech are further split up into:
+## Tags for sub-POS
+* **+Arab** Arabic numeral, subtag for +Num
+* **+Aux** Auxiliary
+* **+Coll** Collective numerals, subtag for +N
+* **+Dem** Demonstrative Pronoun
+* **+Indef** Indefinitive Pronoun
+* **+Interr** Interrogative Pronoun
+* **+Msc**  ywa
+* **+Pass** 
+* **+Pers** Personal Pronoun
+* **+Prop** Propernoun
+* **+Recipr** Reciprocal Pronoun
+* **+Refl** Reflexive Pronoun
+* **+Rel** Relative Pronoun
+* **+Rom** Roman numeral, subtag for +Num
+
+# Tags for Inflection
+
+## Tags for Case and Number Inflection
+* **+Sg** Singular
+* **+Pl** Plural
+
+* **+All** -mukary (allative)
+* **+Cau**	-xika 'because of'
+* **+Com** Comitative -kata  (Assoc)
+* **+Dat** Dative -munhi (allative)
+* **+Ill** Illative
+* **+Loc** Locative -ã Locative (at, to), instrumental
+* **+Nom** Nominative (morphological ZERO)
+* **+Prx** -takute 'in the proximity of'
+
+* **+Aff** affected by action of verb %>nhi
+* **+Cap** 0 N>V capacity
+* **+Prp** ka- vido verbs from nouns
+
+## Possessive tags
+
+* **+PxSg1** Singular First Person
+* **+PxSg2** Singular Second Person
+* **+PxSg3F** Singular Third Person Feminine
+* **+PxSg3M** Singular Third Person Male
+* **+PxPl1** Plural First Person
+* **+PxPl2** Plural Second Person
+* **+PxPl3F** Plural Third Person Feminine
+* **+PxPl3M** Plural Third Person Male
+* **+NPossd** not possessed
+* **+Possd** Possessed
+
+## Adjectival tags
+
+## Tenses
+
+## Verb person-number-gender
+
+* **+ScSg1** subject conjugation first person singular
+* **+ScSg2** subject conjugation second person singular
+* **+ScSg3F** subject conjugation third person singular Feminine
+* **+ScSg3M** subject conjugation third person singular Male
+* **+ScPl1** subject conjugation first person plural
+* **+ScPl2** subject conjugation second person plural
+* **+ScPl3F** subject conjugation third person plural Feminine
+* **+ScPl3M** subject conjugation third person plural Male
+
+* **+OcSg1** object conjugation first person singular
+* **+OcSg2** object conjugation second person singular
+* **+OcSg3F** object conjugation third person singular Feminine
+* **+OcSg3M** object conjugation third person singular Male
+* **+OcPl1** object conjugation first person plural
+* **+OcPl2** object conjugation second person plural
+* **+OcPl3F** object conjugation third person plural Feminine
+* **+OcPl3M** object conjugation third person plural Male
 
 The Usage extents are marked using following tags:
 * **+Err/Orth-i-not-y**
 
 The nominals are inflected in the following Case and Number
 
-affected by action of verb %>nhi
--mukary
--xika 'because of'
-0 N>V capacity
--kata  (Assoc) 
--munhi allative
--ã Locative (at, to), instrumental
--takute 'in the proximity of'
-ka- vido verbs from nouns
-
- ywa
-
-Possession is marked as such:
- not possessed
 The comparative forms are:
 Numerals are classified under:
 Verb moods are:
@@ -46,11 +115,11 @@ IPFTV
 PFTV perfective -pe
 
 passivizer -~ka
-* +Pred = ka
-* +Frustr = ma: awa-pyty-ka-ma
-* +Emph = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
+* **+Pred** = ka
+* **+Frustr** = ma: awa-pyty-ka-ma
+* **+Emph** = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
 
-* +Symbol = independent symbols in the text stream, like £, €, ©
+* **+Symbol** = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
 Special multiword units are analysed with:
@@ -59,6 +128,7 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
 
 ### Tags distinguishing different versions of the same lemma (before POS)
+* **+v/iy** used to tag neutralized i/y and ĩ/ỹ /usado para mostrar neutralidade de i/y e ĩ/ỹ
 * +v1
 * +v2
 * +v3
@@ -147,6 +217,7 @@ Subject Person marking
 
 Object Person marking
 
+For variant phonetics
 For prefix bad orthography
 
 The word forms in Apurinã language start from the lexeme roots of basic
