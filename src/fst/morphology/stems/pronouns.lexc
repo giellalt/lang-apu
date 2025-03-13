@@ -3,6 +3,14 @@
 !! Pronouns in the Apurinã language are references to things.
 
 LEXICON Pronouns
+nota+Pron+Pers+Sg1:nota # ;
+pite+Pron+Pers+Sg1:pite # ;
+uwa+Pron+Pers+Sg1+Msc:uwa # ;
+owa+Pron+Pers+Sg1+Fem:owa # ;
+ata+Pron+Pers+Pl1:ata # ;
+hĩte+Pron+Pers+Pl2:hĩte # ;
+unawa+Pron+Pers+Pl3:unawa # ;
+
 kiripa+v1+Pron+Interr+Msc:kiripa PRON_INTERR "who" ;
 kiripa+v2+Pron+Interr+Msc:kerypa PRON_INTERR "who" ;
 kiripa+Pron+Interr+Fem:kerupa PRON_INTERR "who" ;!checkme
