@@ -145,7 +145,8 @@ Rules
 "Realizing %{ỹĩØ%}:ĩ "
 !! Rule: **@RULENAME@** 
  %{ỹĩØ%}:ĩ <=> h _ %< PALCns  ;
-
+          h _ %^VowY2I:0 %< NonPALCns ;
+	   
 "non-nasal a"
 !! Rule: **@RULENAME@** 
  %{aã%}:a <=> _ %< Cns  ; !orthographic
@@ -211,10 +212,10 @@ Rules
  y:ĩ <=>
  Cns _ %^VowNasL:0 %> PALCns ; 
   _ y: %^VowNasL:0 %> PALCns ; 
-! kywy+N+Sg+Nom+PxNot: __head/cabeça__
+! kywy+N+Sg+Nom+NPossd: __head/cabeça__
 !!€ kywy%^VowNasL%>txi
 !!€ kywĩ0%>txi
-! tsyy+N+Sg+Nom+PxNot: __pain/dor__
+! tsyy+N+Sg+Nom+NPossd: __pain/dor__
 !!€ tsyy^VowNasL>txi
 !!€ tsĩi0>txi
 
@@ -234,3 +235,6 @@ Cns /<= a: %^VowRM # _ ;
 
 "Disallow %^I1: when not followed by Cns"
 %^I1: /<= _ %< [ Vow: |  PALCns ] ;
+
+"Disallow %^VowY2I: when not followed by NonPALCns"
+%^VowY2I: /<=  _ %< [ Vow: |  PALCns ] ;

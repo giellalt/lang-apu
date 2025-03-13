@@ -184,7 +184,8 @@ LEXICON N_SUFFIXES_02-after-number
 @R.PN.PL1@+PxPl1:@R.PN.PL1@ N_SUFFIXES_03 ;
 @R.PN.SG2@@D.EO.inoty@+PxSg2:@R.PN.SG2@@D.EO.inoty@ N_SUFFIXES_03 ;
 @R.PN.SG2@@R.EO.inoty@+PxSg2+Err/Orth-i-not-y:@R.PN.SG2@@R.EO.inoty@ N_SUFFIXES_03 ;
-@R.PN.PL2@+PxPl2:@R.PN.PL2@ N_SUFFIXES_03 ;
+@R.PN.PL2@@D.VAR.iy@+PxPl2:@R.PN.PL2@@D.VAR.iy@ N_SUFFIXES_03 ;
+@R.PN.PL2@@R.VAR.iy@+PxPl2+v/iy:@R.PN.PL2@@R.VAR.iy@ N_SUFFIXES_03 ;
 @R.PN.SG3M@+PxSg3M:@R.PN.SG3M@ N_SUFFIXES_03 ;
 @R.PN.SG3F@@D.EO.PhonNasal@+PxSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ N_SUFFIXES_03 ;
 @R.PN.SG3F@@R.EO.PhonNasal@+PxSg3F+Err/Orth-phon-nasal:@R.PN.SG3F@@R.EO.PhonNasal@ N_SUFFIXES_03 ;

@@ -12,6 +12,7 @@ LEXICON PERSON_PREFIXES
 @P.PN.SG2@:@P.PN.SG2@p%{yiØ%}%< NV_LEX ;
 @P.PN.SG2@@P.EO.inoty@:@P.PN.SG2@@P.EO.inoty@p%{yiØ%}%^I1%< NV_LEX ;
 @P.PN.PL2@:@P.PN.PL2@h%{ỹĩØ%}%< NV_LEX ;
+@P.PN.PL2@@P.VAR.iy@:@P.PN.PL2@P.VAR.iy@@h%{ỹĩØ%}%^VowY2I%< NV_LEX ; !tag me 2025-03-13
 @P.PN.SG3M@:@P.PN.SG3M@%{yiØ%}%< NV_LEX ;
 @P.PN.SG3F@:@P.PN.SG3F@%{uũ%}%< NV_LEX ;
 @P.PN.SG3F@@P.EO.PhonNasal@:@P.PN.SG3F@@P.EO.PhonNasal@%{uũ%}%^VowNasL%< NV_LEX ;
