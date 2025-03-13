@@ -34,18 +34,18 @@
 !iv +	  +	   +	     +	       +	+
 
 
-LEXICON v_suf
-+V: v_person ;
+!LEXICON v_suf
+!+V: v_person ;
 
-LEXICON v_person
-@U.pn.sg1@+Sg1:@U.pn.sg1@        # ;
-@U.pn.sg2@+Sg2:@U.pn.sg2@        # ;
-@U.pn.sg3m@+Sg3+Msc:@U.pn.sg3m@  # ;
-@U.pn.sg3f@+Sg3+Fem:@U.pn.sg3f@  # ;
-@U.pn.pl1@+Pl1:@U.pn.pl1@        # ;
-@U.pn.pl2@@D.VAR.iy@+Pl2:@U.pn.pl2@@D.VAR.iy@        # ;
-@U.pn.pl2@@R.VAR.iy@+Pl2+v/iy:@U.pn.pl2@@R.VAR.iy@        # ;
-@U.pn.pl3@+Pl3:@U.pn.pl3@na      # ;
+!LEXICON v_person
+!@U.pn.sg1@+Sg1:@U.pn.sg1@        # ;
+!@U.pn.sg2@+Sg2:@U.pn.sg2@        # ;
+!@U.pn.sg3m@+Sg3+Msc:@U.pn.sg3m@  # ;
+!@U.pn.sg3f@+Sg3+Fem:@U.pn.sg3f@  # ;
+!@U.pn.pl1@+Pl1:@U.pn.pl1@        # ;
+!@U.pn.pl2@@D.VAR.iy@+Pl2:@U.pn.pl2@@D.VAR.iy@        # ;
+!@U.pn.pl2@@R.VAR.iy@+Pl2+v/iy:@U.pn.pl2@@R.VAR.iy@        # ;
+!@U.pn.pl3@+Pl3:@U.pn.pl3@na      # ;
 
 
 LEXICON V_SUFFIXES_01_vido

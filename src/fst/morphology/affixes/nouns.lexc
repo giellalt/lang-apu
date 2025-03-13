@@ -251,7 +251,7 @@ LEXICON N_SUFFIXES_03_TXI
 
 !! Suffixes
 
-LEXICON n_suf
-v_suf ; ! identical?
+!LEXICON n_suf
+!v_suf ; ! identical?
 
 
