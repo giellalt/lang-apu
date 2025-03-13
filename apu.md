@@ -386,6 +386,7 @@ language are presented in this system in terms of the following symbols.
 * **+Po** Postpostion
 * **+Pr** Preposition
 * **+Pron** Pronoun
+* **+Pers** Personal Pronoun
 * **+V** Verb
 
 ## Tags for sub-POS
