@@ -482,6 +482,9 @@ IPFTV
 PFTV perfective -pe
 
 passivizer -~ka
+* **+Prog** nany
+* **+Prog2** na
+* **+Prog3** ã (?= Loc)
 * **+Pred** = ka
 * **+Frustr** = ma: awa-pyty-ka-ma
 * **+Emph** = pyty: Ithu-pyty-ma-ry, Iãu-pyty-ka-ry, ithu-pyty-ry
