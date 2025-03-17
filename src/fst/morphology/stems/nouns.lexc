@@ -1219,6 +1219,8 @@ taputxi+N:taputxi N_SUFFIXES_01_Msc_UND/0 ;
 tarara+N:tarara N_SUFFIXES_01_Msc_UND/0 ;
 tatã+N:tatã N_SUFFIXES_01_Msc_ne/0 "umari" ;
 tata+N:tata N_SUFFIXES_01_Msc_te/0 "umari" ;
+tatape+N:tata#pe N_SUFFIXES_01_Msc_UND/0 "massa de umari" ;
+tatapẽ+N:tata#pẽ N_SUFFIXES_01_Msc_UND/0 "suco de umari" ;
 tãta+N:tãta N_SUFFIXES_01_Msc_UND/0 ;
 tatakype+N:tatakype N_SUFFIXES_01_Fem_ne/0 ;
 tawaiaru+N:tawaiaru N_SUFFIXES_01_Fem_ne/0 ;
