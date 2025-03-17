@@ -102,7 +102,7 @@ LEXICON V_SUFFIXES_03
 +Dat:%>munhi    V_SUFFIXES_04   ;!to para
 +Com:%>kata    V_SUFFIXES_04   ;!with, +Com in kpv Associative marker
 +All:%>mukary    V_SUFFIXES_04   ;!to para
-+Loc:%>ã   V_SUFFIXES_04  ;! both +Loc and +Ins
+!+Loc:%>ã   V_SUFFIXES_04  ;! both +Loc and +Ins Prog3
 +Frustr:%>ma V_SUFFIXES_04  ;!
 +Emph+Frustr:%>pyty%>ma V_SUFFIXES_04  ;!
  V_SUFFIXES_04 ;
@@ -191,6 +191,8 @@ LEXICON YES/NO_COLTV
 LEXICON	YES/NO_PROG
 !8 Prog -nany
 @P.VerbDerv.YES@+Prog:@P.VerbDerv.YES@%>nany YES/NO_ALMOST ;
+@P.VerbDerv.YES@+Prog2:@P.VerbDerv.YES@%>na YES/NO_ALMOST ;
+@P.VerbDerv.YES@+Prog3:@P.VerbDerv.YES@%>ã YES/NO_ALMOST ;
  YES/NO_ALMOST ;
  
 LEXICON YES/NO_ALMOST
