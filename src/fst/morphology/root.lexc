@@ -158,7 +158,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +TCaus
 +Fact
 +ColTV
-+Prog
++Prog	!!≈ * **@CODE@** nany
++Prog2	!!≈ * **@CODE@** na
++Prog3	!!≈ * **@CODE@** ã (?= Loc)
 +Almost
 +Random
 +Intens
