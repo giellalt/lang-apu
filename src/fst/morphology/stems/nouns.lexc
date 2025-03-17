@@ -860,7 +860,7 @@ maryky+N:maryky N_SUFFIXES_01_Fem_ne/0 ;
 masaiuky+N:masaiuky N_SUFFIXES_01_Fem_ne/0 ;
 masaiukỹã+N:masaiukỹã N_SUFFIXES_01_Msc_UND/0 ;
 masyry+N:masyry N_SUFFIXES_01_Fem_ne/0 ;
-mata+N:mata N_SUFFIXES_01_Msc_UND/0 ;
+mata+N:mata N_SUFFIXES_01_Msc_0/txi ;!check me 2025-03-16
 matakury+N:matakury N_SUFFIXES_01_Msc_UND/0 ;
 matuky+N:matuky N_SUFFIXES_01_Fem_ne/0 ;
 matxa+N:matxa N_SUFFIXES_01_Msc_UND/0 ;
@@ -1198,7 +1198,8 @@ syrỹky+N:syrỹky N_SUFFIXES_01_Fem_ne/0 ;
 sytu+N:sytu N_SUFFIXES_01_WAKU_Fem_re/0 "woman Fem_re/0?" ;! N_SUFFIXES_01_Fem_0/NULL
 syty+N:syty N_SUFFIXES_01_Msc_UND/0 ;
 sytyku+N:sytyku N_SUFFIXES_01_Msc_UND/0 ;
-tãe+N:tãe N_SUFFIXES_01_Fem_ne/0 ;
+tẽe+v1+N:tẽe N_SUFFIXES_01_Fem_ne/0 ;
+tẽe+v2+N:tãe N_SUFFIXES_01_Fem_ne/0 ;
 taia+N:taia N_SUFFIXES_01_Fem_ne/0 ;
 takary+N:taka N_SUFFIXES_01_Msc_re2/ry "plantação" ;
 takatary+N:takatary N_SUFFIXES_01_Msc_te/0 "pote de barro" ;
@@ -1540,7 +1541,8 @@ ymyny+N:ymyny N_SUFFIXES_01_WAKU_Msc ;
 ymynywakuri+N:ymynywakuri N_SUFFIXES_01_Msc_UND/0 ;
 ynaiaretxi+N:ynaiaretxi N_SUFFIXES_01_Msc_UND/0 ;
 ynakanhiã+N:ynakanhiã N_SUFFIXES_01_Msc_UND/0 ;
-yny+N:yny N_SUFFIXES_01_Msc_UND/0 ;
+yny+v1+N:yny N_SUFFIXES_01_Msc_UND/0 ;
+yny+v2+N:eny N_SUFFIXES_01_Msc_UND/0 ;
 ynyru+N:ynyru N_SUFFIXES_01_KinFem_0/txi "mother/mãe" ;
 ynyrutany+N:ynyrutany N_SUFFIXES_01_Fem_ne/0 ;
 ynyrutanyru+N:ynyrutanyru N_SUFFIXES_01_Fem_ne/0 "aunt/tia" ;
