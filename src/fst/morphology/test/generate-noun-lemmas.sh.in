@@ -29,8 +29,8 @@ POS=nouns
 source_file=@abs_srcdir@/../stems/${POS}.lexc
 generator_file=@abs_builddir@/../../generator-gt-norm
 analyser_file=@abs_builddir@/../../analyser-gt-norm
-tags="+N+Sg+Nom"
-xtags="+N+Pl+Nom"
+tags="+N+Msc+Sg+NPossd+Nom"
+xtags="+N+Fem+Sg+NPossd+Nom"
 inclusions=
 exclusions=
 
