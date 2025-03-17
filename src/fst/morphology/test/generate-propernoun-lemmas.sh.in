@@ -33,8 +33,8 @@ POS=propernouns
 source_file=@abs_srcdir@/../stems/${POS}.lexc
 generator_file=@abs_builddir@/../../generator-gt-norm
 analyser_file=@abs_builddir@/../../analyser-gt-norm
-tags="+N+Prop+Sg+Nom"
-xtags=
+tags="+N+Prop+Msc+Sg+NPossd+Nom"
+xtags="+N+Prop+Fem+Sg+NPossd+Nom"
 inclusions=
 exclusions=
 
