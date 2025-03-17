@@ -117,12 +117,12 @@ Rules
 
 "Realizing %{yiØ%}:y LEFT ARROW"
 !! Rule: **@RULENAME@** 
- %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< [NonPALNonNAS|%{hØ%}: ỹ]  ;
+ %{yiØ%}:y <= [n %{hØ%}: | p | # ] _ %< [NonPALNonNAS|m|%{hØ%}: ỹ]  ;
 ! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
 
 "Realizing %{yiØ%}:y RIGHT ARROW"
 !! Rule: **@RULENAME@** 
- %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< [NonPALNonNAS|%{hØ%}: ỹ]  ;
+ %{yiØ%}:y => [n %{hØ%}: | p | # ] _ %< [NonPALNonNAS|m|%{hØ%}: ỹ]  ;
 ! [n %{hØ%}: | p | # ] _ %< NonPALCns  ;
                _ %< t x a: ;
 
