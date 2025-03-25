@@ -19,7 +19,8 @@ Alphabet
  Á É Ó Ú Í Õ
  Ç
 
-
+!! we do not declare compound letters here, e.g., nh, th, ts, tx
+!! these would be declared in CLDR and there perspective ordering
 
 %{hØ%}:0 !
 %{hØ%}:h !
@@ -65,7 +66,8 @@ Sets
 
 Definitions
 
-PALCns = [n h | x | t x | t s | t h ] ;
+PALCns = [n h | x | t x |  t h ] ;
+!PALCns = [n h | x | t x | t s | t h ] ;2025-03-25 ?j
 
 NonPALCns = [n [Vow | Cns - [h]]  | Cns - [x|n|t] | t [Cns - [x | s | h] | Vow ] ] ;
 NonPALNonNAS = [ Cns - [x|n|m|t|k] | t [Cns - [x | s | h] | Vow ] | n [Cns - [h] | Vow ] | k [Vow - i]| k i Cns [Vow - i] ] ;
@@ -77,22 +79,25 @@ Rules
 !! Rule: **@RULENAME@** 
   %{hØ%}:0 <=> n _ [%{yiØ%}:y %< NonPALCns | %{yiØ%}:0 %< [Vow - i] ] ;
            %{yiØ%}: %< _ NVow: ;
+!! arika+V+ScSg1+Oc3F: **set on fire/queimar**
+!!€ n{hØ}{yiØ}<arika>ru
+!!€ n00<arika>ru
+!!$ n{hØ}{yiØ}<arika>ru
+!!$ nh0<arika>ru
+!! nyrymanetxi+N+Msc+Sg+PxSg1+Possd: **relative/parente**
+!! n{hØ%}{yiØ}<nyrymane
+!! n0y<nyrymane
 !! hỹruwa+V+Imprt+ScSg2: **enter/entrar**
 !!€ p{yiØ}<{hØ}ỹruwa
 !!€ py<0ỹruwa
-!! arika+V+ScSg1+Oc3F: **set on fire**
-!!€ n%{hØ%}%{yiØ%}%<arika%>ru
-!!€ n00%<arika%>ru
-!!$ n%{hØ%}%{yiØ%}%<arika%>ru
-!!$ nh0%<arika%>ru
-!! nyrymanetxi+N+Msc+Sg+PxSg1+Possd:
-!! n{hØ%}{yiØ}<nyrymane
-!! n0y<nyrymane
 
 "Deleting %{yiØ%}:0 "
 !! Rule: **@RULENAME@** 
  %{yiØ%}:0 <=> [n %{hØ%}:|p ] _ %< Vow ;
            # _ %< [Vow - NVow ];
+!! apu+V+NFut+Ind+ScSg1: **arrive/chegar**
+!!€ n{hØ}{yiØ}<apu
+!!€ n00<apu
 
 "Deleting %{ỹĩØ%}:0 "
 !! Rule: **@RULENAME@** 
@@ -102,18 +107,19 @@ Rules
 !! Rule: **@RULENAME@** 
  a:0 <=> _ %^VowRM: [%>|#] ;
 !! myteka+V+Der+Der/NomAct+N+Sg+Nom: **run›running/corrir›corrida** 
-!!€ myteka%^VowRM%>inhi 
-!!€ mytek00%>inhi
-!uwa+Pron+Pers+Sg3+Fem+Contr#ãta+V+Der+Der/NIku+N+Msc+Sg+NPossd+Nom: **drink/beber**
+!!€ myteka^VowRM>inhi 
+!!€ mytek00>inhi
+!uwa+Pron+Pers+Sg3F+Contr#ãta+V+Der+Der/NIku+N+Msc+Sg+NPossd+Nom: **drink/beber**
 !!€ uwa^VowRM#ãta^VowRM>iku
 !!€ uw00#ãt00>iku
+! this is an instrument ?Der/NomIns 2025-03-25, source? jmr
 
 "Realizing %{hØ%}:h "
 !! Rule: **@RULENAME@** 
   %{hØ%}:h <=> n _ [%{yiØ%}:i %< PALCns | %{yiØ%}:0 %< i ] ;
-!! nhika+V+ScSg1+Oc3F: **I ate it(Fem)/**
-!!€ n%{hØ%}%{yiØ%}%<nhika%>ru
-!!€ nhi%<nhika%>ru
+!! nhika+V+ScSg1+Oc3F: **I ate it(Fem)/eu comi isso(Fem)**
+!!€ n{hØ}{yiØ}<nhika>ru
+!!€ nhi<nhika>ru
 
 "Realizing %{yiØ%}:y LEFT ARROW"
 !! Rule: **@RULENAME@** 
