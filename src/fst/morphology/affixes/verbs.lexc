@@ -147,10 +147,11 @@ LEXICON V_SUFFIXES_06
 
 LEXICON Verbs_END
  FUT_ ;
-# ;
+!# ;
 
 LEXICON FUT_
 +Fut:%>ku # ;
++NFut: # ;
 
 LEXICON YES/NO_DISTR
 !1 Distr -puku

@@ -98,6 +98,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! ## Tenses
  +Fut	!!≈ * **@CODE@** Future
+ +NFut	!!≈ * **@CODE@** Non-Future
 
 !! ## Verb person-number-gender
 

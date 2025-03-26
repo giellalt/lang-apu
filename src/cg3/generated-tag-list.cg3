@@ -43,6 +43,7 @@ LIST LEFT = LEFT ;
 LIST Loc = Loc ;
 LIST Msc = Msc ;
 LIST N = N ;
+LIST NFut = NFut ;
 LIST NPossd = NPossd ;
 LIST Neg = Neg ;
 LIST Nom = Nom ;
