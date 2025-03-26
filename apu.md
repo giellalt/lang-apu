@@ -447,6 +447,7 @@ language are presented in this system in terms of the following symbols.
 
 ## Tenses
 * **+Fut** Future
+* **+NFut** Non-Future
 
 ## Verb person-number-gender
 
