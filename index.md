@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-apu%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-apu)](https://github.com/giellalt/lang-apu/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-apu/main/badge.svg)](https://github.com/giellalt/lang-apu/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-apu?label=CI)](https://builds.giellalt.org/pipelines/lang-apu/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/apur1254)
 
 This page documents the work on the [Apurinã language model](https://github.com/giellalt/lang-apu). Work is underway, with a lexicon of more than 2000 stems (1600 nouns) and the basic morphology being in place.
 
