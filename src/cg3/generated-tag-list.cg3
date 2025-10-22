@@ -41,6 +41,7 @@ LIST Interr = Interr ;
 LIST Intr = Intr ;
 LIST LEFT = LEFT ;
 LIST Loc = Loc ;
+LIST MIDDLE = MIDDLE ;
 LIST Msc = Msc ;
 LIST N = N ;
 LIST NFut = NFut ;
