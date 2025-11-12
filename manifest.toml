@@ -1,6 +1,3 @@
-spellername = "Apurinã"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -23,3 +20,15 @@ legacy_product_codes = [
     { value = "0C947DF1-82FE-4C91-A2D0-ED546F2B7084", kind = "nsis" }
 ]
 extra_locales = { apu-BR = "apu" }
+
+[package.speller]
+name = "Apurinã"
+version = "0.1.1"
+
+[package.grammar]
+name = "Apurinã"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Apurinã"
+version = "0.1.0"
