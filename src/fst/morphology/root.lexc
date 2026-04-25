@@ -28,7 +28,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! ## Tags for POS
  +A       !!≈ * **@CODE@** Adjective
- +Adp     !!≈ * **@CODE@** Adposition, ie Post- and Prepostion, NOT IN USE/ NÃO USADO
+ +Adp     !!≈ * **@CODE@** Adposition, i.e. Post- and Prepostion, NOT IN USE/ NÃO USADO
  +Adv     !!≈ * **@CODE@** Adverb
  +CC      !!≈ * **@CODE@** Conjunction
  +CS      !!≈ * **@CODE@** Subjunction
