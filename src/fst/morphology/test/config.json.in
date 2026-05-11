@@ -11,7 +11,7 @@
     },
     "propernouns": {
         "lexcfile": "@abs_srcdir@/../stems/propernouns.lexc",
-        "lemmatags": ["+N+Prop+Msc+Sg+Nom", "+N+Prop+Fem+Sg+NPossd+Nom"]
+        "lemmatags": ["+N+Prop+Msc+NPossd+Sg+Nom", "+N+Prop+Fem+Sg+NPossd+Nom"]
     },
     "verbs": {
         "lexcfile": "@abs_srcdir@/../stems/verbs.lexc",
