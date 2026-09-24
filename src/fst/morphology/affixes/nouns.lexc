@@ -159,18 +159,56 @@ LEXICON Cases-PRE_NPOSSD !-x-NPossd->
 !@R.PossD-Y.Off@+Cap+Vido:@R.PossD-Y.Off@ V_SUFFIXES_01 ; !2022-12-16 How come we have verb here? Should it be here?
 
 LEXICON Cases
-+Nom:0     #   ;
-!+N+Pl+Nom:i     #   ;
-+Aff:%>nhi # ; ! affected by the event described in the verb
-+All:%>mukary    #   ;!to para
-+Cau:%>xika # ; ! 
-+Com:%>kata    #   ;!with, +Com in kpv Associative marker
-+Dat:%>munhi    #   ;!to para
-+Loc:%>ã   #   ;! both +Loc and +Ins locativo/instrumental
-+Prx:%>takute # ;!Formativo usado para indicar “próximo a” ou “próximo” ao referente do nome ou do pronome ao qual ele ocorre associado.
-
++Nom:0     AFTER_CASES_TEST   ;
+!+N+Pl+Nom:i     AFTER_CASES_TEST   ;
++Aff:%>nhi AFTER_CASES_TEST ; ! affected by the event described in the verb
++All:%>mukary    AFTER_CASES_TEST   ;!to para
++Cau:%>xika AFTER_CASES_TEST ; ! 
++Com:%>kata    AFTER_CASES_TEST   ;!with, +Com in kpv Associative marker
++Dat:%>munhi    AFTER_CASES_TEST   ;!to para
++Loc:%>ã   AFTER_CASES_TEST   ;! both +Loc and +Ins locativo/instrumental
++Prx:%>takute AFTER_CASES_TEST ;!Formativo usado para indicar “próximo a” ou “próximo” ao referente do nome ou do pronome ao qual ele ocorre associado.
 
 !#:0   Nouns   ;
+
+LEXICON AFTER_CASES_TEST
+!##
+@R.PossD.Y-0@+Possd:@R.PossD.Y-0@ AFTER_CASES_TEST_01 ;
+@R.PossD.Y-te@+Possd:@R.PossD.Y-te@ AFTER_CASES_TEST_01 ;
+@R.PossD.Y-ne@+Possd:@R.PossD.Y-ne@ AFTER_CASES_TEST_01 ;
+@R.PossD.Y-re@+Possd:@R.PossD.Y-re@ AFTER_CASES_TEST_01 ;
+@R.PossD.Y-re1@+Possd:@R.PossD.Y-re1@ AFTER_CASES_TEST_01 ;
+@R.PossD.Y-re2@+Possd:@R.PossD.Y-re2@ AFTER_CASES_TEST_01 ;
+@D.PN@@R.PossD.N-txi@+NPossd:@D.PN@@R.PossD.N-txi@ AFTER_CASES_TEST_01 ;
+@D.PN@@R.PossD.N-Y2Itxi@+NPossd:@D.PN@@R.PossD.N-Y2Itxi@ AFTER_CASES_TEST_01 ;
+@D.PN@@R.PossD.N-Ntxi@+NPossd:@D.PN@@R.PossD.N-Ntxi@ AFTER_CASES_TEST_01 ;
+@D.PN@@R.PossD.N-ry@+NPossd:@D.PN@@R.PossD.N-ry@ AFTER_CASES_TEST_01 ;
+@D.PN@@R.PossD.N-ru@+NPossd:@D.PN@@R.PossD.N-ru@ AFTER_CASES_TEST_01 ;
+@D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ AFTER_CASES_TEST_01 ;
+!@R.PossD.N-0@+Possd:@R.PossD.N-0@ AFTER_CASES_TEST_01 ; !-inhi gerunds
+
+@D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ AFTER_CASES_TEST_01 ; !-inhi gerunds dissallow @R.PN.stuff
+
+!##
+
+LEXICON AFTER_CASES_TEST_01
+!##
+
+@R.PN.SG1@+PxSg1:@R.PN.SG1@ # ;
+@R.PN.PL1@+PxPl1:@R.PN.PL1@ # ;
+@R.PN.SG2@@D.EO.inoty@+PxSg2:@R.PN.SG2@@D.EO.inoty@ # ;
+@R.PN.SG2@@R.EO.inoty@+PxSg2+Err/Orth-i-not-y:@R.PN.SG2@@R.EO.inoty@ # ;
+@R.PN.PL2@@D.VAR.iy@+PxPl2:@R.PN.PL2@@D.VAR.iy@ # ;
+@R.PN.PL2@@R.VAR.iy@+PxPl2+v/iy:@R.PN.PL2@@R.VAR.iy@ # ;
+@R.PN.SG3M@+PxSg3M:@R.PN.SG3M@ # ;
+@R.PN.SG3F@@D.EO.PhonNasal@+PxSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ # ;
+@R.PN.SG3F@@R.EO.PhonNasal@+PxSg3F+Err/Orth-phon-nasal:@R.PN.SG3F@@R.EO.PhonNasal@ # ;
+@R.PN.PL3M@+PxPl3M:@R.PN.PL3M@ # ;
+@R.PN.PL3F@@D.EO.PhonNasal@+PxPl3F:@R.PN.PL3F@@D.EO.PhonNasal@ # ;
+@R.PN.PL3F@@R.EO.PhonNasal@+PxPl3F+Err/Orth-phon-nasal:@R.PN.PL3F@@R.EO.PhonNasal@ # ;
+@D.PN@ # ;
+
+!##
 
 LEXICON N_SUFFIXES_02_WAKU
 +Pl:%>waku N_SUFFIXES_02-after-number ;
@@ -180,18 +218,20 @@ LEXICON N_SUFFIXES_02
 +Sg: N_SUFFIXES_02-after-number ;
 
 LEXICON N_SUFFIXES_02-after-number
-@R.PN.SG1@+PxSg1:@R.PN.SG1@ N_SUFFIXES_03 ;
-@R.PN.PL1@+PxPl1:@R.PN.PL1@ N_SUFFIXES_03 ;
-@R.PN.SG2@@D.EO.inoty@+PxSg2:@R.PN.SG2@@D.EO.inoty@ N_SUFFIXES_03 ;
-@R.PN.SG2@@R.EO.inoty@+PxSg2+Err/Orth-i-not-y:@R.PN.SG2@@R.EO.inoty@ N_SUFFIXES_03 ;
-@R.PN.PL2@@D.VAR.iy@+PxPl2:@R.PN.PL2@@D.VAR.iy@ N_SUFFIXES_03 ;
-@R.PN.PL2@@R.VAR.iy@+PxPl2+v/iy:@R.PN.PL2@@R.VAR.iy@ N_SUFFIXES_03 ;
-@R.PN.SG3M@+PxSg3M:@R.PN.SG3M@ N_SUFFIXES_03 ;
-@R.PN.SG3F@@D.EO.PhonNasal@+PxSg3F:@R.PN.SG3F@@D.EO.PhonNasal@ N_SUFFIXES_03 ;
-@R.PN.SG3F@@R.EO.PhonNasal@+PxSg3F+Err/Orth-phon-nasal:@R.PN.SG3F@@R.EO.PhonNasal@ N_SUFFIXES_03 ;
-@R.PN.PL3M@+PxPl3M:@R.PN.PL3M@%>na N_SUFFIXES_03 ;
-@R.PN.PL3F@@D.EO.PhonNasal@+PxPl3F:@R.PN.PL3F@@D.EO.PhonNasal@%>na N_SUFFIXES_03 ;
-@R.PN.PL3F@@R.EO.PhonNasal@+PxPl3F+Err/Orth-phon-nasal:@R.PN.PL3F@@R.EO.PhonNasal@%>na N_SUFFIXES_03 ;
+
+@R.PN.SG1@:@R.PN.SG1@ N_SUFFIXES_03 ;
+@R.PN.PL1@:@R.PN.PL1@ N_SUFFIXES_03 ;
+@R.PN.SG2@@D.EO.inoty@:@R.PN.SG2@@D.EO.inoty@ N_SUFFIXES_03 ;
+@R.PN.SG2@@R.EO.inoty@:@R.PN.SG2@@R.EO.inoty@ N_SUFFIXES_03 ;
+@R.PN.PL2@@D.VAR.iy@:@R.PN.PL2@@D.VAR.iy@ N_SUFFIXES_03 ;
+@R.PN.PL2@@R.VAR.iy@:@R.PN.PL2@@R.VAR.iy@ N_SUFFIXES_03 ;
+@R.PN.SG3M@:@R.PN.SG3M@ N_SUFFIXES_03 ;
+@R.PN.SG3F@@D.EO.PhonNasal@:@R.PN.SG3F@@D.EO.PhonNasal@ N_SUFFIXES_03 ;
+@R.PN.SG3F@@R.EO.PhonNasal@:@R.PN.SG3F@@R.EO.PhonNasal@ N_SUFFIXES_03 ;
+@R.PN.PL3M@:@R.PN.PL3M@%>na N_SUFFIXES_03 ;
+@R.PN.PL3F@@D.EO.PhonNasal@:@R.PN.PL3F@@D.EO.PhonNasal@%>na N_SUFFIXES_03 ;
+@R.PN.PL3F@@R.EO.PhonNasal@:@R.PN.PL3F@@R.EO.PhonNasal@%>na N_SUFFIXES_03 ;
+!@R.PN@ N_SUFFIXES_03 ;
 @D.PN@ N_SUFFIXES_03 ;
 
 LEXICON N_SUFFIXES_03
@@ -207,20 +247,23 @@ LEXICON N_SUFFIXES_03
 !@R.PossD.Y-ne@ N_SUFFIXES_03_ne/txi ;
 
 LEXICON N_SUFFIXES_03_POSSD/NPOSSD
-@R.PossD.Y-0@+Possd:@R.PossD.Y-0@ Cases-PRE_POSSD ;
-@R.PossD.Y-te@+Possd:@R.PossD.Y-te@%>te Cases-PRE_POSSD ;
-@R.PossD.Y-ne@+Possd:@R.PossD.Y-ne@%>ne Cases-PRE_POSSD ;
-@R.PossD.Y-re@+Possd:@R.PossD.Y-re@%>re Cases-PRE_POSSD ;
-@R.PossD.Y-re1@+Possd:@R.PossD.Y-re1@%>re Cases-PRE_POSSD ;
-@R.PossD.Y-re2@+Possd:@R.PossD.Y-re2@%>re Cases-PRE_POSSD ;
-@D.PN@@R.PossD.N-txi@+NPossd:@D.PN@@R.PossD.N-txi@%>txi Cases-PRE_NPOSSD ;
-@D.PN@@R.PossD.N-Y2Itxi@+NPossd:@D.PN@@R.PossD.N-Y2Itxi@%^VowY2I%>txi Cases-PRE_NPOSSD ;
-@D.PN@@R.PossD.N-Ntxi@+NPossd:@D.PN@@R.PossD.N-Ntxi@%^VowNasL%>txi Cases-PRE_NPOSSD ;
-@D.PN@@R.PossD.N-ry@+NPossd:@D.PN@@R.PossD.N-ry@%>ry Cases-PRE_NPOSSD ;
-@D.PN@@R.PossD.N-ru@+NPossd:@D.PN@@R.PossD.N-ru@%>ru Cases-PRE_NPOSSD ;
-@D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ Cases-PRE_NPOSSD ;
+!##
+@R.PossD.Y-0@:@R.PossD.Y-0@ Cases-PRE_POSSD ;
+@R.PossD.Y-te@:@R.PossD.Y-te@%>te Cases-PRE_POSSD ;
+@R.PossD.Y-ne@:@R.PossD.Y-ne@%>ne Cases-PRE_POSSD ;
+@R.PossD.Y-re@:@R.PossD.Y-re@%>re Cases-PRE_POSSD ;
+@R.PossD.Y-re1@:@R.PossD.Y-re1@%>re Cases-PRE_POSSD ;
+@R.PossD.Y-re2@:@R.PossD.Y-re2@%>re Cases-PRE_POSSD ;
+@D.PN@@R.PossD.N-txi@:@D.PN@@R.PossD.N-txi@%>txi Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-Y2Itxi@:@D.PN@@R.PossD.N-Y2Itxi@%^VowY2I%>txi Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-Ntxi@:@D.PN@@R.PossD.N-Ntxi@%^VowNasL%>txi Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-ry@:@D.PN@@R.PossD.N-ry@%>ry Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-ru@:@D.PN@@R.PossD.N-ru@%>ru Cases-PRE_NPOSSD ;
+@D.PN@@R.PossD.N-0@:@D.PN@@R.PossD.N-0@ Cases-PRE_NPOSSD ;
 !@R.PossD.N-0@+Possd:@R.PossD.N-0@ Cases ; !-inhi gerunds
-@D.PN@@R.PossD.N-0@+NPossd:@D.PN@@R.PossD.N-0@ Cases ; !-inhi gerunds dissallow @R.PN.stuff
+! CHECK THE next one!! 20260921
+@D.PN@@R.PossD.N-0@:@D.PN@@R.PossD.N-0@ Cases ; !-inhi gerunds dissallow @R.PN.stuff
+!##
 
 LEXICON N_SUFFIXES_03_re2/ry !CHECKME 2020-08-22
 +Possd:%>re Cases ;
