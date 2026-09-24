@@ -152,25 +152,25 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 
  +Pss	     !!= passivizer -~ka
- +Distr
-+Caus
-+Intr
-+Augm
-+TCaus
-+Fact
-+ColTV
+ +Distr  !!≈ * **@CODE@** 
++Caus  !!≈ * **@CODE@** 
++Intr  !!≈ * **@CODE@** 
++Augm  !!≈ * **@CODE@** 
++TCaus  !!≈ * **@CODE@** 
++Fact  !!≈ * **@CODE@** 
++ColTV  !!≈ * **@CODE@** 
 +Prog	!!≈ * **@CODE@** nany
 +Prog2	!!≈ * **@CODE@** na
 +Prog3	!!≈ * **@CODE@** ã (?= Loc)
-+Almost
-+Random
-+Intens
-+Des
-+RS
-+Vblz
-+Hypoth
-+Recipr
-+Immin
++Almost  !!≈ * **@CODE@** 
++Random  !!≈ * **@CODE@** 
++Intens  !!≈ * **@CODE@** 
++Des  !!≈ * **@CODE@** 
++RS  !!≈ * **@CODE@** 
++Vblz  !!≈ * **@CODE@** 
++Hypoth  !!≈ * **@CODE@** 
++Recipr  !!≈ * **@CODE@** 
++Immin  !!≈ * **@CODE@** 
 +Caus
 +Hab
 +Pred !!≈ * **@CODE@** = ka
@@ -342,6 +342,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @R.PN.PL3F@
 @R.PN.PL3M@
 
+@R.PN@ 
 @D.PN@
 
 !! Subject Person marking
